@@ -1,0 +1,26 @@
+# Estudio UAX (CAFYD, cruzado 2 × 8 semanas) · brazo mediterráneo. Copia exacta de v0.1 (test de regresión T19).
+nombre = "UAX · Mediterránea normoproteica"
+descripcion = "Brazo mediterráneo del cruzado UAX (≈1,0-1,2 g/kg). Pautas MEDAS-14: AOVE ≥ 40 g, fruta ≥ 3, verdura ≥ 2, pescado y legumbre ≥ 3/semana, frutos secos ≥ 3/semana, carne roja ≤ 3/semana."
+orden = 1
+ambito = "estudio"
+fuentes = [
+  "Protocolo nutricional de referencia mediterráneo normoproteico (≈ 1,0-1,2 g/kg/día)",
+  "Schröder H et al. (2011) J Nutr 141:1140-5 (MEDAS-14)",
+  "WHO/FAO/UNU (2007) TRS 935 (aminoácidos indispensables)",
+]
+proteina_gkg = [1.0, 1.2]
+grasa_pct = [33, 42]
+hc_pct = [38, 55]
+aove_min_g = 40
+fruta_min_dia = 3
+excluir_etiquetas = ["suplemento"]
+
+[semanal_min]
+pescado = 3
+legumbre = 3
+frutos_secos = 3
+
+[semanal_max]
+carne_roja = 3
+procesada = 1
+azucar = 4

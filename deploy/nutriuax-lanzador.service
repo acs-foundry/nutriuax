@@ -1,0 +1,18 @@
+# Lanzador web local de NutriUAX: http://127.0.0.1:8771 (botones Arrancar / Parar / Abrir).
+# Ajusta %h/nutriuax a la ruta donde hayas clonado el repositorio.
+# Instalar (una vez):
+#   cp deploy/nutriuax-*.service ~/.config/systemd/user/
+#   systemctl --user daemon-reload && systemctl --user enable --now nutriuax-lanzador
+[Unit]
+Description=NutriUAX - lanzador web local (127.0.0.1:8771)
+
+[Service]
+Type=simple
+Environment=PYTHONUNBUFFERED=1
+Environment=PYTHONPATH=%h/nutriuax/src
+ExecStart=/usr/bin/python3 -m nutriuax.lanzador
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=default.target

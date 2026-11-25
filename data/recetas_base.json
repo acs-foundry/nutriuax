@@ -1,0 +1,660 @@
+[
+  {
+    "id": "es-lentejas-verduras",
+    "nombre": "Lentejas estofadas con verduras",
+    "categoria": "legumbre",
+    "comidas": ["comida"],
+    "grupos": ["legumbre", "verdura"],
+    "alergenos": [],
+    "batch": true,
+    "congelable": true,
+    "nevera": 4,
+    "facil": true,
+    "minutos": 40,
+    "ingredientes": [
+      {"n": "lentejas", "q": 75, "u": "g", "s": "despensa"},
+      {"n": "zanahoria", "q": 1, "u": "ud", "s": "fruteria"},
+      {"n": "cebolla", "q": 60, "u": "g", "s": "fruteria"},
+      {"n": "pimiento rojo", "q": 50, "u": "g", "s": "fruteria"},
+      {"n": "patatas", "q": 80, "u": "g", "s": "fruteria"},
+      {"n": "aceite de oliva", "q": 12, "u": "ml", "s": "despensa"},
+      {"n": "sal", "q": 1, "u": "g", "s": "despensa"}
+    ]
+  },
+  {
+    "id": "es-garbanzos-espinacas",
+    "nombre": "Garbanzos guisados con espinacas",
+    "categoria": "legumbre",
+    "comidas": ["comida"],
+    "grupos": ["legumbre", "verdura"],
+    "alergenos": [],
+    "batch": true,
+    "congelable": true,
+    "nevera": 4,
+    "facil": true,
+    "minutos": 35,
+    "ingredientes": [
+      {"n": "garbanzos", "q": 75, "u": "g", "s": "despensa"},
+      {"n": "espinacas", "q": 120, "u": "g", "s": "fruteria"},
+      {"n": "tomate", "q": 80, "u": "g", "s": "fruteria"},
+      {"n": "cebolla", "q": 50, "u": "g", "s": "fruteria"},
+      {"n": "dientes de ajo", "q": 1, "u": "ud", "s": "fruteria"},
+      {"n": "aceite de oliva", "q": 15, "u": "ml", "s": "despensa"}
+    ]
+  },
+  {
+    "id": "es-alubias-verduras",
+    "nombre": "Alubias blancas con verduras de temporada",
+    "categoria": "legumbre",
+    "comidas": ["comida"],
+    "grupos": ["legumbre", "verdura"],
+    "alergenos": [],
+    "batch": true,
+    "congelable": true,
+    "nevera": 4,
+    "facil": true,
+    "minutos": 45,
+    "ingredientes": [
+      {"n": "alubias blancas", "q": 75, "u": "g", "s": "despensa"},
+      {"n": "calabacin", "q": 80, "u": "g", "s": "fruteria"},
+      {"n": "zanahoria", "q": 1, "u": "ud", "s": "fruteria"},
+      {"n": "puerro", "q": 60, "u": "g", "s": "fruteria"},
+      {"n": "aceite de oliva", "q": 12, "u": "ml", "s": "despensa"}
+    ]
+  },
+  {
+    "id": "es-ensalada-garbanzos-atun",
+    "nombre": "Ensalada templada de garbanzos y atún",
+    "categoria": "legumbre",
+    "comidas": ["comida", "cena"],
+    "grupos": ["legumbre", "pescado"],
+    "alergenos": ["pescado"],
+    "batch": true,
+    "congelable": false,
+    "nevera": 3,
+    "facil": true,
+    "minutos": 15,
+    "ingredientes": [
+      {"n": "garbanzos", "q": 65, "u": "g", "s": "despensa"},
+      {"n": "atun", "q": 80, "u": "g", "s": "despensa"},
+      {"n": "tomate", "q": 100, "u": "g", "s": "fruteria"},
+      {"n": "pepino", "q": 60, "u": "g", "s": "fruteria"},
+      {"n": "cebolla", "q": 40, "u": "g", "s": "fruteria"},
+      {"n": "aceite de oliva", "q": 15, "u": "ml", "s": "despensa"}
+    ]
+  },
+  {
+    "id": "es-potaje-garbanzos-bacalao",
+    "nombre": "Potaje tradicional de garbanzos y bacalao",
+    "categoria": "legumbre",
+    "comidas": ["comida"],
+    "grupos": ["legumbre", "pescado"],
+    "alergenos": ["pescado"],
+    "batch": true,
+    "congelable": true,
+    "nevera": 3,
+    "facil": false,
+    "minutos": 45,
+    "ingredientes": [
+      {"n": "garbanzos", "q": 65, "u": "g", "s": "despensa"},
+      {"n": "bacalao", "q": 100, "u": "g", "s": "pescaderia"},
+      {"n": "espinacas", "q": 100, "u": "g", "s": "fruteria"},
+      {"n": "cebolla", "q": 50, "u": "g", "s": "fruteria"},
+      {"n": "aceite de oliva", "q": 12, "u": "ml", "s": "despensa"}
+    ]
+  },
+  {
+    "id": "es-lentejas-arroz",
+    "nombre": "Lentejas con arroz integral y zanahoria",
+    "categoria": "legumbre",
+    "comidas": ["comida"],
+    "grupos": ["legumbre"],
+    "alergenos": [],
+    "batch": true,
+    "congelable": true,
+    "nevera": 4,
+    "facil": true,
+    "minutos": 40,
+    "ingredientes": [
+      {"n": "lentejas", "q": 60, "u": "g", "s": "despensa"},
+      {"n": "arroz", "q": 35, "u": "g", "s": "despensa"},
+      {"n": "zanahoria", "q": 1, "u": "ud", "s": "fruteria"},
+      {"n": "cebolla", "q": 50, "u": "g", "s": "fruteria"},
+      {"n": "aceite de oliva", "q": 12, "u": "ml", "s": "despensa"}
+    ]
+  },
+  {
+    "id": "es-merluza-horno-patata",
+    "nombre": "Merluza al horno con patata panadera y cebolla",
+    "categoria": "pescado",
+    "comidas": ["comida", "cena"],
+    "grupos": ["pescado"],
+    "alergenos": ["pescado"],
+    "batch": false,
+    "congelable": false,
+    "nevera": 2,
+    "facil": true,
+    "minutos": 30,
+    "ingredientes": [
+      {"n": "lomos de merluza", "q": 170, "u": "g", "s": "pescaderia"},
+      {"n": "patatas", "q": 160, "u": "g", "s": "fruteria"},
+      {"n": "cebolla", "q": 70, "u": "g", "s": "fruteria"},
+      {"n": "tomate", "q": 80, "u": "g", "s": "fruteria"},
+      {"n": "aceite de oliva", "q": 15, "u": "ml", "s": "despensa"}
+    ]
+  },
+  {
+    "id": "es-salmon-brocoli-arroz",
+    "nombre": "Salmón a la plancha con brócoli y arroz",
+    "categoria": "pescado",
+    "comidas": ["comida", "cena"],
+    "grupos": ["pescado"],
+    "alergenos": ["pescado"],
+    "batch": true,
+    "congelable": false,
+    "nevera": 2,
+    "facil": true,
+    "minutos": 25,
+    "ingredientes": [
+      {"n": "salmon", "q": 150, "u": "g", "s": "pescaderia"},
+      {"n": "brocoli", "q": 150, "u": "g", "s": "fruteria"},
+      {"n": "arroz", "q": 55, "u": "g", "s": "despensa"},
+      {"n": "aceite de oliva", "q": 10, "u": "ml", "s": "despensa"}
+    ]
+  },
+  {
+    "id": "es-bacalao-tomate",
+    "nombre": "Bacalao con salsa de tomate natural y pimiento",
+    "categoria": "pescado",
+    "comidas": ["comida", "cena"],
+    "grupos": ["pescado"],
+    "alergenos": ["pescado"],
+    "batch": true,
+    "congelable": true,
+    "nevera": 3,
+    "facil": true,
+    "minutos": 30,
+    "ingredientes": [
+      {"n": "bacalao", "q": 160, "u": "g", "s": "pescaderia"},
+      {"n": "tomate", "q": 160, "u": "g", "s": "fruteria"},
+      {"n": "pimiento rojo", "q": 70, "u": "g", "s": "fruteria"},
+      {"n": "cebolla", "q": 60, "u": "g", "s": "fruteria"},
+      {"n": "patatas", "q": 140, "u": "g", "s": "fruteria"},
+      {"n": "aceite de oliva", "q": 15, "u": "ml", "s": "despensa"}
+    ]
+  },
+  {
+    "id": "es-dorada-verduras",
+    "nombre": "Dorada al horno con calabacín y patata",
+    "categoria": "pescado",
+    "comidas": ["comida", "cena"],
+    "grupos": ["pescado"],
+    "alergenos": ["pescado"],
+    "batch": false,
+    "congelable": false,
+    "nevera": 2,
+    "facil": true,
+    "minutos": 30,
+    "ingredientes": [
+      {"n": "dorada", "q": 170, "u": "g", "s": "pescaderia"},
+      {"n": "calabacin", "q": 130, "u": "g", "s": "fruteria"},
+      {"n": "patatas", "q": 140, "u": "g", "s": "fruteria"},
+      {"n": "cebolla", "q": 60, "u": "g", "s": "fruteria"},
+      {"n": "aceite de oliva", "q": 15, "u": "ml", "s": "despensa"}
+    ]
+  },
+  {
+    "id": "es-atun-encebollado-arroz",
+    "nombre": "Atún encebollado con guarnición de arroz",
+    "categoria": "pescado",
+    "comidas": ["comida", "cena"],
+    "grupos": ["pescado"],
+    "alergenos": ["pescado"],
+    "batch": true,
+    "congelable": true,
+    "nevera": 3,
+    "facil": true,
+    "minutos": 25,
+    "ingredientes": [
+      {"n": "atun", "q": 150, "u": "g", "s": "pescaderia"},
+      {"n": "cebolla", "q": 120, "u": "g", "s": "fruteria"},
+      {"n": "arroz", "q": 60, "u": "g", "s": "despensa"},
+      {"n": "aceite de oliva", "q": 15, "u": "ml", "s": "despensa"}
+    ]
+  },
+  {
+    "id": "es-merluza-salsa-verde",
+    "nombre": "Merluza en salsa verde con guisantes y patata",
+    "categoria": "pescado",
+    "comidas": ["comida", "cena"],
+    "grupos": ["pescado"],
+    "alergenos": ["pescado"],
+    "batch": true,
+    "congelable": true,
+    "nevera": 2,
+    "facil": true,
+    "minutos": 25,
+    "ingredientes": [
+      {"n": "lomos de merluza", "q": 165, "u": "g", "s": "pescaderia"},
+      {"n": "guisantes", "q": 70, "u": "g", "s": "fruteria"},
+      {"n": "patatas", "q": 140, "u": "g", "s": "fruteria"},
+      {"n": "dientes de ajo", "q": 1, "u": "ud", "s": "fruteria"},
+      {"n": "aceite de oliva", "q": 15, "u": "ml", "s": "despensa"}
+    ]
+  },
+  {
+    "id": "es-caballa-plancha-ensalada",
+    "nombre": "Caballa a la plancha con pimientos asados y patata",
+    "categoria": "pescado",
+    "comidas": ["comida", "cena"],
+    "grupos": ["pescado"],
+    "alergenos": ["pescado"],
+    "batch": false,
+    "congelable": false,
+    "nevera": 2,
+    "facil": true,
+    "minutos": 20,
+    "ingredientes": [
+      {"n": "caballa", "q": 150, "u": "g", "s": "pescaderia"},
+      {"n": "pimiento rojo", "q": 110, "u": "g", "s": "fruteria"},
+      {"n": "patatas", "q": 150, "u": "g", "s": "fruteria"},
+      {"n": "aceite de oliva", "q": 10, "u": "ml", "s": "despensa"}
+    ]
+  },
+  {
+    "id": "es-pollo-plancha-arroz-calabacin",
+    "nombre": "Pechuga de pollo a la plancha con arroz y calabacín",
+    "categoria": "ave",
+    "comidas": ["comida", "cena"],
+    "grupos": ["ave"],
+    "alergenos": [],
+    "batch": true,
+    "congelable": true,
+    "nevera": 4,
+    "facil": true,
+    "minutos": 25,
+    "ingredientes": [
+      {"n": "pechuga de pollo", "q": 150, "u": "g", "s": "carniceria"},
+      {"n": "arroz", "q": 65, "u": "g", "s": "despensa"},
+      {"n": "calabacin", "q": 130, "u": "g", "s": "fruteria"},
+      {"n": "aceite de oliva", "q": 14, "u": "ml", "s": "despensa"}
+    ]
+  },
+  {
+    "id": "es-pollo-guisado-patata",
+    "nombre": "Pollo guisado con zanahoria, guisantes y patata",
+    "categoria": "ave",
+    "comidas": ["comida"],
+    "grupos": ["ave"],
+    "alergenos": [],
+    "batch": true,
+    "congelable": true,
+    "nevera": 4,
+    "facil": true,
+    "minutos": 40,
+    "ingredientes": [
+      {"n": "pechuga de pollo", "q": 140, "u": "g", "s": "carniceria"},
+      {"n": "patatas", "q": 160, "u": "g", "s": "fruteria"},
+      {"n": "zanahoria", "q": 1, "u": "ud", "s": "fruteria"},
+      {"n": "guisantes", "q": 60, "u": "g", "s": "fruteria"},
+      {"n": "cebolla", "q": 60, "u": "g", "s": "fruteria"},
+      {"n": "aceite de oliva", "q": 14, "u": "ml", "s": "despensa"}
+    ]
+  },
+  {
+    "id": "es-pavo-salteado-verduras-quinoa",
+    "nombre": "Pavo salteado con verduras y quinoa",
+    "categoria": "ave",
+    "comidas": ["comida", "cena"],
+    "grupos": ["ave"],
+    "alergenos": [],
+    "batch": true,
+    "congelable": true,
+    "nevera": 4,
+    "facil": true,
+    "minutos": 25,
+    "ingredientes": [
+      {"n": "pechuga de pavo", "q": 150, "u": "g", "s": "carniceria"},
+      {"n": "quinoa", "q": 65, "u": "g", "s": "despensa"},
+      {"n": "pimiento rojo", "q": 80, "u": "g", "s": "fruteria"},
+      {"n": "brocoli", "q": 100, "u": "g", "s": "fruteria"},
+      {"n": "aceite de oliva", "q": 14, "u": "ml", "s": "despensa"}
+    ]
+  },
+  {
+    "id": "es-albondigas-pavo-tomate",
+    "nombre": "Albóndigas de pavo en salsa de tomate con patata",
+    "categoria": "ave",
+    "comidas": ["comida"],
+    "grupos": ["ave"],
+    "alergenos": [],
+    "batch": true,
+    "congelable": true,
+    "nevera": 4,
+    "facil": true,
+    "minutos": 35,
+    "ingredientes": [
+      {"n": "pechuga de pavo", "q": 145, "u": "g", "s": "carniceria"},
+      {"n": "tomate", "q": 160, "u": "g", "s": "fruteria"},
+      {"n": "cebolla", "q": 60, "u": "g", "s": "fruteria"},
+      {"n": "patatas", "q": 150, "u": "g", "s": "fruteria"},
+      {"n": "aceite de oliva", "q": 14, "u": "ml", "s": "despensa"}
+    ]
+  },
+  {
+    "id": "es-solomillo-cerdo-patata",
+    "nombre": "Solomillo de cerdo al horno con manzana y patata",
+    "categoria": "carne",
+    "comidas": ["comida"],
+    "grupos": ["carne_roja"],
+    "alergenos": [],
+    "batch": true,
+    "congelable": true,
+    "nevera": 4,
+    "facil": true,
+    "minutos": 35,
+    "ingredientes": [
+      {"n": "lomo de cerdo", "q": 140, "u": "g", "s": "carniceria"},
+      {"n": "patatas", "q": 160, "u": "g", "s": "fruteria"},
+      {"n": "cebolla", "q": 70, "u": "g", "s": "fruteria"},
+      {"n": "manzana", "q": 80, "u": "g", "s": "fruteria"},
+      {"n": "aceite de oliva", "q": 12, "u": "ml", "s": "despensa"}
+    ]
+  },
+  {
+    "id": "es-estofado-ternera-verduras",
+    "nombre": "Estofado magro de ternera con patata y zanahoria",
+    "categoria": "carne",
+    "comidas": ["comida"],
+    "grupos": ["carne_roja"],
+    "alergenos": [],
+    "batch": true,
+    "congelable": true,
+    "nevera": 4,
+    "facil": false,
+    "minutos": 55,
+    "ingredientes": [
+      {"n": "ternera", "q": 140, "u": "g", "s": "carniceria"},
+      {"n": "patatas", "q": 160, "u": "g", "s": "fruteria"},
+      {"n": "zanahoria", "q": 1, "u": "ud", "s": "fruteria"},
+      {"n": "cebolla", "q": 60, "u": "g", "s": "fruteria"},
+      {"n": "aceite de oliva", "q": 12, "u": "ml", "s": "despensa"}
+    ]
+  },
+  {
+    "id": "es-tortilla-patata-cebolla",
+    "nombre": "Tortilla española de patata y cebolla (AOVE)",
+    "categoria": "huevo",
+    "comidas": ["cena", "comida"],
+    "grupos": ["huevo"],
+    "alergenos": ["huevo"],
+    "batch": true,
+    "congelable": false,
+    "nevera": 3,
+    "facil": true,
+    "minutos": 30,
+    "ingredientes": [
+      {"n": "huevos", "q": 2, "u": "ud", "s": "lacteos"},
+      {"n": "patatas", "q": 180, "u": "g", "s": "fruteria"},
+      {"n": "cebolla", "q": 60, "u": "g", "s": "fruteria"},
+      {"n": "aceite de oliva", "q": 18, "u": "ml", "s": "despensa"}
+    ]
+  },
+  {
+    "id": "es-revuelto-espinacas-champinones",
+    "nombre": "Revuelto de espinacas y champiñones con patata cocida",
+    "categoria": "huevo",
+    "comidas": ["cena"],
+    "grupos": ["huevo", "verdura"],
+    "alergenos": ["huevo"],
+    "batch": false,
+    "congelable": false,
+    "nevera": 2,
+    "facil": true,
+    "minutos": 15,
+    "ingredientes": [
+      {"n": "huevos", "q": 2, "u": "ud", "s": "lacteos"},
+      {"n": "espinacas", "q": 120, "u": "g", "s": "fruteria"},
+      {"n": "champinones", "q": 100, "u": "g", "s": "fruteria"},
+      {"n": "patatas", "q": 140, "u": "g", "s": "fruteria"},
+      {"n": "aceite de oliva", "q": 14, "u": "ml", "s": "despensa"}
+    ]
+  },
+  {
+    "id": "es-tortilla-calabacin-queso",
+    "nombre": "Tortilla jugosa de calabacín con queso fresco",
+    "categoria": "huevo",
+    "comidas": ["cena"],
+    "grupos": ["huevo", "verdura"],
+    "alergenos": ["huevo", "leche"],
+    "batch": false,
+    "congelable": false,
+    "nevera": 2,
+    "facil": true,
+    "minutos": 20,
+    "ingredientes": [
+      {"n": "huevos", "q": 2, "u": "ud", "s": "lacteos"},
+      {"n": "calabacin", "q": 160, "u": "g", "s": "fruteria"},
+      {"n": "queso fresco", "q": 60, "u": "g", "s": "lacteos"},
+      {"n": "aceite de oliva", "q": 12, "u": "ml", "s": "despensa"}
+    ]
+  },
+  {
+    "id": "es-huevos-pisto",
+    "nombre": "Huevos al plato sobre pisto de verduras",
+    "categoria": "huevo",
+    "comidas": ["cena"],
+    "grupos": ["huevo", "verdura"],
+    "alergenos": ["huevo"],
+    "batch": true,
+    "congelable": false,
+    "nevera": 3,
+    "facil": true,
+    "minutos": 25,
+    "ingredientes": [
+      {"n": "huevos", "q": 2, "u": "ud", "s": "lacteos"},
+      {"n": "calabacin", "q": 100, "u": "g", "s": "fruteria"},
+      {"n": "pimiento rojo", "q": 70, "u": "g", "s": "fruteria"},
+      {"n": "tomate", "q": 120, "u": "g", "s": "fruteria"},
+      {"n": "cebolla", "q": 50, "u": "g", "s": "fruteria"},
+      {"n": "aceite de oliva", "q": 15, "u": "ml", "s": "despensa"}
+    ]
+  },
+  {
+    "id": "es-arroz-pollo-verduras",
+    "nombre": "Arroz meloso con pollo y verduras",
+    "categoria": "arroz_pasta",
+    "comidas": ["comida"],
+    "grupos": ["ave"],
+    "alergenos": [],
+    "batch": true,
+    "congelable": true,
+    "nevera": 3,
+    "facil": true,
+    "minutos": 35,
+    "ingredientes": [
+      {"n": "arroz", "q": 75, "u": "g", "s": "despensa"},
+      {"n": "pechuga de pollo", "q": 120, "u": "g", "s": "carniceria"},
+      {"n": "pimiento rojo", "q": 60, "u": "g", "s": "fruteria"},
+      {"n": "tomate", "q": 80, "u": "g", "s": "fruteria"},
+      {"n": "guisantes", "q": 50, "u": "g", "s": "fruteria"},
+      {"n": "aceite de oliva", "q": 14, "u": "ml", "s": "despensa"}
+    ]
+  },
+  {
+    "id": "es-pasta-bolonesa-pavo",
+    "nombre": "Pasta integral a la boloñesa casera de pavo",
+    "categoria": "arroz_pasta",
+    "comidas": ["comida"],
+    "grupos": ["ave"],
+    "alergenos": ["gluten"],
+    "batch": true,
+    "congelable": true,
+    "nevera": 4,
+    "facil": true,
+    "minutos": 25,
+    "ingredientes": [
+      {"n": "pasta", "q": 75, "u": "g", "s": "despensa"},
+      {"n": "pechuga de pavo", "q": 115, "u": "g", "s": "carniceria"},
+      {"n": "tomate", "q": 140, "u": "g", "s": "fruteria"},
+      {"n": "zanahoria", "q": 1, "u": "ud", "s": "fruteria"},
+      {"n": "cebolla", "q": 50, "u": "g", "s": "fruteria"},
+      {"n": "aceite de oliva", "q": 12, "u": "ml", "s": "despensa"}
+    ]
+  },
+  {
+    "id": "es-pasta-salmon-calabacin",
+    "nombre": "Pasta con salmón fresco y calabacín salteado",
+    "categoria": "arroz_pasta",
+    "comidas": ["comida"],
+    "grupos": ["pescado"],
+    "alergenos": ["gluten", "pescado"],
+    "batch": true,
+    "congelable": false,
+    "nevera": 2,
+    "facil": true,
+    "minutos": 20,
+    "ingredientes": [
+      {"n": "pasta", "q": 70, "u": "g", "s": "despensa"},
+      {"n": "salmon", "q": 110, "u": "g", "s": "pescaderia"},
+      {"n": "calabacin", "q": 110, "u": "g", "s": "fruteria"},
+      {"n": "aceite de oliva", "q": 10, "u": "ml", "s": "despensa"}
+    ]
+  },
+  {
+    "id": "es-arroz-tofu-verduras",
+    "nombre": "Salteado de arroz con tofu y brócoli (vegetal)",
+    "categoria": "arroz_pasta",
+    "comidas": ["comida", "cena"],
+    "grupos": ["legumbre"],
+    "alergenos": ["soja"],
+    "batch": true,
+    "congelable": true,
+    "nevera": 4,
+    "facil": true,
+    "minutos": 25,
+    "ingredientes": [
+      {"n": "arroz", "q": 70, "u": "g", "s": "despensa"},
+      {"n": "tofu", "q": 140, "u": "g", "s": "refrigerados"},
+      {"n": "brocoli", "q": 130, "u": "g", "s": "fruteria"},
+      {"n": "zanahoria", "q": 1, "u": "ud", "s": "fruteria"},
+      {"n": "aceite de oliva", "q": 14, "u": "ml", "s": "despensa"}
+    ]
+  },
+  {
+    "id": "es-gazpacho-andaluz",
+    "nombre": "Gazpacho andaluz tradicional",
+    "categoria": "sopa_crema",
+    "comidas": ["comida", "cena"],
+    "grupos": ["verdura"],
+    "alergenos": [],
+    "batch": true,
+    "congelable": false,
+    "nevera": 4,
+    "facil": true,
+    "minutos": 10,
+    "ingredientes": [
+      {"n": "tomate", "q": 180, "u": "g", "s": "fruteria"},
+      {"n": "pepino", "q": 45, "u": "g", "s": "fruteria"},
+      {"n": "pimiento verde", "q": 30, "u": "g", "s": "fruteria"},
+      {"n": "aceite de oliva", "q": 12, "u": "ml", "s": "despensa"}
+    ]
+  },
+  {
+    "id": "es-crema-calabacin",
+    "nombre": "Crema suave de calabacín y puerro",
+    "categoria": "sopa_crema",
+    "comidas": ["comida", "cena"],
+    "grupos": ["verdura"],
+    "alergenos": [],
+    "batch": true,
+    "congelable": true,
+    "nevera": 4,
+    "facil": true,
+    "minutos": 25,
+    "ingredientes": [
+      {"n": "calabacin", "q": 180, "u": "g", "s": "fruteria"},
+      {"n": "puerro", "q": 60, "u": "g", "s": "fruteria"},
+      {"n": "patatas", "q": 60, "u": "g", "s": "fruteria"},
+      {"n": "aceite de oliva", "q": 10, "u": "ml", "s": "despensa"}
+    ]
+  },
+  {
+    "id": "es-crema-calabaza-zanahoria",
+    "nombre": "Crema de calabaza y zanahoria con AOVE",
+    "categoria": "sopa_crema",
+    "comidas": ["comida", "cena"],
+    "grupos": ["verdura"],
+    "alergenos": [],
+    "batch": true,
+    "congelable": true,
+    "nevera": 4,
+    "facil": true,
+    "minutos": 30,
+    "ingredientes": [
+      {"n": "calabaza", "q": 170, "u": "g", "s": "fruteria"},
+      {"n": "zanahoria", "q": 1, "u": "ud", "s": "fruteria"},
+      {"n": "cebolla", "q": 50, "u": "g", "s": "fruteria"},
+      {"n": "aceite de oliva", "q": 10, "u": "ml", "s": "despensa"}
+    ]
+  },
+  {
+    "id": "es-ensalada-mediterranea",
+    "nombre": "Ensalada mediterránea de tomate, pepino y lechuga",
+    "categoria": "entrante",
+    "comidas": ["comida", "cena"],
+    "grupos": ["verdura"],
+    "alergenos": [],
+    "batch": false,
+    "congelable": false,
+    "nevera": 2,
+    "facil": true,
+    "minutos": 8,
+    "ingredientes": [
+      {"n": "lechuga", "q": 70, "u": "g", "s": "fruteria"},
+      {"n": "tomate", "q": 110, "u": "g", "s": "fruteria"},
+      {"n": "pepino", "q": 60, "u": "g", "s": "fruteria"},
+      {"n": "cebolla", "q": 25, "u": "g", "s": "fruteria"},
+      {"n": "aceite de oliva", "q": 10, "u": "ml", "s": "despensa"}
+    ]
+  },
+  {
+    "id": "es-judias-verdes-patata",
+    "nombre": "Judías verdes rehogadas con patata y ajo",
+    "categoria": "verdura",
+    "comidas": ["comida", "cena"],
+    "grupos": ["verdura"],
+    "alergenos": [],
+    "batch": true,
+    "congelable": true,
+    "nevera": 4,
+    "facil": true,
+    "minutos": 25,
+    "ingredientes": [
+      {"n": "judias verdes", "q": 160, "u": "g", "s": "fruteria"},
+      {"n": "patatas", "q": 90, "u": "g", "s": "fruteria"},
+      {"n": "dientes de ajo", "q": 1, "u": "ud", "s": "fruteria"},
+      {"n": "aceite de oliva", "q": 10, "u": "ml", "s": "despensa"}
+    ]
+  },
+  {
+    "id": "es-pisto-manchego",
+    "nombre": "Pisto manchego tradicional de verduras",
+    "categoria": "verdura",
+    "comidas": ["comida", "cena"],
+    "grupos": ["verdura"],
+    "alergenos": [],
+    "batch": true,
+    "congelable": true,
+    "nevera": 5,
+    "facil": true,
+    "minutos": 35,
+    "ingredientes": [
+      {"n": "calabacin", "q": 100, "u": "g", "s": "fruteria"},
+      {"n": "berenjena", "q": 80, "u": "g", "s": "fruteria"},
+      {"n": "pimiento rojo", "q": 60, "u": "g", "s": "fruteria"},
+      {"n": "tomate", "q": 120, "u": "g", "s": "fruteria"},
+      {"n": "aceite de oliva", "q": 12, "u": "ml", "s": "despensa"}
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+# Hogar · adulto, mantenimiento de peso, patrón mediterráneo. Punto de partida editable, no prescripción.
+nombre = "Mantenimiento (adulto)"
+descripcion = "Adulto sano que mantiene el peso. Patrón mediterráneo AESAN 2022: legumbre ≥ 4/semana, pescado ≥ 3, carne ≤ 3 (priorizando aves), huevo ≤ 4, AOVE como grasa principal."
+orden = 10
+ambito = "hogar"
+edad = [18, 120]
+fuentes = [
+  "AESAN (2022) Recomendaciones dietéticas saludables y sostenibles complementadas con recomendaciones de actividad física para la población española",
+  "EFSA (2012/2017) Dietary Reference Values: proteína PRI 0,83 g/kg/día; grasa 20-35 % y HC 45-60 % de la energía",
+  "OMS (2012) Guideline: sodium intake for adults and children (< 2 g de sodio/día)",
+  "Mifflin MD et al. (1990) Am J Clin Nutr 51:241-7 (gasto basal)",
+]
+proteina_gkg = [0.8, 1.2]
+grasa_pct = [30, 40]
+hc_pct = [40, 55]
+fibra_min = 25
+sodio_max = 2000
+aove_min_g = 30
+excluir_etiquetas = ["suplemento"]
+
+[semanal_min]
+legumbre = 4
+pescado = 3
+
+[semanal_max]
+carne = 3
+huevo = 4
+procesada = 1
+azucar = 4

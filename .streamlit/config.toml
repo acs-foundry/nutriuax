@@ -1,0 +1,14 @@
+# Tema UAX (colores del logotipo corporativo) y uso solo local.
+[theme]
+base = "light"
+primaryColor = "#0060AF"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F5F8FC"
+textColor = "#1D1D1D"
+font = "sans serif"
+
+[server]
+address = "127.0.0.1"   # solo este equipo (IPv4 explícito: «localhost» puede resolverse a ::1)
+
+[browser]
+gatherUsageStats = false

@@ -1,0 +1,22 @@
+# Roadmap & Tickets · NutriUAX
+
+- [x] T01 Motor de composición con semilla y estimación de aminoácidos por patrón
+- [x] T02 Importador USDA FDC SR Legacy con informe de revisión
+- [x] T03 Generador MILP semanal con plantillas, raciones y objetivos blandos
+- [x] T04 App Streamlit: persona, perfil, ajustes, menú, edición, nutrientes/BCAA, compra, Excel
+- [x] T05 Importación completa USDA FDC SR Legacy y revisión de emparejamientos
+- [x] T07 Umbrales de adherencia parametrizados en `config/adherencia.toml`
+- [x] T08 Calculador de registro dietético de N días (3 días) con conversión crudo/cocinado y AA
+- [x] T09 Calculador FFQ PREDIMED-Plus (9 categorías de frecuencia; ventana anual u 8 semanas)
+- [x] T10 MEDAS-14, Maroni 24 h (NUU) y clasificación combinada de adherencia
+- [x] T13 Base completa USDA FDC (7.793 alimentos, `base_fdc.py`, glosario ES→EN)
+- [x] T14 Catálogo ampliado propuesto (`data/catalogo_propuesto.csv`)
+- [x] T16 Cocinados: `data/coccion.csv`, `coccion.py` (rendimiento, retención, doble cocción ERC)
+- [x] T17 Biblioteca abierta MIT de 33 recetas mediterráneas (`data/recetas_base.json`)
+- [x] T18 Migración a PuLP `prob.add_variable` (0 DeprecationWarnings) y eliminación del tope `pulp<4`
+- [x] T19 Red de seguridad de regresión clínica (`tests/test_regresion_uax.py`)
+- [x] T20–T29 Perfiles TOML, suelos de seguridad, equivalencias, recetas, modo hogar, contrato JSON v1 y criterio final
+- [x] T30–T32 Lanzador web local endurecido, hogares locales (0600) e intercambio JSON
+- [x] T33 Sistema español de intercambios (`intercambios.py`), vademécum de 24 fármacos (`farmacos.py`), antropometría/5 ecuaciones/MUST/MNA-SF/PRAL/AAS (`clinica.py`)
+- [x] T34 Compatibilidad completa Anything-Craft: `nutriuax-cli`, servidor MCP STDIO aislado (`mcp.py`, `sandbox.py`), puente ArtCraft Office (`office.py`) y publicación abierta v1.0.0
+- [ ] T35 Validación externa prospectiva frente a tablas españolas/Odimet y revisión dietética del catálogo ampliado (T15)

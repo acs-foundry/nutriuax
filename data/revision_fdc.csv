@@ -1,0 +1,70 @@
+id,nombre,modo,fdc_id,ndb,descripcion_fdc,sin_aminoacidos_fdc
+leche_entera,Leche entera,ndb,171265,01077,"Milk, whole, 3.25% milkfat, with added vitamin D",False
+leche_semi,Leche semidesnatada,ndb,171267,01079,"Milk, reduced fat, fluid, 2% milkfat, with added vitamin A and vitamin D",False
+yogur_natural,Yogur natural,ndb,171284,01116,"Yogurt, plain, whole milk",False
+yogur_griego,Yogur griego natural,ndb,170903,01287,"Yogurt, Greek, plain, lowfat",False
+queso_fresco,Queso fresco tipo Burgos,ndb,172223,01228,"Cheese, fresh, queso fresco",True
+queso_curado,Queso curado,ndb,171249,01038,"Cheese, romano",False
+requeson,Requesón,ndb,172182,01015,"Cheese, cottage, lowfat, 2% milkfat",False
+huevo,Huevo entero cocido,ndb,173424,01129,"Egg, whole, cooked, hard-boiled",False
+clara_huevo,Clara de huevo,ndb,172183,01124,"Egg, white, raw, fresh",False
+pollo_pechuga,Pechuga de pollo a la plancha,ndb,171477,05064,"Chicken, broilers or fryers, breast, meat only, cooked, roasted",False
+pavo_pechuga,Pechuga de pavo a la plancha,ndb,171496,05220,"Turkey, whole, breast, meat only, cooked, roasted",False
+ternera_magra,Ternera magra a la plancha,ndb,169471,13492,"Beef, round, top round steak, boneless, separable lean only, trimmed to 0"" fat, choice, cooked, grilled",False
+lomo_cerdo,Lomo de cerdo a la plancha,ndb,168232,10026,"Pork, fresh, loin, whole, separable lean only, cooked, broiled",False
+conejo,Conejo guisado,ndb,172522,17178,"Game meat, rabbit, domesticated, composite of cuts, cooked, roasted",False
+jamon_serrano,Jamón serrano,ndb,167876,10152,"Pork, cured, ham, whole, separable lean only, unheated",False
+merluza,Merluza a la plancha,ndb,171991,15193,"Fish, cusk, cooked, dry heat",False
+salmon,Salmón a la plancha,ndb,175168,15237,"Fish, salmon, Atlantic, farmed, cooked, dry heat",False
+sardinas,Sardinas a la plancha,ndb,175139,15088,"Fish, sardine, Atlantic, canned in oil, drained solids with bone",False
+atun_lata,Atún al natural (lata),ndb,173709,15121,"Fish, tuna, light, canned in water, drained solids (Includes foods for USDA's Food Distribution Program)",False
+bacalao,Bacalao fresco al horno,ndb,171956,15016,"Fish, cod, Atlantic, cooked, dry heat",False
+gambas,Gambas cocidas,ndb,171971,15151,"Crustaceans, shrimp, mixed species, cooked, moist heat (may contain additives to retain moisture)",False
+mejillones,Mejillones al vapor,ndb,174217,15165,"Mollusks, mussel, blue, cooked, moist heat",False
+lentejas,Lentejas cocidas,ndb,172421,16070,"Lentils, mature seeds, cooked, boiled, without salt",False
+garbanzos,Garbanzos cocidos,ndb,173757,16057,"Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt",False
+alubias,Alubias blancas cocidas,ndb,175203,16050,"Beans, white, mature seeds, cooked, boiled, without salt",False
+tofu,Tofu firme,ndb,172475,16426,"Tofu, raw, firm, prepared with calcium sulfate",False
+arroz_blanco,Arroz blanco cocido,ndb,168878,20045,"Rice, white, long-grain, regular, enriched, cooked",False
+arroz_integral,Arroz integral cocido,ndb,169704,20037,"Rice, brown, long-grain, cooked (Includes foods for USDA's Food Distribution Program)",False
+pasta,Pasta cocida,ndb,169737,20121,"Pasta, cooked, enriched, without added salt",False
+pasta_integral,Pasta integral cocida,ndb,168910,20125,"Pasta, whole-wheat, cooked (Includes foods for USDA's Food Distribution Program)",False
+pan_blanco,Pan blanco (barra),ndb,172675,18029,"Bread, french or vienna (includes sourdough)",True
+pan_integral,Pan integral,ndb,172688,18075,"Bread, whole-wheat, commercially prepared",True
+avena,Copos de avena,ndb,173904,08120,"Cereals, oats, regular and quick, not fortified, dry",False
+cuscus,Cuscús cocido,ndb,169700,20029,"Couscous, cooked",False
+quinoa,Quinoa cocida,ndb,168917,20137,"Quinoa, cooked",False
+patata,Patata cocida,ndb,170440,11367,"Potatoes, boiled, cooked without skin, flesh, without salt",False
+boniato,Boniato asado,ndb,168483,11508,"Sweet potato, cooked, baked in skin, flesh, without salt",False
+tomate,Tomate,ndb,170457,11529,"Tomatoes, red, ripe, raw, year round average",False
+lechuga,Lechuga,ndb,169247,11251,"Lettuce, cos or romaine, raw",False
+espinacas,Espinacas cocidas,ndb,168463,11458,"Spinach, cooked, boiled, drained, without salt",False
+brocoli,Brócoli cocido,ndb,169967,11091,"Broccoli, cooked, boiled, drained, without salt",False
+judias_verdes,Judías verdes cocidas,ndb,169141,11053,"Beans, snap, green, cooked, boiled, drained, without salt",False
+calabacin,Calabacín cocido,ndb,169292,11478,"Squash, summer, zucchini, includes skin, cooked, boiled, drained, without salt",False
+pimiento_rojo,Pimiento rojo,ndb,170108,11821,"Peppers, sweet, red, raw",False
+zanahoria,Zanahoria,ndb,170393,11124,"Carrots, raw",False
+cebolla,Cebolla,ndb,170000,11282,"Onions, raw",False
+berenjena,Berenjena asada,ndb,169229,11210,"Eggplant, cooked, boiled, drained, without salt",False
+coliflor,Coliflor cocida,ndb,170397,11136,"Cauliflower, cooked, boiled, drained, without salt",False
+champinon,Champiñones salteados,ndb,169251,11260,"Mushrooms, white, raw",False
+manzana,Manzana,ndb,171688,09003,"Apples, raw, with skin (Includes foods for USDA's Food Distribution Program)",False
+naranja,Naranja,ndb,169097,09200,"Oranges, raw, all commercial varieties",False
+platano,Plátano,ndb,173944,09040,"Bananas, raw",False
+fresas,Fresas,ndb,167762,09316,"Strawberries, raw",False
+pera,Pera,ndb,169118,09252,"Pears, raw",False
+kiwi,Kiwi,ndb,168153,09148,"Kiwifruit, green, raw",False
+melocoton,Melocotón,ndb,169928,09236,"Peaches, yellow, raw",False
+uvas,Uvas,ndb,174683,09132,"Grapes, red or green (European type, such as Thompson seedless), raw",False
+sandia,Sandía,ndb,167765,09326,"Watermelon, raw",False
+pina,Piña,ndb,169124,09266,"Pineapple, raw, all varieties",False
+aove,Aceite de oliva virgen extra,ndb,171413,04053,"Oil, olive, salad or cooking",False
+nueces,Nueces,ndb,170187,12155,"Nuts, walnuts, english",False
+almendras,Almendras,ndb,170567,12061,"Nuts, almonds",False
+cacahuetes,Cacahuetes,ndb,172430,16087,"Peanuts, all types, raw",False
+aguacate,Aguacate,ndb,171705,09037,"Avocados, raw, all commercial varieties",False
+aceitunas,Aceitunas,ndb,169094,09193,"Olives, ripe, canned (small-extra large)",False
+proteina_suero,Proteína de suero (whey),ndb,173177,14058,"Beverages, Whey protein powder isolate",True
+miel,Miel,ndb,169640,19296,Honey,False
+mermelada,Mermelada,ndb,169641,19297,Jams and preserves,False
+chocolate_negro,Chocolate negro 70 %,ndb,170273,19904,"Chocolate, dark, 70-85% cacao solids",True

@@ -1,0 +1,207 @@
+alimento,ndb,descripcion_fdc,g_por_ud,g_por_ml,alergenos,tiene_aa,nota
+nulo,,,0,1.0,,False,"sal, agua, especias y condimentos en cantidad despreciable: sin aporte"
+leche_entera,01077,"Milk, whole, 3.25% milkfat, with added vitamin D",,1.03,leche,True,
+leche_semidesnatada,01079,"Milk, reduced fat, fluid, 2% milkfat, with added vitamin A and vitamin D",,1.03,leche,True,
+leche_desnatada,01085,"Milk, nonfat, fluid, with added vitamin A and vitamin D (fat free or skim)",,1.03,leche,True,
+leche_evaporada,01096,"Milk, canned, evaporated, with added vitamin D and without added vitamin A",410,1.07,leche,True,
+leche_condensada,01095,"Milk, canned, condensed, sweetened",,1.3,leche,True,
+nata_liquida,01053,"Cream, fluid, heavy whipping",,1.0,leche,True,nata para montar (35 % grasa)
+nata_cocinar,01052,"Cream, fluid, light whipping",,1.0,leche,True,nata ligera para cocinar
+mantequilla,01145,"Butter, without salt",,0.91,leche,True,
+yogur_natural,01116,"Yogurt, plain, whole milk",125,1.03,leche,True,
+yogur_griego,01287,"Yogurt, Greek, plain, lowfat",125,1.03,leche,True,
+kefir,01289,"Kefir, lowfat, plain, LIFEWAY",,1.03,leche,False,
+queso_curado,01038,"Cheese, romano",,,leche,True,proxy de manchego: romano (oveja)
+queso_semicurado,01009,"Cheese, cheddar (Includes foods for USDA's Food Distribution Program)",20,,leche,True,cheddar
+queso_emmental,01040,"Cheese, swiss",,,leche,True,
+queso_gruyere,01023,"Cheese, gruyere",,,leche,True,
+queso_parmesano,01033,"Cheese, parmesan, hard",,,leche,True,
+queso_fresco,01228,"Cheese, fresh, queso fresco",,,leche,False,queso de Burgos / fresco
+queso_crema,01017,"Cheese, cream",,,leche,True,tipo Philadelphia
+queso_mozzarella,01026,"Cheese, mozzarella, whole milk",125,,leche,True,
+queso_azul,01004,"Cheese, blue",,,leche,True,roquefort / cabrales
+queso_brie,01006,"Cheese, brie",,,leche,True,
+queso_cabra,01157,"Cheese, goat, semisoft type",,,leche,True,
+quesito,01048,"Cheese spread, pasteurized process, American",16,,leche,True,quesito en porciones
+queso_lonchas,01048,"Cheese spread, pasteurized process, American",20,,leche,True,loncha de queso
+requeson,01015,"Cheese, cottage, lowfat, 2% milkfat",,,leche,True,
+huevo,01123,"Egg, whole, raw, fresh",50,1.03,huevo,True,porción comestible de un huevo L
+yema,01125,"Egg, yolk, raw, fresh",17,,huevo,True,
+clara,01124,"Egg, white, raw, fresh",33,1.03,huevo,True,
+huevo_duro,01129,"Egg, whole, cooked, hard-boiled",50,,huevo,True,
+aceite_oliva,04053,"Oil, olive, salad or cooking",,0.92,,True,
+aceite_girasol,04506,"Oil, sunflower, linoleic, (approx. 65%)",,0.92,,True,
+margarina,04617,"Margarine, regular, 80% fat, composite, stick, without salt",,,,False,
+mayonesa,04025,"Salad dressing, mayonnaise, regular",,0.95,huevo,True,
+harina_trigo,20081,"Wheat flour, white, all-purpose, enriched, bleached",,0.55,gluten,True,
+harina_integral,20080,"Wheat flour, whole-grain (Includes foods for USDA's Food Distribution Program)",,0.55,gluten,True,
+maicena,20027,Cornstarch,,0.55,,True,
+pan_rallado,18079,"Bread, crumbs, dry, grated, plain",,,gluten,True,
+arroz,20044,"Rice, white, long-grain, regular, raw, enriched",,0.85,,True,
+arroz_integral,20036,"Rice, brown, long-grain, raw (Includes foods for USDA's Food Distribution Program)",,0.85,,True,
+pasta,20120,"Pasta, dry, enriched",,,gluten,True,
+placa_lasana,20120,"Pasta, dry, enriched",17,,gluten,True,placa de lasaña seca
+placa_canelon,20120,"Pasta, dry, enriched",7,,gluten,True,placa de canelón seca
+fideo_arroz,20133,"Rice noodles, dry",,,,True,
+cuscus,20028,"Couscous, dry",,,gluten,True,
+quinoa,20035,"Quinoa, uncooked",,,,True,
+avena,20038,Oats (Includes foods for USDA's Food Distribution Program),,0.4,gluten,True,
+pan,18029,"Bread, french or vienna (includes sourdough)",40,,gluten,False,rebanada o panecillo (sin AA en FDC: estimados)
+pan_molde,18069,"Bread, white, commercially prepared (includes soft bread crumbs)",25,,gluten,False,rebanada
+biscote,18220,"Crackers, melba toast, plain",8,,gluten,True,
+hojaldre,18337,"Puff pastry, frozen, ready-to-bake",,,gluten,True,
+masa_quebrada,18334,"Pie crust, standard-type, frozen, ready-to-bake, enriched",,,gluten,True,
+galleta,18212,"Cookies, vanilla wafers, lower fat",7,,gluten,True,
+bizcocho_soletilla,18175,"Cookies, ladyfingers, with lemon juice and rind",10,,gluten;huevo,True,
+tartaleta,18334,"Pie crust, standard-type, frozen, ready-to-bake, enriched",15,,gluten,True,
+azucar,19335,"Sugars, granulated",,0.85,,False,
+azucar_glas,19336,"Sugars, powdered",,0.56,,False,
+miel,19296,Honey,,1.42,,True,
+chocolate,19902,"Chocolate, dark, 45- 59% cacao solids",,,leche;soja,False,chocolate para postres
+cacao_polvo,19165,"Cocoa, dry powder, unsweetened",,0.4,,True,
+gelatina,19177,"Gelatins, dry powder, unsweetened",2,,,True,hoja de gelatina
+levadura,18375,"Leavening agents, yeast, baker's, active dry",10,,,True,
+garbanzo_cocido,16057,"Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt",,,,True,
+garbanzo_seco,16056,"Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",,,,True,
+lenteja_seca,16069,"Lentils, raw",,,,True,
+lenteja_cocida,16070,"Lentils, mature seeds, cooked, boiled, without salt",,,,True,
+alubia_seca,16049,"Beans, white, mature seeds, raw",,,,True,
+alubia_cocida,16050,"Beans, white, mature seeds, cooked, boiled, without salt",,,,True,
+alubia_roja,16032,"Beans, kidney, red, mature seeds, raw",,,,True,
+guisante,11304,"Peas, green, raw",,,,True,
+soja_texturizada,16420,"Soy protein concentrate, produced by acid wash",25,,soja,True,
+tofu,16426,"Tofu, raw, firm, prepared with calcium sulfate",,,soja,True,
+patata,11352,"Potatoes, flesh and skin, raw",200,,,True,
+cebolla,11282,"Onions, raw",150,,,True,
+ajo,11215,"Garlic, raw",4,,,True,diente
+cabeza_ajo,11215,"Garlic, raw",40,,,True,cabeza entera
+tomate,11529,"Tomatoes, red, ripe, raw, year round average",150,,,True,
+tomate_cherry,11529,"Tomatoes, red, ripe, raw, year round average",15,,,True,
+tomate_triturado,11531,"Tomatoes, red, ripe, canned, packed in tomato juice",,1.04,,True,
+tomate_frito,43217,"Tomato sauce, canned, no salt added",,1.05,,True,
+pimiento_verde,11333,"Peppers, sweet, green, raw",150,,,True,
+pimiento_rojo,11821,"Peppers, sweet, red, raw",180,,,True,
+pimiento_piquillo,11916,"Peppers, sweet, red, canned, solids and liquids",30,,,True,
+zanahoria,11124,"Carrots, raw",70,,,True,
+calabacin,11477,"Squash, summer, zucchini, includes skin, raw",250,,,True,
+berenjena,11209,"Eggplant, raw",300,,,True,
+puerro,11246,"Leeks, (bulb and lower leaf-portion), raw",120,,,True,
+espinaca,11457,"Spinach, raw",30,,,True,
+acelga,11147,"Chard, swiss, raw",500,,,True,
+champinon,11260,"Mushrooms, white, raw",15,,,True,
+setas,11987,"Mushrooms, oyster, raw",20,,,True,
+calabaza,11422,"Pumpkin, raw",1500,,,True,
+alcachofa,11007,"Artichokes, (globe or french), raw",120,,,False,
+judia_verde,11052,"Beans, snap, green, raw",,,,True,
+coliflor,11135,"Cauliflower, raw",600,,,True,
+brocoli,11090,"Broccoli, raw",300,,,True,
+repollo,11109,"Cabbage, raw",800,,,True,
+lombarda,11112,"Cabbage, red, raw",800,,,True,
+col_bruselas,11098,"Brussels sprouts, raw",15,,,True,
+apio,11143,"Celery, raw",40,,apio,True,rama
+pepino,11205,"Cucumber, with peel, raw",300,,,True,
+lechuga,11251,"Lettuce, cos or romaine, raw",300,,,True,pieza entera
+hoja_lechuga,11251,"Lettuce, cos or romaine, raw",10,,,True,
+endibia,11151,"Chicory, witloof, raw",100,,,True,
+cebolleta,11291,"Onions, spring or scallions (includes tops and bulb), raw",50,,,True,
+esparrago,11011,"Asparagus, raw",20,,,True,
+maiz_dulce,11167,"Corn, sweet, yellow, raw",140,,,True,
+verduras_variadas,11583,"Vegetables, mixed, frozen, unprepared",,,,True,
+remolacha,11080,"Beets, raw",150,,,True,
+nabo,11564,"Turnips, raw",150,,,True,
+aceituna,09193,"Olives, ripe, canned (small-extra large)",4,,,True,
+perejil,11297,"Parsley, fresh",1,,,True,
+albahaca,02044,"Basil, fresh",0.5,,,True,
+laurel,,,0.2,,,False,hoja: sin aporte
+caldo_pastilla,06080,"Soup, chicken broth or bouillon, dry",10,,apio,False,pastilla de caldo
+caldo,06194,"Soup, chicken broth, ready-to-serve",,1.0,apio,False,caldo líquido
+vino_blanco,14106,"Alcoholic beverage, wine, table, white",,0.99,sulfitos,False,
+vino_tinto,14096,"Alcoholic beverage, wine, table, red",,0.99,sulfitos,False,
+vino_dulce,14057,"Alcoholic beverage, wine, dessert, sweet",,1.03,sulfitos,False,Pedro Ximénez / oporto / jerez
+licor,14037,"Alcoholic beverage, distilled, all (gin, rum, vodka, whiskey) 80 proof",,0.95,,True,"brandy, coñac, ron, whisky"
+cerveza,14003,"Alcoholic beverage, beer, regular, all",,1.01,gluten,True,
+vinagre,02048,"Vinegar, cider",,1.01,sulfitos,True,
+limon,09150,"Lemons, raw, without peel",60,,,False,
+zumo_limon,09152,"Lemon juice, raw",,1.03,,False,
+naranja,09200,"Oranges, raw, all commercial varieties",180,,,True,
+zumo_naranja,09206,"Orange juice, raw (Includes foods for USDA's Food Distribution Program)",,1.04,,True,
+manzana,09003,"Apples, raw, with skin (Includes foods for USDA's Food Distribution Program)",180,,,True,
+pera,09252,"Pears, raw",170,,,True,
+platano,09040,"Bananas, raw",120,,,True,
+fresa,09316,"Strawberries, raw",15,,,True,
+frambuesa,09302,"Raspberries, raw",4,,,False,
+melocoton,09236,"Peaches, yellow, raw",150,,,True,
+uva,09132,"Grapes, red or green (European type, such as Thompson seedless), raw",5,,,True,
+pina,09266,"Pineapple, raw, all varieties",1000,,,True,
+pina_almibar,09268,"Pineapple, canned, juice pack, solids and liquids",,,,True,
+melon,09184,"Melons, honeydew, raw",1500,,,True,
+mango,09176,"Mangos, raw",300,,,True,
+higo_seco,09094,"Figs, dried, uncooked",20,,,True,
+pasas,09298,"Raisins, dark, seedless (Includes foods for USDA's Food Distribution Program)",,,,False,
+ciruela_pasa,09291,"Plums, dried (prunes), uncooked",8,,,True,
+datil,09421,"Dates, medjool",24,,,True,
+coco_rallado,12108,"Nuts, coconut meat, dried (desiccated), not sweetened",,,,True,
+almendra,12061,"Nuts, almonds",1.2,,frutos_cascara,True,
+nuez,12155,"Nuts, walnuts, english",5,,frutos_cascara,True,
+pinon,12147,"Nuts, pine nuts, dried",,,frutos_cascara,True,
+avellana,12120,"Nuts, hazelnuts or filberts",1.5,,frutos_cascara,True,
+pistacho,12151,"Nuts, pistachio nuts, raw",,,frutos_cascara,True,
+cacahuete,16087,"Peanuts, all types, raw",,,cacahuete,True,
+sesamo,12023,"Seeds, sesame seeds, whole, dried",,,sesamo,True,
+salsa_soja,16123,Soy sauce made from soy and wheat (shoyu),,1.15,soja;gluten,True,
+mostaza,02046,"Mustard, prepared, yellow",,1.05,mostaza,True,
+ketchup,11935,Catsup,,1.15,,True,
+bechamel,06264,"Sauce, white, thin, prepared-from-recipe, with butter",,1.05,leche;gluten,False,
+pollo,05006,"Chicken, broilers or fryers, meat and skin, raw",1200,,,True,
+pechuga_pollo,05062,"Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw",200,,,True,
+muslo_pollo,05096,"Chicken, broilers or fryers, dark meat, thigh, meat only, raw",90,,,True,
+higado_pollo,05027,"Chicken, liver, all classes, raw",30,,,True,
+pavo,05219,"Turkey, whole, breast, meat only, raw",120,,,True,
+ternera,23485,"Beef, composite of trimmed retail cuts, separable lean only, trimmed to 0"" fat, all grades, raw",120,,,True,
+carne_picada,23572,"Beef, ground, 80% lean meat / 20% fat, raw",100,,,True,mezcla ternera/cerdo
+cerdo_magro,10024,"Pork, fresh, loin, whole, separable lean only, raw",150,,,True,
+cerdo,10226,"Pork, fresh, composite of trimmed retail cuts (loin and shoulder blade), separable lean and fat, raw",250,,,True,
+cordero,17003,"Lamb, composite of trimmed retail cuts, separable lean only, trimmed to 1/4"" fat, choice, raw",150,,,True,
+conejo,17177,"Game meat, rabbit, domesticated, composite of cuts, raw",1200,,,True,
+codorniz,05158,"Quail, meat only, raw",90,,,True,
+callos,23445,"Beef, New Zealand, imported, variety meats and by-products, tripe uncooked, raw",,,,True,
+jamon_serrano,10152,"Pork, cured, ham, whole, separable lean only, unheated",15,,,True,loncha
+jamon_york,07029,"Ham, sliced, regular (approximately 11% fat)",20,,,True,loncha
+bacon,10123,"Pork, cured, bacon, unprepared",10,,,False,
+chorizo,07057,"Pepperoni, beef and pork, sliced",100,,,True,proxy: pepperoni
+salchicha,07939,"Frankfurter, pork",50,,,True,
+higado_pato,05143,"Duck, domesticated, liver, raw",,,,True,
+merluza,15022,"Fish, cusk, raw",150,,pescado,True,proxy: cusk (gádido); ud = lomo/rodaja
+bacalao,15015,"Fish, cod, Atlantic, raw",150,,pescado,True,fresco o desalado; ud = lomo
+rape,15054,"Fish, monkfish, raw",150,,pescado,True,
+salmon,15236,"Fish, salmon, Atlantic, farmed, raw",150,,pescado,True,ud = lomo/suprema
+salmon_ahumado,15077,"Fish, salmon, chinook, smoked",,,pescado,True,
+atun_lata,15124,"Fish, tuna, white, canned in oil, drained solids",80,,pescado,True,en aceite escurrido
+atun,15127,"Fish, tuna, fresh, yellowfin, raw",150,,pescado,True,
+bonito,15123,"Fish, tuna, fresh, skipjack, raw",150,,pescado,True,
+sardina,15039,"Fish, herring, Atlantic, raw",40,,pescado,True,proxy: no hay sardina fresca en SR
+lenguado,15028,"Fish, flatfish (flounder and sole species), raw",120,,pescado,True,filete
+mero,15031,"Fish, grouper, mixed species, raw",150,,pescado,True,
+dorada,15090,"Fish, scup, raw",300,,pescado,True,
+lubina,15091,"Fish, sea bass, mixed species, raw",300,,pescado,True,
+anchoa,15001,"Fish, anchovy, european, raw",15,,pescado,True,
+anchoa_lata,15002,"Fish, anchovy, european, canned in oil, drained solids",4,,pescado,True,filete en aceite
+gamba,15149,"Crustaceans, shrimp, mixed species, raw (may contain additives to retain moisture)",15,,crustaceos,True,
+mejillon,15164,"Mollusks, mussel, blue, raw",20,,moluscos,True,con concha: revisar porción comestible
+almeja,15157,"Mollusks, clam, mixed species, raw",10,,moluscos,True,con concha: revisar porción comestible
+calamar,15175,"Mollusks, squid, mixed species, raw",150,,moluscos,True,
+sepia,15163,"Mollusks, cuttlefish, mixed species, raw",300,,moluscos,True,
+pulpo,15166,"Mollusks, octopus, common, raw",1000,,moluscos,True,
+cangrejo,15139,"Crustaceans, crab, blue, raw",,,crustaceos,True,
+surimi,15138,"Crustaceans, crab, alaska king, imitation, made from surimi",15,,pescado;crustaceos,True,palitos y gulas
+tinta_calamar,,,4,,moluscos,False,bolsita: aporte despreciable
+caldo_pescado,06963,Fish broth,,1.0,pescado,False,fumet / caldo de pescado
+barra_pan,18029,"Bread, french or vienna (includes sourdough)",250,,gluten,False,barra entera
+leche_soja,16120,"Soymilk, original and vanilla, unfortified",,1.03,soja,True,bebida de soja
+leche_coco,12118,"Nuts, coconut milk, canned (liquid expressed from grated meat and water)",,1.0,,True,
+aguacate,09037,"Avocados, raw, all commercial varieties",150,,,True,
+kiwi,09148,"Kiwifruit, green, raw",75,,,True,
+manteca,04002,Lard,,0.9,,True,manteca de cerdo
+boniato,11507,"Sweet potato, raw, unprepared (Includes foods for USDA's Food Distribution Program)",250,,,True,batata
+mermelada,19297,Jams and preserves,,1.3,,True,
+yogur_desnatado,01118,"Yogurt, plain, skim milk",125,1.03,leche,True,

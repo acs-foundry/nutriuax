@@ -1,0 +1,33 @@
+[
+ {"id": "mini-tortilla-patata", "nombre": "Tortilla de patata", "categoria": "huevo", "comidas": ["cena"],
+  "grupos": ["huevo"], "alergenos": ["huevo"], "batch": false, "congelable": false, "nevera": 2, "facil": true,
+  "minutos": 30, "ingredientes": [
+   {"n": "huevos", "q": 2, "u": "ud", "s": "lacteos"},
+   {"n": "patatas", "q": 200, "u": "g", "s": "fruteria"},
+   {"n": "aceite de oliva", "q": 20, "u": "ml", "s": "despensa"},
+   {"n": "sal", "q": 1, "u": "g", "s": "despensa"}]},
+ {"id": "mini-lentejas", "nombre": "Lentejas con verduras", "categoria": "legumbre", "comidas": ["comida"],
+  "grupos": ["legumbre", "verdura"], "alergenos": [], "batch": true, "congelable": true, "nevera": 4, "facil": true,
+  "minutos": 40, "ingredientes": [
+   {"n": "lentejas", "q": 70, "u": "g", "s": "despensa"},
+   {"n": "zanahoria", "q": 1, "u": "ud", "s": "fruteria"},
+   {"n": "dientes de ajo", "q": 1, "u": "ud", "s": "fruteria"},
+   {"n": "aceite de oliva", "q": 10, "u": "ml", "s": "despensa"}]},
+ {"id": "mini-merluza-gambas", "nombre": "Merluza en salsa con gambas", "categoria": "pescado",
+  "comidas": ["comida", "cena"], "grupos": ["pescado"], "alergenos": ["pescado"], "batch": false,
+  "congelable": false, "nevera": 1, "facil": false, "minutos": 35, "ingredientes": [
+   {"n": "lomos de merluza", "q": 150, "u": "g", "s": "pescaderia"},
+   {"n": "gambas", "q": 40, "u": "g", "s": "pescaderia"},
+   {"n": "harina", "q": 5, "u": "g", "s": "despensa"},
+   {"n": "vino blanco", "q": 20, "u": "ml", "s": "despensa"}]},
+ {"id": "mini-vinagreta", "nombre": "Vinagreta", "categoria": "salsa_base", "comidas": ["comida"],
+  "grupos": [], "alergenos": ["sulfitos"], "batch": false, "congelable": false, "nevera": 5, "facil": true,
+  "minutos": 5, "ingredientes": [
+   {"n": "aceite de oliva", "q": 15, "u": "ml", "s": "despensa"},
+   {"n": "vinagre", "q": 5, "u": "ml", "s": "despensa"}]},
+ {"id": "mini-rara", "nombre": "Receta con ingrediente raro", "categoria": "verdura", "comidas": ["cena"],
+  "grupos": ["verdura"], "alergenos": [], "batch": false, "congelable": false, "nevera": 2, "facil": true,
+  "minutos": 20, "ingredientes": [
+   {"n": "calabacin", "q": 150, "u": "g", "s": "fruteria"},
+   {"n": "hierba exótica inventada", "q": 50, "u": "g", "s": "fruteria"}]}
+]

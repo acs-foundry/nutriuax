@@ -1,0 +1,227 @@
+id,nombre,grupo,rol,origen,patron_aa,comidas,min_g,max_g,porcion_g,max_semana,etiquetas,ndb,busqueda_fdc,kcal,proteina,grasa,agsat,hc,fibra,sodio,potasio,fosforo,calcio,estado_ref,fuente_catalogo
+leche_entera,Leche entera,lacteos,lacteo,animal,lacteo,D;MM;M;X,150,300,200,14,lacteo,01077,"Milk, whole, 3.25%",61.0,3.2,3.3,1.9,4.8,0.0,43.0,132.0,84.0,113.0,tal_cual,v0.1
+leche_semi,Leche semidesnatada,lacteos,lacteo,animal,lacteo,D;MM;M;X,150,300,200,14,lacteo,01079,"Milk, reduced fat",46.0,3.3,1.6,1.0,4.8,0.0,44.0,150.0,90.0,120.0,tal_cual,v0.1
+yogur_natural,Yogur natural,lacteos,lacteo,animal,lacteo,D;MM;M;C;X,125,250,125,14,lacteo,01116,"Yogurt, plain, whole milk",61.0,3.5,3.3,2.1,4.7,0.0,46.0,155.0,95.0,121.0,tal_cual,v0.1
+yogur_griego,Yogur griego natural,lacteos,lacteo,animal,lacteo,D;MM;M;C;X,125,250,125,10,lacteo,01287,"Yogurt, Greek, plain, whole milk",97.0,9.0,5.0,2.4,4.0,0.0,35.0,141.0,135.0,100.0,tal_cual,v0.1
+queso_fresco,Queso fresco tipo Burgos,lacteos,lacteo,animal,lacteo,D;M;X,40,100,60,7,lacteo,01228,"Cheese, fresh, queso fresco",174.0,12.4,13.0,8.3,2.5,0.0,272.0,110.0,190.0,340.0,tal_cual,v0.1
+queso_curado,Queso curado,lacteos,lacteo,animal,lacteo,D;M,20,50,30,3,lacteo;alto_sodio,01038,"Cheese, manchego",390.0,26.0,32.0,20.0,0.5,0.0,650.0,90.0,550.0,800.0,tal_cual,v0.1
+requeson,Requesón,lacteos,lacteo,animal,lacteo,D;MM;M;X,80,200,125,7,lacteo,01015,"Cheese, cottage, lowfat",98.0,11.1,4.3,1.7,3.4,0.0,364.0,104.0,159.0,83.0,tal_cual,v0.1
+huevo,Huevo entero cocido,huevos,proteina,animal,huevo,D;C;X,50,150,60,7,huevo,01129,"Egg, whole, cooked, hard-boiled",155.0,12.6,10.6,3.3,1.1,0.0,124.0,126.0,172.0,50.0,cocinado,v0.1
+clara_huevo,Clara de huevo,huevos,proteina,animal,huevo,D;C;X,60,200,100,7,huevo,01124,"Egg, white, raw, fresh",52.0,10.9,0.2,0.0,0.7,0.0,166.0,163.0,15.0,7.0,crudo,v0.1
+pollo_pechuga,Pechuga de pollo a la plancha,carnes,proteina,animal,carne,C;X,80,220,120,3,carne_blanca,05064,"Chicken, broilers or fryers, breast, meat only, cooked, roasted",165.0,31.0,3.6,1.0,0.0,0.0,74.0,256.0,228.0,15.0,cocinado,v0.1
+pavo_pechuga,Pechuga de pavo a la plancha,carnes,proteina,animal,carne,C;X,80,220,120,3,carne_blanca,05220,"Turkey, breast, meat only, cooked, roasted",147.0,30.0,2.1,0.6,0.0,0.0,99.0,293.0,230.0,10.0,cocinado,v0.1
+ternera_magra,Ternera magra a la plancha,carnes,proteina,animal,carne,C;X,80,200,120,2,carne_roja,13492,"Beef, round, lean only, cooked, grilled",200.0,29.0,9.0,3.5,0.0,0.0,60.0,330.0,220.0,10.0,cocinado,v0.1
+lomo_cerdo,Lomo de cerdo a la plancha,carnes,proteina,animal,carne,C;X,80,200,120,2,carne_roja,10026,"Pork, fresh, loin, lean only, cooked, broiled",190.0,29.0,7.5,2.6,0.0,0.0,55.0,370.0,250.0,10.0,cocinado,v0.1
+conejo,Conejo guisado,carnes,proteina,animal,carne,C;X,80,200,120,2,carne_blanca,17178,"Game meat, rabbit, domesticated, composite of cuts, cooked, roasted",173.0,33.0,3.5,1.0,0.0,0.0,47.0,343.0,226.0,18.0,cocinado,v0.1
+jamon_serrano,Jamón serrano,carnes,proteina,animal,carne,D;MM;M,20,50,30,3,carne_roja;procesada;alto_sodio,10152,"Ham, cured, dry",241.0,31.0,13.0,4.5,0.0,0.0,2500.0,300.0,200.0,10.0,tal_cual,v0.1
+merluza,Merluza a la plancha,pescados,proteina,animal,pescado,C;X,100,250,150,3,pescado,15193,"Fish, hake, cooked, dry heat",90.0,19.0,1.3,0.3,0.0,0.0,90.0,350.0,220.0,30.0,cocinado,v0.1
+salmon,Salmón a la plancha,pescados,proteina,animal,pescado,C;X,100,200,130,2,pescado;pescado_azul,15237,"Fish, salmon, Atlantic, farmed, cooked, dry heat",206.0,22.0,12.4,2.5,0.0,0.0,61.0,384.0,252.0,15.0,cocinado,v0.1
+sardinas,Sardinas a la plancha,pescados,proteina,animal,pescado,C;X,80,200,120,2,pescado;pescado_azul,15088,"Fish, sardine, Atlantic, cooked",170.0,22.0,9.0,2.5,0.0,0.0,100.0,400.0,300.0,80.0,cocinado,v0.1
+atun_lata,Atún al natural (lata),pescados,proteina,animal,pescado,C;X;M,50,120,80,3,pescado;pescado_azul,15121,"Fish, tuna, light, canned in water, drained solids",116.0,25.5,0.8,0.2,0.0,0.0,338.0,237.0,217.0,11.0,cocinado,v0.1
+bacalao,Bacalao fresco al horno,pescados,proteina,animal,pescado,C;X,100,250,150,2,pescado,15016,"Fish, cod, Atlantic, cooked, dry heat",105.0,23.0,0.9,0.2,0.0,0.0,78.0,244.0,138.0,14.0,cocinado,v0.1
+gambas,Gambas cocidas,pescados,proteina,animal,pescado,C;X,80,200,120,2,pescado;marisco,15151,"Crustaceans, shrimp, cooked",99.0,24.0,0.3,0.1,0.2,0.0,224.0,259.0,237.0,70.0,cocinado,v0.1
+mejillones,Mejillones al vapor,pescados,proteina,animal,pescado,C;X,80,200,120,2,pescado;marisco,15165,"Mollusks, mussel, blue, cooked, moist heat",172.0,23.8,4.5,0.9,7.4,0.0,369.0,268.0,285.0,33.0,cocinado,v0.1
+lentejas,Lentejas cocidas,legumbres,legumbre,vegetal,legumbre,C;X,120,300,200,3,legumbre,16070,"Lentils, mature seeds, cooked, boiled, without salt",116.0,9.0,0.4,0.05,20.1,7.9,2.0,369.0,180.0,19.0,cocinado,v0.1
+garbanzos,Garbanzos cocidos,legumbres,legumbre,vegetal,legumbre,C;X,120,300,200,3,legumbre,16057,"Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt",164.0,8.9,2.6,0.3,27.4,7.6,7.0,291.0,168.0,49.0,cocinado,v0.1
+alubias,Alubias blancas cocidas,legumbres,legumbre,vegetal,legumbre,C;X,120,300,200,3,legumbre,16050,"Beans, white, mature seeds, cooked, boiled, without salt",139.0,9.7,0.35,0.1,25.1,6.3,6.0,561.0,169.0,90.0,cocinado,v0.1
+tofu,Tofu firme,legumbres,proteina,vegetal,soja,C;X,80,200,125,3,legumbre;soja,16426,"Tofu, firm, prepared with calcium sulfate",144.0,17.3,8.7,1.3,2.8,2.3,14.0,237.0,190.0,350.0,crudo,v0.1
+arroz_blanco,Arroz blanco cocido,cereales,cereal,vegetal,arroz,C;X,100,300,180,4,cereal,20045,"Rice, white, long-grain, regular, enriched, cooked",130.0,2.7,0.3,0.1,28.2,0.4,1.0,35.0,43.0,10.0,cocinado,v0.1
+arroz_integral,Arroz integral cocido,cereales,cereal,vegetal,arroz,C;X,100,300,180,4,cereal;integral,20037,"Rice, brown, long-grain, cooked",123.0,2.7,1.0,0.2,25.6,1.6,4.0,86.0,103.0,3.0,cocinado,v0.1
+pasta,Pasta cocida,cereales,cereal,vegetal,trigo,C;X,100,300,180,4,cereal,20121,"Pasta, cooked, enriched, without added salt",158.0,5.8,0.9,0.2,30.9,1.8,1.0,44.0,58.0,7.0,cocinado,v0.1
+pasta_integral,Pasta integral cocida,cereales,cereal,vegetal,trigo,C;X,100,300,180,4,cereal;integral,20125,"Pasta, whole-wheat, cooked",149.0,6.0,1.7,0.3,30.0,3.9,4.0,96.0,127.0,15.0,cocinado,v0.1
+pan_blanco,Pan blanco (barra),cereales,cereal,vegetal,trigo,D;MM;C;M;X,30,120,60,14,cereal;pan,18029,"Bread, french or vienna",270.0,9.0,1.5,0.3,54.0,2.7,550.0,120.0,100.0,30.0,tal_cual,v0.1
+pan_integral,Pan integral,cereales,cereal,vegetal,trigo,D;MM;C;M;X,30,120,60,14,cereal;pan;integral,18075,"Bread, whole-wheat, commercially prepared",250.0,10.0,3.5,0.7,43.0,7.0,450.0,250.0,210.0,60.0,tal_cual,v0.1
+avena,Copos de avena,cereales,cereal,vegetal,avena,D;MM;M,30,80,40,7,cereal;integral,08120,"Cereals, oats, regular and quick, not fortified, dry",379.0,13.2,6.5,1.1,67.7,10.1,6.0,362.0,410.0,52.0,tal_cual,v0.1
+cuscus,Cuscús cocido,cereales,cereal,vegetal,trigo,C;X,100,250,150,2,cereal,20029,"Couscous, cooked",112.0,3.8,0.2,0.0,23.2,1.4,5.0,58.0,22.0,8.0,cocinado,v0.1
+quinoa,Quinoa cocida,cereales,cereal,vegetal,trigo,C;X,100,250,150,2,cereal;integral,20137,"Quinoa, cooked",120.0,4.4,1.9,0.2,21.3,2.8,7.0,172.0,152.0,17.0,cocinado,v0.1
+patata,Patata cocida,tuberculos,cereal,vegetal,patata,C;X,100,300,200,4,tuberculo,11367,"Potatoes, boiled, cooked without skin, flesh, without salt",87.0,1.9,0.1,0.0,20.1,1.8,4.0,379.0,44.0,5.0,cocinado,v0.1
+boniato,Boniato asado,tuberculos,cereal,vegetal,patata,C;X,100,250,150,2,tuberculo,11508,"Sweet potato, cooked, baked in skin, flesh, without salt",90.0,2.0,0.15,0.0,20.7,3.3,36.0,475.0,54.0,38.0,cocinado,v0.1
+tomate,Tomate,verduras,verdura,vegetal,verdura,C;X;D,80,250,150,14,verdura,11529,"Tomatoes, red, ripe, raw, year round average",18.0,0.9,0.2,0.0,3.9,1.2,5.0,237.0,24.0,10.0,crudo,v0.1
+lechuga,Lechuga,verduras,verdura,vegetal,verdura,C;X,50,150,80,14,verdura,11251,"Lettuce, cos or romaine, raw",15.0,1.4,0.15,0.0,2.9,1.3,28.0,194.0,29.0,36.0,crudo,v0.1
+espinacas,Espinacas cocidas,verduras,verdura,vegetal,verdura,C;X,100,250,150,3,verdura;alto_potasio,11458,"Spinach, cooked, boiled, drained, without salt",23.0,3.0,0.26,0.04,3.75,2.4,70.0,466.0,56.0,136.0,cocinado,v0.1
+brocoli,Brócoli cocido,verduras,verdura,vegetal,verdura,C;X,100,250,150,3,verdura,11091,"Broccoli, cooked, boiled, drained, without salt",35.0,2.4,0.4,0.1,7.2,3.3,41.0,293.0,67.0,40.0,cocinado,v0.1
+judias_verdes,Judías verdes cocidas,verduras,verdura,vegetal,verdura,C;X,100,250,150,3,verdura,11053,"Beans, snap, green, cooked, boiled, drained, without salt",35.0,1.9,0.3,0.1,7.9,3.2,1.0,146.0,29.0,44.0,cocinado,v0.1
+calabacin,Calabacín cocido,verduras,verdura,vegetal,verdura,C;X,100,250,150,3,verdura,11478,"Squash, summer, zucchini, includes skin, cooked, boiled, drained, without salt",15.0,1.1,0.4,0.1,2.7,1.0,3.0,264.0,38.0,18.0,cocinado,v0.1
+pimiento_rojo,Pimiento rojo,verduras,verdura,vegetal,verdura,C;X,50,200,100,5,verdura,11821,"Peppers, sweet, red, raw",31.0,1.0,0.3,0.0,6.0,2.1,4.0,211.0,26.0,7.0,crudo,v0.1
+zanahoria,Zanahoria,verduras,verdura,vegetal,verdura,C;X;MM;M,50,200,100,7,verdura,11124,"Carrots, raw",41.0,0.9,0.2,0.0,9.6,2.8,69.0,320.0,35.0,33.0,crudo,v0.1
+cebolla,Cebolla,verduras,verdura,vegetal,verdura,C;X,30,120,60,7,verdura,11282,"Onions, raw",40.0,1.1,0.1,0.0,9.3,1.7,4.0,146.0,29.0,23.0,crudo,v0.1
+berenjena,Berenjena asada,verduras,verdura,vegetal,verdura,C;X,100,250,150,3,verdura,11210,"Eggplant, cooked, boiled, drained, without salt",35.0,0.8,0.2,0.0,8.7,2.5,1.0,123.0,15.0,6.0,cocinado,v0.1
+coliflor,Coliflor cocida,verduras,verdura,vegetal,verdura,C;X,100,250,150,3,verdura,11136,"Cauliflower, cooked, boiled, drained, without salt",23.0,1.8,0.45,0.1,4.1,2.3,15.0,142.0,32.0,16.0,cocinado,v0.1
+champinon,Champiñones salteados,verduras,verdura,vegetal,verdura,C;X,80,200,100,3,verdura,11260,"Mushrooms, white, raw",22.0,3.1,0.3,0.05,3.3,1.0,5.0,318.0,86.0,3.0,crudo,v0.1
+manzana,Manzana,frutas,fruta,vegetal,fruta,D;MM;C;M;X,120,250,150,7,fruta,09003,"Apples, raw, with skin",52.0,0.3,0.2,0.0,13.8,2.4,1.0,107.0,11.0,6.0,crudo,v0.1
+naranja,Naranja,frutas,fruta,vegetal,fruta,D;MM;C;M;X,120,250,180,7,fruta,09200,"Oranges, raw, all commercial varieties",47.0,0.9,0.1,0.0,11.8,2.4,0.0,181.0,14.0,40.0,crudo,v0.1
+platano,Plátano,frutas,fruta,vegetal,fruta,D;MM;C;M;X,100,200,120,7,fruta;alto_potasio,09040,"Bananas, raw",89.0,1.1,0.3,0.1,22.8,2.6,1.0,358.0,22.0,5.0,crudo,v0.1
+fresas,Fresas,frutas,fruta,vegetal,fruta,D;MM;C;M;X,100,250,150,5,fruta,09316,"Strawberries, raw",32.0,0.7,0.3,0.0,7.7,2.0,1.0,153.0,24.0,16.0,crudo,v0.1
+pera,Pera,frutas,fruta,vegetal,fruta,D;MM;C;M;X,120,250,170,7,fruta,09252,"Pears, raw",57.0,0.4,0.1,0.0,15.2,3.1,1.0,116.0,12.0,9.0,crudo,v0.1
+kiwi,Kiwi,frutas,fruta,vegetal,fruta,D;MM;C;M;X,80,200,100,7,fruta,09148,"Kiwifruit, green, raw",61.0,1.1,0.5,0.0,14.7,3.0,3.0,312.0,34.0,34.0,crudo,v0.1
+melocoton,Melocotón,frutas,fruta,vegetal,fruta,D;MM;C;M;X,120,250,150,5,fruta,09236,"Peaches, yellow, raw",39.0,0.9,0.25,0.0,9.5,1.5,0.0,190.0,20.0,6.0,crudo,v0.1
+uvas,Uvas,frutas,fruta,vegetal,fruta,MM;C;M;X,80,200,120,3,fruta,09132,"Grapes, red or green (European type), raw",69.0,0.7,0.2,0.1,18.1,0.9,2.0,191.0,20.0,10.0,crudo,v0.1
+sandia,Sandía,frutas,fruta,vegetal,fruta,MM;C;M;X,150,350,250,3,fruta,09326,"Watermelon, raw",30.0,0.6,0.15,0.0,7.6,0.4,1.0,112.0,11.0,7.0,crudo,v0.1
+pina,Piña,frutas,fruta,vegetal,fruta,MM;C;M;X,100,250,150,3,fruta,09266,"Pineapple, raw, all varieties",50.0,0.5,0.1,0.0,13.1,1.4,1.0,109.0,8.0,13.0,crudo,v0.1
+aove,Aceite de oliva virgen extra,grasas,grasa,vegetal,ninguno,D;C;X,5,30,10,21,aove,04053,"Oil, olive, salad or cooking",884.0,0.0,100.0,14.0,0.0,0.0,2.0,1.0,0.0,1.0,tal_cual,v0.1
+nueces,Nueces,frutos_secos,frutos_secos,vegetal,frutos_secos,D;MM;M,15,40,30,7,frutos_secos,12155,"Nuts, walnuts, english",654.0,15.2,65.2,6.1,13.7,6.7,2.0,441.0,346.0,98.0,tal_cual,v0.1
+almendras,Almendras,frutos_secos,frutos_secos,vegetal,frutos_secos,D;MM;M,15,40,30,7,frutos_secos,12061,"Nuts, almonds",579.0,21.2,49.9,3.8,21.6,12.5,1.0,733.0,481.0,269.0,tal_cual,v0.1
+cacahuetes,Cacahuetes,frutos_secos,frutos_secos,vegetal,frutos_secos,MM;M,15,40,30,4,frutos_secos,16087,"Peanuts, all types, raw",567.0,25.8,49.2,6.3,16.1,8.5,18.0,705.0,376.0,92.0,crudo,v0.1
+aguacate,Aguacate,grasas,grasa,vegetal,verdura,D;C;X,30,100,50,4,,09037,"Avocados, raw, all commercial varieties",160.0,2.0,14.7,2.1,8.5,6.7,7.0,485.0,52.0,12.0,crudo,v0.1
+aceitunas,Aceitunas,grasas,grasa,vegetal,verdura,MM;M;C,15,40,20,3,alto_sodio,09193,"Olives, ripe, canned",145.0,1.0,15.3,2.0,3.8,3.3,1556.0,42.0,4.0,52.0,cocinado,v0.1
+proteina_suero,Proteína de suero (whey),suplementos,suplemento,animal,suero,D;MM;M,20,40,30,14,suplemento,14058,"Beverages, Whey protein powder isolate",400.0,80.0,6.0,3.0,8.0,0.0,150.0,500.0,300.0,500.0,tal_cual,v0.1
+miel,Miel,azucares,dulce,vegetal,fruta,D;M,10,25,15,7,azucar,19296,Honey,304.0,0.3,0.0,0.0,82.4,0.2,4.0,52.0,4.0,6.0,tal_cual,v0.1
+mermelada,Mermelada,azucares,dulce,vegetal,fruta,D;M,15,30,20,7,azucar,19297,Jams and preserves,250.0,0.4,0.1,0.0,62.0,1.0,30.0,80.0,10.0,20.0,tal_cual,v0.1
+chocolate_negro,Chocolate negro 70 %,azucares,dulce,vegetal,frutos_secos,MM;M,10,30,20,3,azucar,19904,"Chocolate, dark, 70-85% cacao solids",598.0,7.8,42.6,24.5,45.9,10.9,20.0,715.0,308.0,73.0,tal_cual,v0.1
+leche_desnatada,Leche desnatada,lacteos,lacteo,animal,lacteo,D;MM;M;X,100,250,125,14,lacteo,01085,01085,34.0,3.37,0.08,0.06,4.96,0.0,42.0,156.0,101.0,122.0,tal_cual,propuesta T14
+yogur_desnatado,Yogur natural desnatado,lacteos,lacteo,animal,lacteo,D;MM;M;X,100,250,125,14,lacteo,01118,01118,56.0,5.73,0.18,0.12,7.68,0.0,77.0,255.0,157.0,199.0,tal_cual,propuesta T14
+kefir,Kéfir natural,lacteos,lacteo,animal,lacteo,D;MM;M;X,100,250,125,14,lacteo,01289,kefir plain,43.0,3.79,1.02,0.66,4.77,0.0,40.0,164.0,105.0,130.0,tal_cual,propuesta T14
+bebida_soja,Bebida de soja,lacteos,lacteo,vegetal,soja,D;MM;M;X,100,250,125,14,lacteo;soja,16120,soymilk original unfortified,54.0,3.27,1.75,0.2,6.28,0.6,51.0,118.0,52.0,25.0,tal_cual,propuesta T14
+batido_cacao,Batido de cacao (leche con cacao),lacteos,lacteo,animal,lacteo,D;MM;M;X,100,250,125,3,lacteo;azucar,01104,01104,64.0,3.46,1.11,0.62,10.15,0.1,65.0,172.0,96.0,129.0,tal_cual,propuesta T14
+queso_semicurado,Queso semicurado (tipo cheddar),lacteos,lacteo,animal,lacteo,D;M;X,20,80,40,5,lacteo;alto_sodio,01009,01009,403.0,22.87,33.31,18.87,3.37,0.0,653.0,76.0,455.0,710.0,tal_cual,propuesta T14
+queso_mozzarella,Queso mozzarella,lacteos,lacteo,animal,lacteo,D;M;X,20,80,40,5,lacteo,01026,01026,299.0,22.17,22.14,13.9,2.4,0.0,486.0,76.0,354.0,505.0,tal_cual,propuesta T14
+queso_parmesano,Queso parmesano,lacteos,lacteo,animal,lacteo,D;M;X,5,30,15,5,lacteo;alto_sodio,01033,01033,392.0,35.75,25.0,14.85,3.22,0.0,1175.0,92.0,694.0,1184.0,tal_cual,propuesta T14
+queso_cabra,Queso de cabra,lacteos,lacteo,animal,lacteo,D;M;X,20,80,40,5,lacteo,01157,cheese goat semisoft,364.0,21.58,29.84,20.64,0.12,0.0,415.0,158.0,375.0,298.0,tal_cual,propuesta T14
+queso_untar,Queso para untar,lacteos,lacteo,animal,lacteo,D;M;X,15,40,25,5,lacteo,01017,cheese cream,350.0,6.15,34.44,20.21,5.52,0.0,314.0,132.0,107.0,97.0,tal_cual,propuesta T14
+huevo_frito,Huevo frito,huevos,proteina,animal,huevo,D;C;X,50,150,60,7,huevo,01128,01128,196.0,13.61,14.84,4.32,0.83,0.0,207.0,152.0,215.0,62.0,cocinado,propuesta T14
+tortilla_francesa,Tortilla francesa,huevos,proteina,animal,huevo,D;C;X,50,150,60,7,huevo,01130,01130,154.0,10.57,11.66,3.32,0.64,0.0,155.0,117.0,167.0,48.0,cocinado,propuesta T14
+huevo_poche,Huevo escalfado,huevos,proteina,animal,huevo,D;C;X,50,150,60,7,huevo,01131,01131,143.0,12.51,9.47,3.11,0.71,0.0,297.0,138.0,197.0,56.0,cocinado,propuesta T14
+pollo_muslo,Muslo de pollo asado (sin piel),carnes,proteina,animal,carne,C;X,80,220,120,3,carne_blanca,05098,chicken broilers thigh meat only cooked roasted,179.0,24.76,8.15,2.31,0.0,0.0,106.0,269.0,230.0,9.0,cocinado,propuesta T14
+pollo_asado,"Pollo asado (carne, sin piel)",carnes,proteina,animal,carne,C;X,80,220,120,3,carne_blanca,05013,chicken broilers meat only cooked roasted,190.0,28.93,7.41,2.04,0.0,0.0,86.0,243.0,195.0,15.0,cocinado,propuesta T14
+pavo_muslo,Muslo de pavo asado,carnes,proteina,animal,carne,C;X,80,220,120,3,carne_blanca,05188,turkey dark meat cooked roasted,173.0,27.71,6.04,1.81,0.0,0.0,104.0,227.0,212.0,17.0,cocinado,propuesta T14
+pato,Pato asado (sin piel),carnes,proteina,animal,carne,C;X,80,220,120,1,carne_blanca,05142,duck domesticated meat only cooked roasted,201.0,23.48,11.2,3.95,0.0,0.0,65.0,252.0,203.0,12.0,cocinado,propuesta T14
+conejo_asado,Conejo asado,carnes,proteina,animal,carne,C;X,80,220,120,3,carne_blanca,17178,rabbit domesticated composite cooked roasted,197.0,29.06,8.05,2.4,0.0,0.0,47.0,383.0,263.0,19.0,cocinado,propuesta T14
+ternera_filete,Filete de ternera a la plancha,carnes,proteina,animal,carne,C;X,80,200,120,2,carne_roja,13453,beef top sirloin steak lean cooked broiled,206.0,29.65,8.8,3.42,0.0,0.0,63.0,381.0,239.0,24.0,cocinado,propuesta T14
+ternera_picada,Carne picada de ternera (cocinada),carnes,proteina,animal,carne,C;X,80,200,120,2,carne_roja,23565,beef ground 90% lean cooked pan-browned,230.0,28.45,12.04,4.71,0.0,0.0,87.0,433.0,250.0,16.0,cocinado,propuesta T14
+hamburguesa_ternera,Hamburguesa de ternera a la plancha,carnes,proteina,animal,carne,C;X,80,200,120,2,carne_roja;procesada,23568,beef ground 85% lean patty cooked broiled,250.0,25.93,15.41,5.89,0.0,0.0,72.0,318.0,198.0,18.0,cocinado,propuesta T14
+solomillo_cerdo,Solomillo de cerdo asado,carnes,proteina,animal,carne,C;X,80,200,120,2,carne_roja,10061,pork fresh loin tenderloin lean cooked roasted,143.0,26.17,3.51,1.2,0.0,0.0,57.0,421.0,267.0,6.0,cocinado,propuesta T14
+chuleta_cerdo,Chuleta de cerdo a la plancha,carnes,proteina,animal,carne,C;X,80,200,120,2,carne_roja,10068,pork fresh loin chops lean cooked broiled,173.0,27.58,6.08,2.08,0.0,0.0,45.0,367.0,237.0,5.0,cocinado,propuesta T14
+cordero_pierna,Pierna de cordero asada,carnes,proteina,animal,carne,C;X,80,200,120,2,carne_roja,17012,lamb leg whole lean cooked roasted,258.0,25.55,16.48,6.89,0.0,0.0,66.0,313.0,191.0,11.0,cocinado,propuesta T14
+higado_ternera,Hígado de ternera a la plancha,carnes,proteina,animal,carne,C;X,80,200,120,1,carne_roja,13327,beef variety meats liver cooked pan-fried,175.0,26.52,4.68,2.53,5.16,0.0,77.0,351.0,485.0,6.0,cocinado,propuesta T14
+ternera_guisada,Ternera para guisar (cocinada),carnes,proteina,animal,carne,C;X,80,200,120,2,carne_roja,23091,beef chuck lean cooked braised,186.0,32.29,6.34,2.51,0.0,0.0,68.0,320.0,236.0,15.0,cocinado,propuesta T14
+jamon_cocido,Jamón cocido (york),carnes,proteina,animal,carne,D;MM;M,15,50,30,2,carne_roja;procesada;alto_sodio,07029,07029,164.0,16.6,8.8,0.5,3.63,1.3,814.0,287.0,153.0,24.0,tal_cual,propuesta T14
+pavo_fiambre,Fiambre de pechuga de pavo,carnes,proteina,animal,carne,D;MM;M,15,50,30,2,carne_blanca;procesada;alto_sodio,07046,07046,109.0,21.81,0.83,0.2,3.51,0.5,772.0,211.0,162.0,8.0,tal_cual,propuesta T14
+chorizo,Chorizo,carnes,proteina,animal,carne,D;MM;M,15,50,30,2,carne_roja;procesada;alto_sodio,07057,pepperoni beef and pork sliced,504.0,19.25,46.28,17.71,1.18,0.0,1582.0,274.0,158.0,19.0,tal_cual,propuesta T14
+salchichon,Salchichón / salami,carnes,proteina,animal,carne,D;MM;M,15,50,30,2,carne_roja;procesada;alto_sodio,07071,salami dry or hard pork,407.0,22.58,33.72,11.89,1.6,0.0,2260.0,378.0,229.0,13.0,tal_cual,propuesta T14
+lomo_embuchado,Lomo embuchado,carnes,proteina,animal,carne,D;MM;M,15,50,30,2,carne_roja;procesada;alto_sodio,10998,canadian bacon,146.0,28.31,2.78,1.04,1.8,0.0,993.0,999.0,309.0,7.0,tal_cual,propuesta T14
+mortadela,Mortadela,carnes,proteina,animal,carne,D;MM;M,15,50,30,2,carne_roja;procesada;alto_sodio,07010,bologna pork,247.0,15.3,19.87,6.84,0.73,0.0,907.0,281.0,139.0,11.0,tal_cual,propuesta T14
+salchicha,Salchicha tipo Frankfurt,carnes,proteina,animal,carne,C;X,40,120,80,2,carne_roja;procesada;alto_sodio,07939,frankfurter pork,269.0,12.81,23.68,8.72,0.28,0.1,816.0,264.0,171.0,267.0,tal_cual,propuesta T14
+bacon,Bacon / panceta (frito),carnes,proteina,animal,carne,D;MM;M,15,40,20,2,carne_roja;procesada;alto_sodio,10860,10860,548.0,35.73,43.27,14.19,1.35,0.0,2193.0,539.0,506.0,10.0,cocinado,propuesta T14
+morcilla,Morcilla,carnes,proteina,animal,carne,C;X,15,50,30,2,carne_roja;procesada;alto_sodio,07005,blood sausage,379.0,14.6,34.5,13.4,1.29,0.0,680.0,38.0,22.0,6.0,tal_cual,propuesta T14
+lubina,Lubina al horno,pescados,proteina,animal,pescado,C;X,100,250,150,2,pescado,15092,fish sea bass mixed species cooked dry heat,124.0,23.63,2.56,0.66,0.0,0.0,87.0,328.0,248.0,13.0,cocinado,propuesta T14
+dorada,Dorada al horno,pescados,proteina,animal,pescado,C;X,100,250,150,2,pescado,15213,fish scup cooked dry heat,135.0,24.21,3.5,0.0,0.0,0.0,54.0,368.0,237.0,51.0,cocinado,propuesta T14
+lenguado,Lenguado a la plancha,pescados,proteina,animal,pescado,C;X,100,250,150,2,pescado,15029,fish flatfish flounder sole cooked dry heat,86.0,15.24,2.37,0.54,0.0,0.0,363.0,197.0,309.0,25.0,cocinado,propuesta T14
+rape,Rape,pescados,proteina,animal,pescado,C;X,100,250,150,2,pescado,15203,fish monkfish cooked dry heat,97.0,18.56,1.95,0.0,0.0,0.0,23.0,513.0,256.0,10.0,cocinado,propuesta T14
+mero,Mero,pescados,proteina,animal,pescado,C;X,100,250,150,2,pescado,15032,fish grouper mixed species cooked dry heat,118.0,24.84,1.3,0.3,0.0,0.0,53.0,475.0,143.0,21.0,cocinado,propuesta T14
+abadejo,Abadejo / eglefino,pescados,proteina,animal,pescado,C;X,100,250,150,2,pescado,15034,15034,90.0,19.99,0.55,0.11,0.0,0.0,261.0,351.0,278.0,14.0,cocinado,propuesta T14
+bacalao_salado,Bacalao desalado,pescados,proteina,animal,pescado,C;X,100,250,150,1,pescado;alto_sodio,15018,fish cod atlantic dried and salted,290.0,62.82,2.37,0.46,0.0,0.0,7027.0,1458.0,950.0,160.0,tal_cual,propuesta T14
+caballa,Caballa,pescados,proteina,animal,pescado,C;X,100,220,130,2,pescado;pescado_azul,15047,fish mackerel atlantic cooked dry heat,262.0,23.85,17.81,4.18,0.0,0.0,83.0,401.0,278.0,15.0,cocinado,propuesta T14
+trucha,Trucha,pescados,proteina,animal,pescado,C;X,100,220,130,2,pescado;pescado_azul,15241,fish trout rainbow farmed cooked dry heat,168.0,23.8,7.38,1.65,0.0,0.0,61.0,450.0,270.0,30.0,cocinado,propuesta T14
+boqueron,Boquerones,pescados,proteina,animal,pescado,C;X,100,220,130,2,pescado;pescado_azul,15001,fish anchovy european raw,131.0,20.35,4.84,1.28,0.0,0.0,104.0,383.0,174.0,147.0,crudo,propuesta T14
+anchoas_lata,Anchoas en aceite (lata),pescados,proteina,animal,pescado,MM;M;C;X,10,30,15,2,pescado;pescado_azul;alto_sodio,15002,fish anchovy european canned in oil,210.0,28.89,9.71,2.2,0.0,0.0,3668.0,544.0,252.0,232.0,tal_cual,propuesta T14
+atun_fresco,Atún fresco a la plancha,pescados,proteina,animal,pescado,C;X,100,220,130,2,pescado;pescado_azul,15221,fish tuna fresh yellowfin cooked dry heat,130.0,29.15,0.59,0.2,0.0,0.0,54.0,527.0,333.0,4.0,cocinado,propuesta T14
+bonito,Bonito del norte,pescados,proteina,animal,pescado,C;X,100,220,130,2,pescado;pescado_azul,15220,fish tuna skipjack fresh cooked dry heat,132.0,28.21,1.29,0.42,0.0,0.0,47.0,522.0,285.0,37.0,cocinado,propuesta T14
+pez_espada,Pez espada / emperador,pescados,proteina,animal,pescado,C;X,100,220,130,1,pescado;pescado_azul,15111,fish swordfish cooked dry heat,172.0,23.45,7.93,1.91,0.0,0.0,97.0,499.0,304.0,6.0,cocinado,propuesta T14
+salmon_ahumado,Salmón ahumado,pescados,proteina,animal,pescado,D;MM;C;X,30,80,50,2,pescado;pescado_azul;alto_sodio,15077,fish salmon chinook smoked,117.0,18.28,4.32,0.93,0.0,0.0,672.0,175.0,164.0,11.0,tal_cual,propuesta T14
+atun_aceite,"Atún en aceite (lata, escurrido)",pescados,proteina,animal,pescado,C;X;M,50,120,80,2,pescado;pescado_azul,15124,15124,186.0,26.53,8.08,1.28,0.0,0.0,396.0,333.0,267.0,4.0,tal_cual,propuesta T14
+calamar,Calamar,pescados,proteina,animal,pescado,C;X,80,200,120,2,pescado;marisco,15175,mollusks squid mixed species raw,92.0,15.58,1.38,0.36,3.08,0.0,44.0,246.0,221.0,32.0,crudo,propuesta T14
+pulpo,Pulpo cocido,pescados,proteina,animal,pescado,C;X,80,200,120,2,pescado;marisco,15230,mollusks octopus common cooked moist heat,164.0,29.82,2.08,0.45,4.4,0.0,460.0,630.0,279.0,106.0,cocinado,propuesta T14
+sepia,Sepia a la plancha,pescados,proteina,animal,pescado,C;X,80,200,120,2,pescado;marisco,15229,mollusks cuttlefish mixed species cooked moist heat,158.0,32.48,1.4,0.24,1.64,0.0,744.0,637.0,580.0,180.0,cocinado,propuesta T14
+almejas,Almejas,pescados,proteina,animal,pescado,C;X,80,200,120,2,pescado;marisco,15159,mollusks clam mixed species cooked moist heat,148.0,25.55,1.95,0.19,5.13,0.0,1202.0,628.0,338.0,92.0,cocinado,propuesta T14
+langostinos,Langostinos cocidos,pescados,proteina,animal,pescado,C;X,80,200,120,2,pescado;marisco,15151,crustaceans shrimp mixed species cooked moist heat,119.0,22.78,1.7,0.52,1.52,0.0,947.0,170.0,306.0,91.0,cocinado,propuesta T14
+surimi,Surimi (palitos de cangrejo),pescados,proteina,animal,pescado,C;X,80,200,120,2,pescado;marisco;procesada,15138,crustaceans crab imitation surimi,95.0,7.62,0.46,0.22,15.0,0.5,529.0,90.0,282.0,13.0,tal_cual,propuesta T14
+alubia_roja,Alubias rojas cocidas,legumbres,legumbre,vegetal,legumbre,C;X,120,300,200,3,legumbre,16033,beans kidney red mature seeds cooked boiled without salt,127.0,8.67,0.5,0.07,22.8,7.4,2.0,403.0,142.0,28.0,cocinado,propuesta T14
+habas,Habas cocidas,legumbres,legumbre,vegetal,legumbre,C;X,120,300,200,3,legumbre,16053,broadbeans fava mature seeds cooked boiled without salt,110.0,7.6,0.4,0.07,19.65,5.4,5.0,268.0,125.0,36.0,cocinado,propuesta T14
+guisantes,Guisantes cocidos,legumbres,legumbre,vegetal,legumbre,C;X,120,300,200,3,legumbre,11305,peas green cooked boiled drained without salt,84.0,5.36,0.22,0.04,15.63,5.5,3.0,271.0,117.0,27.0,cocinado,propuesta T14
+lentejas_rojas,Lentejas rojas cocidas,legumbres,legumbre,vegetal,legumbre,C;X,40,100,60,3,legumbre,16144,lentils pink or red raw,358.0,23.91,2.17,0.38,63.1,10.8,7.0,668.0,294.0,48.0,crudo,propuesta T14
+hummus,Hummus,legumbres,legumbre,vegetal,legumbre,MM;M;C;X,30,100,50,3,legumbre,16158,hummus commercial,237.0,7.78,17.82,2.56,15.0,5.5,426.0,312.0,181.0,47.0,tal_cual,propuesta T14
+edamame,Edamame,legumbres,proteina,vegetal,soja,C;X,80,200,120,3,legumbre;soja,11212,edamame frozen prepared,121.0,11.91,5.2,0.62,8.91,5.2,6.0,436.0,169.0,63.0,cocinado,propuesta T14
+soja_cocida,Soja en grano cocida,legumbres,proteina,vegetal,soja,C;X,80,200,120,3,legumbre;soja,16109,soybeans mature seeds cooked boiled without salt,172.0,18.21,8.97,1.3,8.36,6.0,1.0,515.0,245.0,102.0,cocinado,propuesta T14
+tempeh,Tempeh,legumbres,proteina,vegetal,soja,C;X,80,200,120,3,legumbre;soja,16114,tempeh,192.0,20.29,10.8,2.54,7.64,0.0,9.0,412.0,266.0,111.0,tal_cual,propuesta T14
+soja_texturizada,Soja texturizada (seca),legumbres,proteina,vegetal,soja,C;X,20,60,40,3,legumbre;soja,16420,soy protein concentrate,328.0,63.63,0.46,0.05,25.41,5.5,900.0,450.0,839.0,363.0,crudo,propuesta T14
+fideos,Fideos cocidos,cereales,cereal,vegetal,trigo,C;X,100,300,180,4,cereal,20110,noodles egg cooked enriched,138.0,4.54,2.07,0.42,25.16,1.2,5.0,38.0,76.0,12.0,cocinado,propuesta T14
+arroz_basmati,Arroz vaporizado cocido,cereales,cereal,vegetal,trigo,C;X,100,300,180,4,cereal,20047,rice white long-grain parboiled enriched cooked,123.0,2.91,0.37,0.07,26.05,0.9,2.0,56.0,55.0,19.0,cocinado,propuesta T14
+bulgur,Bulgur cocido,cereales,cereal,vegetal,trigo,C;X,100,300,180,4,cereal;integral,20013,bulgur cooked,83.0,3.08,0.24,0.04,18.58,4.5,5.0,68.0,40.0,10.0,cocinado,propuesta T14
+maiz_dulce,Maíz dulce,cereales,cereal,vegetal,trigo,C;X,50,150,80,4,cereal,11168,corn sweet yellow cooked boiled drained without salt,96.0,3.41,1.5,0.2,20.98,2.4,1.0,218.0,77.0,3.0,cocinado,propuesta T14
+trigo_sarraceno,Trigo sarraceno cocido,cereales,cereal,vegetal,trigo,C;X,100,300,180,2,cereal;integral,20010,buckwheat groats roasted cooked,92.0,3.38,0.62,0.13,19.94,2.7,4.0,88.0,70.0,7.0,cocinado,propuesta T14
+pan_molde,Pan de molde blanco,cereales,cereal,vegetal,trigo,D;MM;C;M;X,30,120,60,14,cereal;pan,18069,18069,266.0,8.85,3.33,0.7,49.42,2.7,490.0,126.0,98.0,144.0,tal_cual,propuesta T14
+pan_molde_integral,Pan de molde integral,cereales,cereal,vegetal,trigo,D;MM;C;M;X,30,120,60,14,cereal;pan;integral,18075,18075,252.0,12.45,3.5,0.72,42.71,6.0,455.0,254.0,212.0,161.0,tal_cual,propuesta T14
+pan_centeno,Pan de centeno,cereales,cereal,vegetal,trigo,D;MM;C;M;X,30,120,60,14,cereal;pan;integral,18060,bread rye,259.0,8.5,3.3,0.63,48.3,5.8,603.0,166.0,125.0,73.0,tal_cual,propuesta T14
+pan_tostado,Pan tostado / biscotes,cereales,cereal,vegetal,trigo,D;MM;C;M;X,15,60,30,14,cereal;pan,18220,toast melba plain,390.0,12.1,3.2,0.45,76.6,6.3,598.0,202.0,196.0,93.0,tal_cual,propuesta T14
+tortitas_arroz,Tortitas de arroz,cereales,cereal,vegetal,arroz,D;MM;C;M;X,10,40,20,14,cereal;pan,19816,snacks rice cakes brown rice plain,387.0,8.2,2.8,0.57,81.5,4.2,26.0,290.0,360.0,11.0,tal_cual,propuesta T14
+copos_maiz,Copos de maíz,cereales,cereal,vegetal,trigo,D;MM;M,20,80,40,7,cereal,08506,cereals ready-to-eat corn flakes,384.0,5.9,0.91,0.23,88.01,2.7,571.0,107.0,33.0,2.0,tal_cual,propuesta T14
+muesli,Granola / muesli casero,cereales,cereal,vegetal,avena,D;MM;M,20,80,40,7,cereal,08037,08037,489.0,13.67,24.31,3.96,53.88,8.9,26.0,539.0,431.0,76.0,tal_cual,propuesta T14
+salvado_avena,Salvado de avena,cereales,cereal,vegetal,avena,D;MM;M,10,40,20,7,cereal;integral,20033,oat bran raw,246.0,17.3,7.03,1.33,66.22,15.4,4.0,566.0,734.0,58.0,crudo,propuesta T14
+patata_asada,Patata asada,tuberculos,cereal,vegetal,patata,C;X,100,300,200,4,tuberculo,11363,potatoes baked flesh without salt,93.0,1.96,0.1,0.03,21.55,1.5,5.0,391.0,50.0,5.0,cocinado,propuesta T14
+patatas_fritas,Patatas fritas caseras,tuberculos,cereal,vegetal,patata,C;X,80,200,120,1,tuberculo,11403,potatoes french fried home-prepared,158.0,2.75,5.48,0.85,25.55,2.0,324.0,478.0,87.0,12.0,cocinado,propuesta T14
+pure_patata,Puré de patata,tuberculos,cereal,vegetal,patata,C;X,100,300,200,4,tuberculo,11657,potatoes mashed home-prepared whole milk,83.0,1.91,0.57,0.3,17.57,1.5,302.0,296.0,46.0,24.0,cocinado,propuesta T14
+acelgas,Acelgas cocidas,verduras,verdura,vegetal,verdura,C;X,100,250,150,3,verdura;alto_potasio,11148,chard swiss cooked boiled drained without salt,20.0,1.88,0.08,0.01,4.13,2.1,179.0,549.0,33.0,58.0,cocinado,propuesta T14
+alcachofa,Alcachofas cocidas,verduras,verdura,vegetal,verdura,C;X,100,250,150,3,verdura,11008,artichokes globe cooked boiled drained without salt,53.0,2.89,0.34,0.08,11.95,5.7,60.0,286.0,73.0,21.0,cocinado,propuesta T14
+esparragos,Espárragos trigueros,verduras,verdura,vegetal,verdura,C;X,100,250,150,3,verdura,11012,asparagus cooked boiled drained,22.0,2.4,0.22,0.05,4.11,2.0,14.0,224.0,54.0,23.0,cocinado,propuesta T14
+puerro,Puerro cocido,verduras,verdura,vegetal,verdura,C;X,100,250,150,3,verdura,11795,leeks bulb and lower leaf-portion cooked boiled,31.0,0.81,0.2,0.03,7.62,1.0,246.0,87.0,17.0,30.0,cocinado,propuesta T14
+repollo,Repollo / col cocida,verduras,verdura,vegetal,verdura,C;X,100,250,150,3,verdura,11110,cabbage common cooked boiled drained without salt,23.0,1.27,0.06,0.0,5.51,1.9,8.0,196.0,33.0,48.0,cocinado,propuesta T14
+coles_bruselas,Coles de Bruselas,verduras,verdura,vegetal,verdura,C;X,100,250,150,3,verdura,11099,brussels sprouts cooked boiled drained without salt,36.0,2.55,0.5,0.1,7.1,2.6,21.0,317.0,56.0,36.0,cocinado,propuesta T14
+calabaza,Calabaza asada,verduras,verdura,vegetal,verdura,C;X,100,250,150,3,verdura,11423,pumpkin cooked boiled drained without salt,20.0,0.72,0.07,0.04,4.9,1.1,1.0,230.0,30.0,15.0,cocinado,propuesta T14
+remolacha,Remolacha cocida,verduras,verdura,vegetal,verdura,C;X,100,250,150,3,verdura,11081,beets cooked boiled drained,44.0,1.68,0.18,0.03,9.96,2.0,77.0,305.0,38.0,16.0,cocinado,propuesta T14
+pimiento_verde,Pimiento verde,verduras,verdura,vegetal,verdura,C;X,50,200,100,5,verdura,11333,peppers sweet green raw,20.0,0.86,0.17,0.06,4.64,1.7,3.0,175.0,20.0,10.0,crudo,propuesta T14
+setas,"Setas (champiñón, gírgola) salteadas",verduras,verdura,vegetal,verdura,C;X,100,250,150,3,verdura,11987,mushrooms oyster raw,33.0,3.31,0.41,0.06,6.09,2.3,18.0,420.0,120.0,3.0,crudo,propuesta T14
+tomate_triturado,Tomate triturado / frito casero,verduras,verdura,vegetal,verdura,C;X,30,150,60,7,verdura,11531,tomatoes red ripe canned packed in tomato juice,16.0,0.79,0.25,0.03,3.47,1.9,115.0,191.0,17.0,33.0,tal_cual,propuesta T14
+nabo,Nabo cocido,verduras,verdura,vegetal,verdura,C;X,100,250,150,2,verdura,11565,turnips cooked boiled drained without salt,22.0,0.71,0.08,0.01,5.06,2.0,16.0,177.0,26.0,33.0,cocinado,propuesta T14
+verduras_menestra,Menestra de verduras (congelada),verduras,verdura,vegetal,verdura,C;X,100,250,150,3,verdura,11584,vegetables mixed frozen cooked boiled drained without salt,65.0,2.86,0.15,0.03,13.09,4.4,35.0,169.0,51.0,25.0,cocinado,propuesta T14
+pepino,Pepino,verduras,verdura,vegetal,verdura,C;X,30,150,80,14,verdura,11205,cucumber with peel raw,15.0,0.65,0.11,0.04,3.63,0.5,2.0,147.0,24.0,16.0,crudo,propuesta T14
+rucula,Rúcula,verduras,verdura,vegetal,verdura,C;X,20,80,40,14,verdura,11959,arugula raw,25.0,2.58,0.66,0.09,3.65,1.6,27.0,369.0,52.0,160.0,crudo,propuesta T14
+canonigos,Canónigos / brotes tiernos,verduras,verdura,vegetal,verdura,C;X,20,80,40,14,verdura,11253,lettuce green leaf raw,15.0,1.36,0.15,0.02,2.87,1.3,28.0,194.0,29.0,36.0,crudo,propuesta T14
+endibia,Endibia,verduras,verdura,vegetal,verdura,C;X,30,150,80,14,verdura,11151,chicory witloof raw,17.0,0.9,0.1,0.02,4.0,3.1,2.0,211.0,26.0,19.0,crudo,propuesta T14
+lombarda,Lombarda,verduras,verdura,vegetal,verdura,C;X,30,150,80,14,verdura,11112,cabbage red raw,31.0,1.43,0.16,0.02,7.37,2.1,27.0,243.0,30.0,45.0,crudo,propuesta T14
+apio,Apio,verduras,verdura,vegetal,verdura,C;X,30,150,80,14,verdura,11143,celery raw,14.0,0.69,0.17,0.04,2.97,1.6,80.0,260.0,24.0,40.0,crudo,propuesta T14
+zanahoria_rallada,Zanahoria rallada,verduras,verdura,vegetal,verdura,C;X,30,150,80,14,verdura,11124,carrots raw,41.0,0.93,0.24,0.03,9.58,2.8,69.0,320.0,35.0,33.0,crudo,propuesta T14
+ajo,Ajo,verduras,verdura,vegetal,verdura,C;X,2,10,5,14,verdura,11215,garlic raw,149.0,6.36,0.5,0.09,33.06,2.1,17.0,401.0,153.0,181.0,crudo,propuesta T14
+rabanos,Rábanos,verduras,verdura,vegetal,verdura,C;X,30,150,80,14,verdura,11429,radishes raw,16.0,0.68,0.1,0.03,3.4,1.6,39.0,233.0,20.0,25.0,crudo,propuesta T14
+mandarina,Mandarina,frutas,fruta,vegetal,fruta,D;MM;C;M;X,100,250,150,5,fruta,09218,tangerines mandarin oranges raw,53.0,0.81,0.31,0.04,13.34,1.8,2.0,166.0,20.0,37.0,crudo,propuesta T14
+melon,Melón,frutas,fruta,vegetal,fruta,D;MM;C;M;X,150,350,250,5,fruta,09184,melons honeydew raw,36.0,0.54,0.14,0.04,9.09,0.8,18.0,228.0,11.0,6.0,crudo,propuesta T14
+cerezas,Cerezas,frutas,fruta,vegetal,fruta,D;MM;C;M;X,100,250,150,5,fruta,09070,cherries sweet raw,63.0,1.06,0.2,0.04,16.01,2.1,0.0,222.0,21.0,13.0,crudo,propuesta T14
+albaricoque,Albaricoques,frutas,fruta,vegetal,fruta,D;MM;C;M;X,100,250,150,5,fruta,09021,apricots raw,48.0,1.4,0.39,0.03,11.12,2.0,1.0,259.0,23.0,13.0,crudo,propuesta T14
+ciruela,Ciruelas,frutas,fruta,vegetal,fruta,D;MM;C;M;X,100,250,150,5,fruta,09279,plums raw,46.0,0.7,0.28,0.02,11.42,1.4,0.0,157.0,16.0,6.0,crudo,propuesta T14
+nectarina,Nectarina,frutas,fruta,vegetal,fruta,D;MM;C;M;X,100,250,150,5,fruta,09191,nectarines raw,44.0,1.06,0.32,0.03,10.55,1.7,0.0,201.0,26.0,6.0,crudo,propuesta T14
+mango,Mango,frutas,fruta,vegetal,fruta,D;MM;C;M;X,100,250,150,5,fruta,09176,mangos raw,60.0,0.82,0.38,0.09,14.98,1.6,1.0,168.0,14.0,11.0,crudo,propuesta T14
+higos,Higos frescos,frutas,fruta,vegetal,fruta,D;MM;C;M;X,100,250,150,5,fruta,09089,figs raw,74.0,0.75,0.3,0.06,19.18,2.9,1.0,232.0,14.0,35.0,crudo,propuesta T14
+granada,Granada,frutas,fruta,vegetal,fruta,D;MM;C;M;X,100,250,150,5,fruta,09286,pomegranates raw,83.0,1.67,1.17,0.12,18.7,4.0,3.0,236.0,36.0,10.0,crudo,propuesta T14
+arandanos,Arándanos,frutas,fruta,vegetal,fruta,D;MM;C;M;X,50,150,80,5,fruta,09050,blueberries raw,57.0,0.74,0.33,0.03,14.49,2.4,1.0,77.0,12.0,6.0,crudo,propuesta T14
+frambuesas,Frambuesas,frutas,fruta,vegetal,fruta,D;MM;C;M;X,50,150,80,5,fruta,09302,raspberries raw,52.0,1.2,0.65,0.02,11.94,6.5,1.0,151.0,29.0,25.0,crudo,propuesta T14
+caqui,Caqui,frutas,fruta,vegetal,fruta,D;MM;C;M;X,100,250,150,5,fruta,09263,persimmons japanese raw,70.0,0.58,0.19,0.02,18.59,3.6,1.0,161.0,17.0,8.0,crudo,propuesta T14
+chirimoya,Chirimoya,frutas,fruta,vegetal,fruta,D;MM;C;M;X,100,250,150,5,fruta,09062,cherimoya raw,75.0,1.57,0.68,0.23,17.71,3.0,7.0,287.0,26.0,10.0,crudo,propuesta T14
+papaya,Papaya,frutas,fruta,vegetal,fruta,D;MM;C;M;X,100,250,150,5,fruta,09226,papayas raw,43.0,0.47,0.26,0.08,10.82,1.7,8.0,182.0,10.0,20.0,crudo,propuesta T14
+limon,Limón (zumo),frutas,fruta,vegetal,fruta,D;MM;C;M;X,5,30,10,5,fruta,09152,lemon juice raw,22.0,0.35,0.24,0.04,6.9,0.3,1.0,103.0,8.0,6.0,crudo,propuesta T14
+zumo_naranja,Zumo de naranja natural,frutas,fruta,vegetal,fruta,D;MM;C;M;X,150,250,200,3,fruta;azucar,09206,orange juice raw,45.0,0.7,0.2,0.02,10.4,0.2,1.0,200.0,17.0,11.0,tal_cual,propuesta T14
+compota_manzana,Compota de manzana sin azúcar,frutas,fruta,vegetal,fruta,D;MM;C;M;X,100,250,150,5,fruta,09401,applesauce canned unsweetened,42.0,0.17,0.1,0.01,11.27,1.1,2.0,74.0,5.0,4.0,tal_cual,propuesta T14
+pasas,Uvas pasas,frutas,fruta,vegetal,fruta,D;MM;M,15,50,30,3,fruta;azucar,09298,09298,299.0,3.3,0.25,0.09,79.32,4.5,26.0,744.0,98.0,62.0,tal_cual,propuesta T14
+datiles,Dátiles,frutas,fruta,vegetal,fruta,D;MM;M,15,50,30,3,fruta;azucar,09421,dates medjool,277.0,1.81,0.15,0.0,74.97,6.7,1.0,696.0,62.0,64.0,tal_cual,propuesta T14
+orejones,Orejones de albaricoque,frutas,fruta,vegetal,fruta,D;MM;M,15,50,30,3,fruta;azucar,09032,apricots dried sulfured uncooked,241.0,3.39,0.51,0.02,62.64,7.3,10.0,1162.0,71.0,55.0,tal_cual,propuesta T14
+ciruelas_pasas,Ciruelas pasas,frutas,fruta,vegetal,fruta,D;MM;M,15,50,30,3,fruta;azucar,09291,plums dried prunes uncooked,240.0,2.18,0.38,0.09,63.88,7.1,2.0,732.0,69.0,43.0,tal_cual,propuesta T14
+higos_secos,Higos secos,frutas,fruta,vegetal,fruta,D;MM;M,15,50,30,3,fruta;azucar,09094,figs dried uncooked,249.0,3.3,0.93,0.14,63.87,9.8,10.0,680.0,67.0,162.0,tal_cual,propuesta T14
+avellanas,Avellanas,frutos_secos,frutos_secos,vegetal,frutos_secos,D;MM;M,15,40,30,7,frutos_secos,12122,nuts hazelnuts or filberts,646.0,15.03,62.4,4.51,17.6,9.4,0.0,755.0,310.0,123.0,tal_cual,propuesta T14
+pistachos,Pistachos,frutos_secos,frutos_secos,vegetal,frutos_secos,D;MM;M,15,40,30,7,frutos_secos,12152,nuts pistachio nuts dry roasted without salt,572.0,21.05,45.82,5.64,28.28,10.3,6.0,1007.0,469.0,107.0,tal_cual,propuesta T14
+anacardos,Anacardos,frutos_secos,frutos_secos,vegetal,frutos_secos,D;MM;M,15,40,30,7,frutos_secos,12085,nuts cashew nuts dry roasted without salt,574.0,15.31,46.35,9.16,32.69,3.0,16.0,565.0,490.0,45.0,tal_cual,propuesta T14
+pinones,Piñones,frutos_secos,frutos_secos,vegetal,frutos_secos,D;MM;M,5,25,15,7,frutos_secos,12147,nuts pine nuts dried,673.0,13.69,68.37,4.9,13.08,3.7,2.0,597.0,575.0,16.0,tal_cual,propuesta T14
+pipas_girasol,Pipas de girasol peladas,frutos_secos,frutos_secos,vegetal,frutos_secos,D;MM;M,15,40,30,7,frutos_secos,12036,seeds sunflower seed kernels dried,584.0,20.78,51.46,4.46,20.0,8.6,9.0,645.0,660.0,78.0,tal_cual,propuesta T14
+pipas_calabaza,Pipas de calabaza,frutos_secos,frutos_secos,vegetal,frutos_secos,D;MM;M,15,40,30,7,frutos_secos,12014,seeds pumpkin and squash seed kernels dried,559.0,30.23,49.05,8.66,10.71,6.0,7.0,809.0,1233.0,46.0,tal_cual,propuesta T14
+chia,Semillas de chía,frutos_secos,frutos_secos,vegetal,frutos_secos,D;MM;M,5,25,15,7,frutos_secos,12006,seeds chia seeds dried,486.0,16.54,30.74,3.33,42.12,34.4,16.0,407.0,860.0,631.0,tal_cual,propuesta T14
+lino,Semillas de lino,frutos_secos,frutos_secos,vegetal,frutos_secos,D;MM;M,5,25,10,7,frutos_secos,12220,seeds flaxseed,534.0,18.29,42.16,3.66,28.88,27.3,30.0,813.0,642.0,255.0,tal_cual,propuesta T14
+sesamo,Sésamo,frutos_secos,frutos_secos,vegetal,frutos_secos,D;MM;M,5,20,10,7,frutos_secos,12023,seeds sesame seeds whole dried,573.0,17.73,49.67,6.96,23.45,11.8,11.0,468.0,629.0,975.0,tal_cual,propuesta T14
+crema_cacahuete,Crema de cacahuete,frutos_secos,frutos_secos,vegetal,frutos_secos,D;MM;M,10,30,20,7,frutos_secos,16398,peanut butter smooth style without salt,598.0,22.21,51.36,10.32,22.31,5.0,17.0,558.0,335.0,49.0,tal_cual,propuesta T14
+almendras_tostadas,Almendras tostadas,frutos_secos,frutos_secos,vegetal,frutos_secos,D;MM;M,15,40,30,7,frutos_secos,12063,nuts almonds dry roasted without salt,598.0,20.96,52.54,4.09,21.01,10.9,3.0,713.0,471.0,268.0,tal_cual,propuesta T14
+aceite_girasol,Aceite de girasol,grasas,grasa,vegetal,ninguno,D;C;X,5,30,10,7,,04506,oil sunflower linoleic,884.0,0.0,100.0,10.3,0.0,0.0,0.0,0.0,0.0,0.0,tal_cual,propuesta T14
+mantequilla,Mantequilla,grasas,grasa,animal,ninguno,D;C;X,5,20,10,3,,01145,butter without salt,717.0,0.85,81.11,50.49,0.06,0.0,11.0,24.0,24.0,24.0,tal_cual,propuesta T14
+margarina,Margarina,grasas,grasa,vegetal,ninguno,D;C;X,5,20,10,3,,04617,margarine regular 80% fat composite stick without salt,717.0,0.16,80.71,15.19,0.7,0.0,2.0,18.0,5.0,3.0,tal_cual,propuesta T14
+mayonesa,Mayonesa,grasas,grasa,animal,huevo,D;C;X,10,30,15,2,,04025,salad dressing mayonnaise regular,680.0,0.96,74.85,11.7,0.57,0.0,635.0,20.0,21.0,8.0,tal_cual,propuesta T14
+nata_cocinar,Nata para cocinar,grasas,grasa,animal,lacteo,C;X,20,60,30,2,lacteo,01052,cream fluid light whipping,292.0,2.17,30.91,19.34,2.96,0.0,34.0,97.0,61.0,69.0,tal_cual,propuesta T14
+azucar_blanco,Azúcar,azucares,dulce,vegetal,ninguno,D;MM;M,5,20,8,7,azucar,19335,sugars granulated,387.0,0.0,0.0,0.0,99.98,0.0,1.0,2.0,0.0,1.0,tal_cual,propuesta T14
+galletas_maria,Galletas tipo María,azucares,dulce,vegetal,trigo,D;MM;M,20,80,40,2,azucar,18212,cookies vanilla wafers lower fat,441.0,5.0,15.2,3.84,73.6,1.9,388.0,97.0,104.0,48.0,tal_cual,propuesta T14
+galletas_integrales,Galletas integrales,azucares,dulce,vegetal,trigo,D;MM;M,20,80,40,2,azucar;integral,18235,crackers whole-wheat,427.0,10.58,14.13,2.06,69.55,10.3,800.0,345.0,331.0,36.0,tal_cual,propuesta T14
+magdalena,Magdalena,azucares,dulce,vegetal,trigo,D;MM;M,30,80,40,2,azucar,18273,muffins plain prepared from recipe made with low fat 2% milk,296.0,6.9,11.4,2.16,41.4,2.7,467.0,121.0,153.0,200.0,tal_cual,propuesta T14
+croissant,Croissant,azucares,dulce,vegetal,trigo,D;MM;M,40,80,55,1,azucar,18239,croissants butter,406.0,8.2,21.0,11.66,45.8,2.6,384.0,118.0,105.0,37.0,tal_cual,propuesta T14
+bizcocho,Bizcocho casero,azucares,dulce,vegetal,trigo,D;MM;M,40,80,50,1,azucar,18418,cake pound commercially prepared butter,389.0,5.2,17.9,4.65,52.5,1.0,400.0,106.0,134.0,64.0,tal_cual,propuesta T14
+donut,Donut / rosquilla,azucares,dulce,vegetal,trigo,D;MM;M,40,80,50,1,azucar,18250,doughnuts cake-type plain,426.0,5.2,22.9,5.93,50.8,1.5,402.0,102.0,117.0,60.0,tal_cual,propuesta T14
+chocolate_leche,Chocolate con leche,azucares,dulce,animal,lacteo,D;MM;M,10,30,20,2,azucar,19120,candies milk chocolate,535.0,7.65,29.66,18.51,59.4,3.4,79.0,372.0,208.0,189.0,tal_cual,propuesta T14
+cacao_soluble,Cacao soluble,azucares,dulce,vegetal,trigo,D;MM;M,5,20,10,7,azucar,14192,cocoa mix powder,398.0,6.67,4.0,2.38,83.73,3.7,504.0,712.0,315.0,133.0,tal_cual,propuesta T14
+natillas,Natillas,azucares,dulce,animal,lacteo,MM;M;C;X,80,150,125,2,azucar;lacteo,19201,puddings vanilla ready-to-eat,130.0,1.45,3.78,1.02,22.6,0.0,172.0,65.0,41.0,49.0,tal_cual,propuesta T14
+flan,Flan de huevo,azucares,dulce,animal,huevo,MM;M;C;X,80,150,125,2,azucar;lacteo,19094,desserts flan caramel custard prepared-from-recipe,145.0,4.53,4.03,1.8,22.78,0.0,53.0,118.0,96.0,83.0,tal_cual,propuesta T14
+helado,Helado de vainilla,azucares,dulce,animal,lacteo,MM;M;C;X,50,120,80,2,azucar;lacteo,19095,ice creams vanilla,207.0,3.5,11.0,6.79,23.6,0.7,80.0,199.0,105.0,128.0,tal_cual,propuesta T14
+arroz_leche,Arroz con leche,azucares,dulce,animal,lacteo,MM;M;C;X,80,150,125,2,azucar;lacteo,19193,puddings rice ready-to-eat,108.0,3.23,2.15,1.21,18.39,0.3,97.0,125.0,82.0,95.0,tal_cual,propuesta T14
+proteina_soja,Proteína de soja aislada,suplementos,suplemento,vegetal,soja,D;MM;M,20,40,30,14,suplemento,16122,soy protein isolate,335.0,88.32,3.39,0.42,0.0,0.0,1005.0,81.0,776.0,178.0,tal_cual,propuesta T14
+gelatina,Gelatina (colágeno) en polvo,suplementos,suplemento,animal,ninguno,D;MM;M,5,20,10,14,suplemento,19177,gelatins dry powder unsweetened,335.0,85.6,0.1,0.07,0.0,0.0,196.0,16.0,39.0,55.0,tal_cual,propuesta T14

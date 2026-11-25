@@ -1,0 +1,15 @@
+# Hogar · 12-18 años. Sin déficit nunca (seguridad.py lo impide). Energía con EER del IOM 2005 (incluye crecimiento).
+parte_de = "mantenimiento"
+nombre = "Crecimiento (adolescente 12-18 años)"
+descripcion = "Energía según el requerimiento estimado (EER) para su edad, sexo, peso, talla y actividad, sin déficit; patrón mediterráneo y lácteos suficientes."
+orden = 13
+edad = [12, 18]
+energia_modo = "eer_iom_2005"
+proteina_gkg = [0.9, 1.5]
+grasa_pct = [30, 40]
+hc_pct = [45, 60]
+fuentes = [
+  "Institute of Medicine (2005) Dietary Reference Intakes for Energy, Carbohydrate, Fiber, Fat, Fatty Acids, Cholesterol, Protein, and Amino Acids (EER 9-18 años)",
+  "EFSA (2012) Scientific Opinion on Dietary Reference Values for protein (PRI ≈ 0,8-0,9 g/kg en adolescentes)",
+  "AESAN (2022) Recomendaciones dietéticas saludables y sostenibles… para la población española",
+]

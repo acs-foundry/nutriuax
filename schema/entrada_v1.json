@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/S-Mas/nutriuax/schema/entrada_v1.json",
+  "title": "NutriUAX · entrada v1 (menú de hogar / consulta)",
+  "description": "Datos de una llamada a nutriuax.api.generar_menu. Edad, peso y talla son datos de salud: solo en memoria, nunca se guardan.",
+  "type": "object",
+  "required": ["version", "hogar"],
+  "additionalProperties": false,
+  "properties": {
+    "version": {"const": "1"},
+    "modo": {"enum": ["hogar", "consulta", "estudio"], "default": "hogar"},
+    "semana": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "inicio": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$", "description": "Lunes de la semana (AAAA-MM-DD); da el mes para la temporada"},
+        "dias": {"type": "integer", "minimum": 1, "maximum": 7, "default": 7}
+      }
+    },
+    "hogar": {
+      "type": "object", "required": ["miembros"], "additionalProperties": false,
+      "properties": {
+        "miembros": {
+          "type": "array", "minItems": 1, "maxItems": 12,
+          "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["id", "sexo", "edad", "peso", "talla", "perfil"],
+            "properties": {
+              "id": {"type": "string", "minLength": 1, "maxLength": 40, "description": "Seudónimo, nunca el nombre"},
+              "sexo": {"enum": ["H", "M"]},
+              "edad": {"type": "integer", "minimum": 2, "maximum": 120},
+              "peso": {"type": "number", "exclusiveMinimum": 0, "maximum": 400},
+              "talla": {"type": "number", "minimum": 50, "maximum": 250},
+              "actividad": {"type": "number", "minimum": 1.0, "maximum": 2.5, "default": 1.55},
+              "masa_magra": {"type": "number", "exclusiveMinimum": 0},
+              "perfil": {"type": "string"},
+              "alergias": {"type": "array", "uniqueItems": true, "items": {"enum": ["gluten", "crustaceos", "huevo", "pescado", "cacahuete", "soja", "leche", "frutos_cascara", "apio", "mostaza", "sesamo", "sulfitos", "altramuces", "moluscos"]}},
+              "vetados": {"type": "array", "items": {"type": "string"}, "description": "Ids de receta o de alimento del catálogo"}
+            }
+          }
+        },
+        "asistencia": {
+          "type": "array", "description": "Comidas en las que NO están todos: quién come. Lo que no aparece = todos.",
+          "items": {
+            "type": "object", "additionalProperties": false, "required": ["dia", "comida", "presentes"],
+            "properties": {
+              "dia": {"type": "integer", "minimum": 1, "maximum": 7},
+              "comida": {"enum": ["D", "C", "M", "X"]},
+              "presentes": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+            }
+          }
+        }
+      }
+    },
+    "preferencias": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "valoraciones": {"type": "object", "additionalProperties": {"type": "number", "minimum": 1, "maximum": 5}},
+        "batch": {"type": "boolean", "default": false},
+        "minutos_max_laborable": {"type": "integer", "minimum": 5, "default": 45},
+        "pesos": {"type": "object", "additionalProperties": {"type": "number", "minimum": 0},
+                  "propertyNames": {"enum": ["valoracion", "valoracion_baja", "repeticion", "categoria", "mismo_dia", "temporada", "tiempo", "batch"]}}
+      }
+    },
+    "opciones": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "k_min": {"type": "number", "minimum": 0.25, "maximum": 1, "default": 0.5},
+        "k_max": {"type": "number", "minimum": 1, "maximum": 3, "default": 2.0},
+        "primero_en_comida": {"type": "boolean", "default": true},
+        "semilla": {"type": "integer", "minimum": 0, "default": 0}
+      }
+    },
+    "recetas_ruta": {"type": "string", "description": "Ruta a la biblioteca de recetas; por defecto la de config/fuentes.toml"}
+  }
+}

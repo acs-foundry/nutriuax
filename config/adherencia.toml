@@ -1,0 +1,28 @@
+# Umbrales de adherencia a la dieta asignada · protocolo cruzado 2 × 8 semanas
+# Fichero de configuración editable por el equipo clínico sin modificar código.
+
+[proteina]
+# Objetivo central en g/kg/día; adherencia diaria si la proteína del registro está dentro de ± tolerancia.
+objetivo_gkg = { mediterranea = 1.1, hiperproteica = 2.1 }
+tolerancia_relativa = 0.15        # ± 15 %  → mediterránea 0,935-1,265 g/kg; hiperproteica 1,785-2,415 g/kg
+dias_minimos = 2                  # de 3 días del registro
+peso_referencia = "real_visita"   # peso real del participante en la visita del periodo
+# El % de energía de la proteína (> 30 % en la hiperproteica) se informa pero NO cuenta para la adherencia:
+# es incompatible con 2,0-2,2 g/kg cuando la energía supera ≈ 26-29 kcal/kg.
+pct_energia_informativo = { hiperproteica = 30 }
+
+[maroni]
+# Proteína estimada = 6,25 × (NUU g/día + 0,031 × peso_kg). Coherente si |Maroni − registro| / registro ≤ tolerancia.
+tolerancia_relativa = 0.20
+
+[medas14]
+# Solo en el periodo mediterráneo.
+adherente_min = 9                 # ≥ 9
+parcial_min = 7                   # 7-8 parcial; < 7 no adherente
+
+[combinacion]
+# adherente    = se cumplen todos los componentes aplicables (proteína, Maroni y, en el periodo mediterráneo, MEDAS-14 ≥ 9)
+# parcial      = se cumple solo uno de proteína o Maroni (o ambos con MEDAS-14 en 7-8)
+# no_adherente = no se cumple ni proteína ni Maroni
+# Sin NUU: se clasifica solo con proteína (+ MEDAS-14) y se marca «sin_maroni».
+regla = "todos_adherente__uno_parcial__ninguno_no_adherente"

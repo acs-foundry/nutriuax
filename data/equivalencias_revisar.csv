@@ -1,0 +1,136 @@
+normalizado,alimento,confianza,gramos,veces,ejemplo
+mejillones,mejillon,media,1806.4,14,mejillones
+almejas,almeja,media,871.0,8,almejas
+aceite para freir,aceite_girasol,media,676.2,16,Aceite para freír
+verduras variadas,verduras_variadas,media,615.0,6,"verduras variadas (apio, zanahoria, cebolla, puerro, ajo)"
+pescado,merluza,media,600.0,3,"pescado (cazón, aguja)"
+sardinas,sardina,media,533.8,3,Sardinas pequeñas
+vino tinto,vino_tinto,media,532.62,18,vino tinto
+queso,queso_semicurado,media,371.0,27,queso rallado
+fruta a elegir,manzana,baja,360.0,1,fruta a elegir
+aceite de girasol,aceite_girasol,media,358.8,16,"aceite de girasol (o cacahuete, coco o sésamo)"
+chirlas o berberechos,almeja,media,334.0,2,chirlas o berberechos
+estomago de ternera,callos,media,334.0,2,estómago de ternera limpio
+carne mixta,carne_picada,media,316.0,4,carne picada mixta
+pepinillos en vinagre,pepino,media,298.0,12,pepinillos en vinagre
+chorizo,chorizo,media,270.0,11,Chorizo
+queso philadelphia,queso_crema,media,251.0,10,queso Philadelphia
+carne de ternera y cerdo,carne_picada,media,250.0,1,carne picada de ternera y cerdo
+carne de cerdo y ternera,carne_picada,media,250.0,2,carne picada de cerdo y ternera
+caracoles,almeja,baja,250.0,1,caracoles limpios
+salsa bechamel,bechamel,media,216.0,2,salsa bechamel (receta pág. 88)
+chirlas,almeja,media,209.0,2,chirlas
+cardo cocido en tarro,apio,baja,200.0,1,cardo cocido en tarro
+filetes de pescado,merluza,media,175.0,2,filetes de pescado
+almejas o chirlas,almeja,media,167.0,3,almejas o chirlas
+cardo o en conserva,apio,baja,167.0,1,cardo fresco o en conserva
+higos secos,higo_seco,media,163.0,4,Higos secos troceados
+queso manchego,queso_curado,media,158.0,5,Queso manchego
+frutas,manzana,baja,150.0,1,Frutas troceadas congeladas
+filete de pescado,merluza,media,150.0,1,filete de pescado
+aceite de oliva suave o de girasol,aceite_girasol,media,141.68,4,aceite de oliva suave o de girasol
+pescado blanco,merluza,media,125.0,1,Pescado blanco limpio
+pechugas,pechuga_pollo,media,125.0,1,pechugas deshuesadas
+masa de pizza,masa_quebrada,media,124.0,2,masa de pizza
+jamon,jamon_serrano,media,113.0,5,Jamón
+bechamel,bechamel,media,105.0,1,bechamel
+discos de masa de empanadillas,masa_quebrada,media,100.0,1,discos de masa de empanadillas
+queso cremoso,queso_semicurado,media,100.0,3,queso cremoso
+sardinas con cabeza,sardina,media,100.0,1,"sardinas con cabeza, escamas y tripas"
+chile poblano,pimiento_verde,media,100.0,1,chile poblano
+cabracho cocido,merluza,media,100.0,1,cabracho cocido y limpio
+cuatro quesos variados,queso_semicurado,media,100.0,1,Cuatro quesos variados
+berberechos o chirlas,almeja,media,100.0,1,berberechos o chirlas
+alcaparras,nulo,media,96.0,23,alcaparras
+berros,lechuga,media,92.0,2,berros
+queso de untar,queso_crema,media,92.0,2,Queso de untar
+cabezas de langostinos,nulo,media,88.0,1,Cabezas de langostinos (de 2 kg)
+cabracho entero o en trozos,merluza,media,83.0,1,cabracho entero o en trozos grandes
+queso sin sal,queso_semicurado,media,83.0,1,Queso fresco sin sal
+morralla,merluza,media,83.0,1,Morralla (pescado de roca)
+arenques ahumados,sardina,media,76.0,2,arenques ahumados
+huesos de rape,nulo,media,76.0,2,huesos de rape
+masa de empanada,masa_quebrada,media,75.0,1,"Masa de empanada (receta del libro verde, no incluida)"
+cabracho,merluza,media,75.0,1,Cabracho
+albondiga de soja texturizada,soja_texturizada,media,75.0,1,albóndiga de soja texturizada
+jalapenos,pimiento_verde,media,75.0,1,Jalapeños
+jamon dulce,jamon_serrano,media,75.0,2,Jamón dulce
+queso de bola,queso_semicurado,media,71.0,5,queso de bola
+pescado sin espinas,merluza,media,67.0,1,pescado sin espinas
+mejillones abiertos,mejillon,media,67.0,1,Mejillones abiertos
+aceite de girasol o de oliva suave,aceite_girasol,media,66.24000000000001,2,aceite de girasol o de oliva suave
+queso bajo en grasa,queso_semicurado,media,62.0,1,queso fresco bajo en grasa
+habas remojadas,guisante,media,62.0,1,habas (o almendras/piñones) remojadas y peladas
+habas,guisante,media,62.0,1,habas frescas o congeladas
+jamon en dados,jamon_serrano,media,62.0,1,Jamón en dados
+quesos,queso_semicurado,media,62.0,1,"Quesos (gruyere, emmental…)"
+tartaletas,tartaleta,media,60.0,2,Tartaletas
+frambuesas,frambuesa,media,59.6,2,Frambuesas
+queso gouda,queso_semicurado,media,58.0,2,Queso Gouda
+frutas a eleccion,manzana,baja,58.0,1,"frutas frescas a elección (mango, manzana, plátano, pera)"
+pescado sin piel ni espinas,merluza,media,50.0,1,Pescado sin piel ni espinas
+bechamel clarita,bechamel,media,50.0,1,bechamel clarita
+queso crema philadelphia,queso_crema,media,50.0,2,Queso crema Philadelphia
+pescado blanco sin espinas,merluza,media,50.0,1,pescado blanco sin espinas
+queso curado o de cabra,queso_curado,media,50.0,1,Queso curado o fresco de cabra
+queso feta o de cabra,queso_semicurado,media,50.0,1,queso feta o de cabra fresco
+chiles sin semillas,pimiento_verde,media,49.5,1,Chiles frescos sin semillas
+queso para gratinar,queso_semicurado,media,49.0,3,queso para gratinar
+galletas,galleta,media,46.0,2,"Galletas (Napolitanas, Digestive, María)"
+caballas,sardina,media,44.800000000000004,1,Caballas
+queso flor de esgueva,queso_semicurado,media,42.0,1,queso Flor de Esgueva
+chorizo en rodajas,chorizo,media,42.0,2,chorizo en rodajas
+frutos rojos,frambuesa,media,40.0,1,frutos rojos maduros
+pechuga o muslo de pollo crudo,pechuga_pollo,media,38.0,1,Pechuga o muslo de pollo crudo
+queso ricotta,queso_semicurado,media,38.0,1,queso ricotta (o requesón)
+vino de montilla o blanco,vino_tinto,media,37.62,1,vino de Montilla o blanco
+chile serrano,pimiento_verde,media,37.5,1,chile serrano
+chile ancho,pimiento_verde,media,37.5,1,Chile ancho
+sobrasada,chorizo,media,37.0,2,Sobrasada
+pepinillos,pepino,media,34.0,3,Pepinillos
+queso crema para untar,queso_crema,media,33.0,1,Queso crema para untar
+huesos de rape en trozos o espinas y cabeza de pescado blanco,nulo,media,33.0,1,huesos de rape en trozos pequeños o espinas y cabeza de pescado blanco
+queso blando graso,queso_semicurado,media,33.0,1,Queso blando graso
+queso de fundir,queso_semicurado,media,31.0,1,Queso de fundir
+orejones,higo_seco,media,29.0,2,Orejones
+queso crema tipo philadelphia,queso_crema,media,25.0,1,Queso crema tipo Philadelphia
+chorizo semicurado,chorizo,media,25.0,1,chorizo semicurado
+morcilla de cebolla,chorizo,media,25.0,1,morcilla de cebolla
+queso semicurado,queso_semicurado,media,25.0,1,Queso semicurado
+queso san millan,queso_semicurado,media,25.0,1,Queso San Millán
+queso curado,queso_curado,media,25.0,1,Queso muy curado
+orejones de albaricoque,higo_seco,media,25.0,1,orejones de albaricoque
+jamon en tiras,jamon_serrano,media,25.0,1,jamón en tiras
+galletas napolitanas,galleta,media,25.0,1,galletas napolitanas
+vino marsala,vino_tinto,media,24.75,1,vino Marsala
+latas de sardinas en aceite,sardina,media,23.200000000000003,2,Latas de sardinas en aceite
+queso de sandwich en lonchas,queso_semicurado,media,23.0,1,queso de sándwich en lonchas
+queso para fundir,queso_semicurado,media,22.0,1,queso para fundir
+lata de caballa en aceite,sardina,media,20.400000000000002,3,lata de caballa en aceite
+lata de sardinas en tomate,sardina,media,20.400000000000002,3,lata de sardinas en tomate
+jamon en un trozo,jamon_serrano,media,19.0,1,Jamón en un trozo
+queso graso,queso_semicurado,media,19.0,1,Queso graso
+queso de bola en trozos,queso_semicurado,media,17.0,1,queso de bola en trozos
+frutas en su punto de maduracion,manzana,baja,17.0,1,frutas frescas en su punto de maduración
+queso gruyer,queso_semicurado,media,17.0,1,Queso gruyer
+lata de mejillones en escabeche,mejillon,media,15.200000000000001,4,lata de mejillones en escabeche
+lonchas de jamon o beicon,jamon_serrano,media,15.0,1,lonchas de jamón o beicon
+galletas maria,galleta,media,12.25,1,galletas María
+queso cheddar,queso_semicurado,media,12.0,1,Queso cheddar
+jamon en taquitos,jamon_serrano,media,12.0,1,Jamón en taquitos
+queso feta,queso_semicurado,media,12.0,1,Queso feta
+cabezas de gambas,nulo,media,10.0,1,Cabezas de gambas
+queso mascarpone,queso_crema,media,10.0,1,queso mascarpone
+mejillones en escabeche en lata,mejillon,media,10.0,1,Mejillones en escabeche en lata
+queso pecorino,queso_semicurado,media,10.0,1,queso pecorino
+lonchas de jamon,jamon_serrano,media,8.4,1,Lonchas de jamón
+tartaleta de masa quebrada,tartaleta,media,5.1000000000000005,2,tartaleta de masa quebrada
+sobre de queso,queso_semicurado,media,5.0,1,Sobre de queso rallado
+frutas escarchadas,manzana,baja,5.0,1,Frutas escarchadas troceadas
+queso de oveja,queso_curado,media,5.0,1,queso de oveja
+queso para espolvorear,queso_semicurado,media,4.0,1,Queso rallado para espolvorear
+mejillones al natural en lata,mejillon,media,3.4000000000000004,1,Mejillones al natural en lata
+lata de mejillones al natural,mejillon,media,3.4000000000000004,1,Lata de mejillones al natural
+tartaleta de masa quebrada dulce,tartaleta,media,2.5500000000000003,1,Tartaleta de masa quebrada dulce
+lata de berberechos ovalados,almeja,media,1.7000000000000002,1,Lata de berberechos ovalados
+alcaparras en vinagre,nulo,media,1.0,1,alcaparras en vinagre

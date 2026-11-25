@@ -1,0 +1,207 @@
+alimento,ndb,consulta,g_por_ud,g_por_ml,alergenos,nota
+nulo,,,0,1.0,,"sal, agua, especias y condimentos en cantidad despreciable: sin aporte"
+leche_entera,01077,,,1.03,leche,
+leche_semidesnatada,01079,,,1.03,leche,
+leche_desnatada,01085,,,1.03,leche,
+leche_evaporada,,milk canned evaporated without added vitamin,410,1.07,leche,
+leche_condensada,,milk canned condensed sweetened,,1.3,leche,
+nata_liquida,,cream fluid heavy whipping,,1.0,leche,nata para montar (35 % grasa)
+nata_cocinar,01052,,,1.0,leche,nata ligera para cocinar
+mantequilla,01145,,,0.91,leche,
+yogur_natural,01116,,125,1.03,leche,
+yogur_griego,01287,,125,1.03,leche,
+kefir,01289,,,1.03,leche,
+queso_curado,01038,,,,leche,proxy de manchego: romano (oveja)
+queso_semicurado,01009,,20,,leche,cheddar
+queso_emmental,,cheese swiss,,,leche,
+queso_gruyere,,cheese gruyere,,,leche,
+queso_parmesano,01033,,,,leche,
+queso_fresco,01228,,,,leche,queso de Burgos / fresco
+queso_crema,01017,,,,leche,tipo Philadelphia
+queso_mozzarella,01026,,125,,leche,
+queso_azul,,cheese blue,,,leche,roquefort / cabrales
+queso_brie,,cheese brie,,,leche,
+queso_cabra,01157,,,,leche,
+quesito,,cheese spread pasteurized process american,16,,leche,quesito en porciones
+queso_lonchas,,cheese pasteurized process american,20,,leche,loncha de queso
+requeson,01015,,,,leche,
+huevo,,egg whole raw fresh,50,1.03,huevo,porción comestible de un huevo L
+yema,,egg yolk raw fresh,17,,huevo,
+clara,01124,,33,1.03,huevo,
+huevo_duro,01129,,50,,huevo,
+aceite_oliva,04053,,,0.92,,
+aceite_girasol,04506,,,0.92,,
+margarina,04617,,,,,
+mayonesa,04025,,,0.95,huevo,
+harina_trigo,,wheat flour white all-purpose enriched bleached,,0.55,gluten,
+harina_integral,,wheat flour whole-grain,,0.55,gluten,
+maicena,,cornstarch,,0.55,,
+pan_rallado,,bread crumbs dry grated plain,,,gluten,
+arroz,,rice white long-grain regular raw enriched,,0.85,,
+arroz_integral,,rice brown long-grain raw,,0.85,,
+pasta,,pasta dry enriched,,,gluten,
+placa_lasana,,pasta dry enriched,17,,gluten,placa de lasaña seca
+placa_canelon,,pasta dry enriched,7,,gluten,placa de canelón seca
+fideo_arroz,,rice noodles dry,,,,
+cuscus,,couscous dry,,,gluten,
+quinoa,,quinoa uncooked,,,,
+avena,20038,,,0.4,gluten,
+pan,18029,,40,,gluten,rebanada o panecillo (sin AA en FDC: estimados)
+pan_molde,18069,,25,,gluten,rebanada
+biscote,,crackers melba toast plain,8,,gluten,
+hojaldre,,puff pastry frozen ready-to-bake,,,gluten,
+masa_quebrada,,pie crust standard-type frozen unbaked,,,gluten,
+galleta,,cookies vanilla wafers lower fat,7,,gluten,
+bizcocho_soletilla,,cookies ladyfingers,10,,gluten;huevo,
+tartaleta,,pie crust standard-type frozen unbaked,15,,gluten,
+azucar,19335,,,0.85,,
+azucar_glas,,sugars powdered,,0.56,,
+miel,19296,,,1.42,,
+chocolate,,chocolate dark 45-59% cacao solids,,,leche;soja,chocolate para postres
+cacao_polvo,,cocoa dry powder unsweetened,,0.4,,
+gelatina,19177,,2,,,hoja de gelatina
+levadura,,leavening agents yeast baker's active dry,10,,,
+garbanzo_cocido,16057,,,,,
+garbanzo_seco,16056,,,,,
+lenteja_seca,16069,,,,,
+lenteja_cocida,16070,,,,,
+alubia_seca,,beans white mature seeds raw,,,,
+alubia_cocida,16050,,,,,
+alubia_roja,,beans kidney red mature seeds raw,,,,
+guisante,,peas green raw,,,,
+soja_texturizada,16420,,25,,soja,
+tofu,16426,,,,soja,
+patata,,potatoes flesh and skin raw,200,,,
+cebolla,11282,,150,,,
+ajo,11215,,4,,,diente
+cabeza_ajo,11215,,40,,,cabeza entera
+tomate,,tomatoes red ripe raw year round average,150,,,
+tomate_cherry,,tomatoes red ripe raw year round average,15,,,
+tomate_triturado,11531,,,1.04,,
+tomate_frito,,tomato sauce canned no salt added,,1.05,,
+pimiento_verde,11333,,150,,,
+pimiento_rojo,11821,,180,,,
+pimiento_piquillo,,peppers sweet red canned solids and liquids,30,,,
+zanahoria,11124,,70,,,
+calabacin,,squash summer zucchini includes skin raw,250,,,
+berenjena,,eggplant raw,300,,,
+puerro,,leeks bulb and lower leaf-portion raw,120,,,
+espinaca,,spinach raw,30,,,
+acelga,,chard swiss raw,500,,,
+champinon,11260,,15,,,
+setas,11987,,20,,,
+calabaza,,pumpkin raw,1500,,,
+alcachofa,,artichokes globe or french raw,120,,,
+judia_verde,,beans snap green raw,,,,
+coliflor,,cauliflower raw,600,,,
+brocoli,,broccoli raw,300,,,
+repollo,,cabbage raw,800,,,
+lombarda,11112,,800,,,
+col_bruselas,,brussels sprouts raw,15,,,
+apio,11143,,40,,apio,rama
+pepino,11205,,300,,,
+lechuga,11251,,300,,,pieza entera
+hoja_lechuga,11251,,10,,,
+endibia,11151,,100,,,
+cebolleta,,onions spring or scallions tops and bulb raw,50,,,
+esparrago,,asparagus raw,20,,,
+maiz_dulce,,corn sweet yellow raw,140,,,
+verduras_variadas,,vegetables mixed frozen unprepared,,,,
+remolacha,,beets raw,150,,,
+nabo,,turnips raw,150,,,
+aceituna,09193,,4,,,
+perejil,,parsley fresh,1,,,
+albahaca,,basil fresh,0.5,,,
+laurel,,,0.2,,,hoja: sin aporte
+caldo_pastilla,06080,,10,,apio,pastilla de caldo
+caldo,06194,,,1.0,apio,caldo líquido
+vino_blanco,,alcoholic beverage wine table white,,0.99,sulfitos,
+vino_tinto,,alcoholic beverage wine table red,,0.99,sulfitos,
+vino_dulce,,alcoholic beverage wine dessert sweet,,1.03,sulfitos,Pedro Ximénez / oporto / jerez
+licor,,alcoholic beverage distilled all 80 proof,,0.95,,"brandy, coñac, ron, whisky"
+cerveza,,alcoholic beverage beer regular all,,1.01,gluten,
+vinagre,,vinegar cider,,1.01,sulfitos,
+limon,,lemons raw without peel,60,,,
+zumo_limon,09152,,,1.03,,
+naranja,09200,,180,,,
+zumo_naranja,09206,,,1.04,,
+manzana,09003,,180,,,
+pera,09252,,170,,,
+platano,09040,,120,,,
+fresa,09316,,15,,,
+frambuesa,09302,,4,,,
+melocoton,09236,,150,,,
+uva,09132,,5,,,
+pina,09266,,1000,,,
+pina_almibar,,pineapple canned juice pack solids and liquids,,,,
+melon,09184,,1500,,,
+mango,09176,,300,,,
+higo_seco,09094,,20,,,
+pasas,09298,,,,,
+ciruela_pasa,09291,,8,,,
+datil,09421,,24,,,
+coco_rallado,,nuts coconut meat dried desiccated not sweetened,,,,
+almendra,12061,,1.2,,frutos_cascara,
+nuez,12155,,5,,frutos_cascara,
+pinon,12147,,,,frutos_cascara,
+avellana,12120,,1.5,,frutos_cascara,
+pistacho,,nuts pistachio nuts raw,,,frutos_cascara,
+cacahuete,16087,,,,cacahuete,
+sesamo,12023,,,,sesamo,
+salsa_soja,,soy sauce made from soy and wheat shoyu,,1.15,soja;gluten,
+mostaza,,mustard prepared yellow,,1.05,mostaza,
+ketchup,,catsup,,1.15,,
+bechamel,,sauce white thin prepared-from-recipe with butter,,1.05,leche;gluten,
+pollo,,chicken broilers or fryers meat and skin raw,1200,,,
+pechuga_pollo,,chicken broilers or fryers breast meat only raw,200,,,
+muslo_pollo,,chicken broilers or fryers thigh meat only raw,90,,,
+higado_pollo,,chicken liver all classes raw,30,,,
+pavo,,turkey whole breast meat only raw,120,,,
+ternera,,beef composite of trimmed retail cuts separable lean only trimmed to 0 fat all grades raw,120,,,
+carne_picada,,beef ground 80% lean meat 20% fat raw,100,,,mezcla ternera/cerdo
+cerdo_magro,,pork fresh loin whole separable lean only raw,150,,,
+cerdo,,pork fresh composite of trimmed retail cuts loin and shoulder blade separable lean and fat raw,250,,,
+cordero,,lamb domestic composite of trimmed retail cuts separable lean only trimmed to 1/4 fat choice raw,150,,,
+conejo,,game meat rabbit domesticated composite of cuts raw,1200,,,
+codorniz,,quail meat only raw,90,,,
+callos,,beef variety meats and by-products tripe raw,,,,
+jamon_serrano,10152,,15,,,loncha
+jamon_york,07029,,20,,,loncha
+bacon,,pork cured bacon unprepared,10,,,
+chorizo,07057,,100,,,proxy: pepperoni
+salchicha,07939,,50,,,
+higado_pato,,duck liver raw,,,,
+merluza,15022,,150,,pescado,proxy: cusk (gádido); ud = lomo/rodaja
+bacalao,,fish cod atlantic raw,150,,pescado,fresco o desalado; ud = lomo
+rape,,fish monkfish raw,150,,pescado,
+salmon,,fish salmon atlantic farmed raw,150,,pescado,ud = lomo/suprema
+salmon_ahumado,15077,,,,pescado,
+atun_lata,15124,,80,,pescado,en aceite escurrido
+atun,,fish tuna fresh yellowfin raw,150,,pescado,
+bonito,,fish tuna skipjack fresh raw,150,,pescado,
+sardina,,fish herring atlantic raw,40,,pescado,proxy: no hay sardina fresca en SR
+lenguado,,fish flatfish flounder and sole species raw,120,,pescado,filete
+mero,,fish grouper mixed species raw,150,,pescado,
+dorada,,fish scup raw,300,,pescado,
+lubina,,fish sea bass mixed species raw,300,,pescado,
+anchoa,15001,,15,,pescado,
+anchoa_lata,15002,,4,,pescado,filete en aceite
+gamba,,crustaceans shrimp mixed species raw,15,,crustaceos,
+mejillon,,mollusks mussel blue raw,20,,moluscos,con concha: revisar porción comestible
+almeja,,mollusks clam mixed species raw,10,,moluscos,con concha: revisar porción comestible
+calamar,15175,,150,,moluscos,
+sepia,,mollusks cuttlefish mixed species raw,300,,moluscos,
+pulpo,,mollusks octopus common raw,1000,,moluscos,
+cangrejo,,crustaceans crab blue raw,,,crustaceos,
+surimi,15138,,15,,pescado;crustaceos,palitos y gulas
+tinta_calamar,,,4,,moluscos,bolsita: aporte despreciable
+caldo_pescado,06963,,,1.0,pescado,fumet / caldo de pescado
+barra_pan,18029,,250,,gluten,barra entera
+leche_soja,16120,,,1.03,soja,bebida de soja
+leche_coco,,nuts coconut milk canned liquid expressed from grated meat and water,,1.0,,
+aguacate,09037,,150,,,
+kiwi,09148,,75,,,
+manteca,04002,,,0.9,,manteca de cerdo
+boniato,11507,,250,,,batata
+mermelada,19297,,,1.3,,
+yogur_desnatado,01118,,125,1.03,leche,

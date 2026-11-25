@@ -1,0 +1,23 @@
+{
+ "version": "1",
+ "modo": "hogar",
+ "semana": {"inicio": "2026-11-02", "dias": 7},
+ "hogar": {
+  "miembros": [
+   {"id": "adulto1", "sexo": "H", "edad": 45, "peso": 80, "talla": 178, "actividad": 1.55, "perfil": "mantenimiento"},
+   {"id": "adulto2", "sexo": "M", "edad": 44, "peso": 62, "talla": 165, "actividad": 1.45, "perfil": "mantenimiento"},
+   {"id": "adulto3", "sexo": "M", "edad": 52, "peso": 74, "talla": 163, "actividad": 1.4, "perfil": "control",
+    "alergias": ["crustaceos"]},
+   {"id": "joven1", "sexo": "H", "edad": 22, "peso": 72, "talla": 180, "actividad": 1.75, "perfil": "volumen"},
+   {"id": "adolescente1", "sexo": "M", "edad": 15, "peso": 54, "talla": 163, "actividad": 1.6,
+    "perfil": "crecimiento_adolescente"}
+  ],
+  "asistencia": [
+   {"dia": 1, "comida": "C", "presentes": ["adulto2", "adulto3"]},
+   {"dia": 3, "comida": "C", "presentes": ["adulto2", "adulto3", "adolescente1"]},
+   {"dia": 5, "comida": "X", "presentes": ["adulto1", "adulto2", "adulto3"]}
+  ]
+ },
+ "preferencias": {"batch": true, "minutos_max_laborable": 45, "valoraciones": {}},
+ "opciones": {"k_min": 0.5, "k_max": 2.0, "primero_en_comida": true, "semilla": 0}
+}

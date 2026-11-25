@@ -1,0 +1,238 @@
+patron,alimento,confianza,revisar
+# Reglas en orden: gana la PRIMERA que encaja con el nombre normalizado (minúsculas, sin tildes ni preparaciones).
+# «.*x» = contiene x; sin «.*» = empieza por x. Revisable por la dietista (columna revisar).
+# --- sin aporte (sal, agua, especias, aromas)
+(sal|sal gorda|sal fina|sal en escamas|pimienta.*|agua.*|hielo.*|cubitos de hielo),nulo,alta,no
+(pimenton.*|comino.*|oregano.*|tomillo.*|romero.*|nuez moscada.*|canela.*|clavo.*|clavos.*|azafran.*|colorante.*|curry.*|especias?.*|hierbas.*|eneldo.*|cebollino.*|cilantro.*|guindillas?.*|cayena.*|jengibre molido.*|estragon.*|hierbabuena.*|menta.*|anis.*|vainilla.*|esencia.*|aroma.*|ralladura.*|piel de (limon|naranja).*|cascara de (limon|naranja).*|levadura quimica.*|levadura en polvo.*|impulsor.*|gasificante.*|bicarbonato.*|edulcorante.*|sacarina.*|agar.*|ajo en polvo.*|cebolla en polvo.*|pimientos? de cayena.*|nuez moscada),nulo,alta,no
+(hojas? de laurel|laurel.*),laurel,alta,no
+(sobres? de levadura|palos? de canela|bayas de enebro|noras|nora|granos de pimienta).*,nulo,alta,no
+(caramelo|caramelo liquido).*,azucar,alta,no
+(bolsitas? de tinta|tinta de calamar|tinta).*,tinta_calamar,alta,no
+# --- lácteos
+leche evaporada.*,leche_evaporada,alta,no
+leche condensada.*,leche_condensada,alta,no
+leche (de )?soja.*|bebida de soja.*,leche_soja,alta,no
+leche de coco.*,leche_coco,alta,no
+leche (semidesnatada|semi).*,leche_semidesnatada,alta,no
+leche desnatada.*,leche_desnatada,alta,no
+leche.*,leche_entera,alta,no
+(nata|crema de leche) (liquida )?(para |de )?cocinar.*|nata ligera.*,nata_cocinar,alta,no
+(nata|crema de leche).*,nata_liquida,alta,no
+mantequilla.*,mantequilla,alta,no
+margarina.*,margarina,alta,no
+(yogures?|yogur) griegos?.*,yogur_griego,alta,no
+(yogures?|yogur) (natural(es)? )?desnatados?.*,yogur_desnatado,alta,no
+(yogures?|yogur).*,yogur_natural,alta,no
+kefir.*,kefir,alta,no
+(quesitos?|porciones de quesitos?|queso en porciones|quesos? en porciones).*,quesito,alta,no
+(lonchas? de queso|queso en lonchas|queso para sandwich|queso tranchete).*,queso_lonchas,alta,no
+queso (emmental|emental|suizo).*,queso_emmental,alta,no
+queso gruyere.*,queso_gruyere,alta,no
+queso (parmesano|grana padano|parmigiano).*,queso_parmesano,alta,no
+queso (de burgos|fresco|blanco|batido).*,queso_fresco,alta,no
+queso (crema|philadelphia|de untar|mascarpone).*,queso_crema,media,si
+queso mozzarella.*|mozzarella.*,queso_mozzarella,alta,no
+queso (roquefort|azul|cabrales|gorgonzola|stilton|picon).*,queso_azul,alta,no
+queso (brie|camembert).*,queso_brie,alta,no
+queso (de cabra|rulo de cabra).*|rulo de cabra.*,queso_cabra,alta,no
+queso (manchego|curado|viejo|idiazabal|de oveja).*,queso_curado,media,si
+(requeson|queso cottage|ricotta).*,requeson,alta,no
+(queso|quesos|cuatro quesos).*,queso_semicurado,media,si
+# --- huevos
+huevos? (duros?|cocidos?).*,huevo_duro,alta,no
+yemas?.*,yema,alta,no
+claras?.*,clara,alta,no
+huevos?.*,huevo,alta,no
+# --- aceites y salsas
+aceite de (girasol|semillas).*|aceite (suave )?para freir.*|aceite de oliva suave o de girasol.*,aceite_girasol,media,si
+(aceite|vinagreta).*,aceite_oliva,alta,no
+mayonesa.*,mayonesa,alta,no
+(salsa )?bechamel.*,bechamel,media,si
+salsa (de )?soja.*,salsa_soja,alta,no
+mostaza.*,mostaza,alta,no
+ketchup.*|tomate ketchup.*,ketchup,alta,no
+# --- cereales, harinas y masas
+(harina de maiz|harina fina de maiz|maicena|maizena|almidon de maiz).*,maicena,alta,no
+harina integral.*,harina_integral,alta,no
+harina.*,harina_trigo,alta,no
+pan rallado.*,pan_rallado,alta,no
+arroz integral.*,arroz_integral,alta,no
+(arroz|arroz basmati|arroz bomba|arroz redondo|arroz largo|arroz vaporizado)( .*)?,arroz,alta,no
+.*fideos? de arroz.*|noodles de arroz.*,fideo_arroz,alta,no
+(placas?|laminas?) de lasana.*,placa_lasana,alta,no
+(placas?|laminas?) de canelon(es)?.*,placa_canelon,alta,no
+(pasta|pastas|espaguetis|espagueti|macarrones|tallarines|fideos|fideua|lacitos|tiburones|plumas|penne|fusilli|fusilis|tortellini|tortellinis|raviolis|cintas|fettuccine|ditalini|estrellitas|letras|nidos de pasta).*,pasta,alta,no
+cuscus.*|couscous.*,cuscus,alta,no
+quinoa.*,quinoa,alta,no
+(copos de avena|avena).*,avena,alta,no
+(pan de molde|rebanadas? de pan de molde).*,pan_molde,alta,no
+(biscotes?|tostas?|picos de pan|regana).*,biscote,alta,no
+(barras? de pan|panes|baguette|hogaza).*,barra_pan,alta,no
+(pan|miga de pan|migas? de pan|panecillos?|rebanadas? de pan|pan de hogaza|pan payes|chapata|masa de pan).*,pan,alta,no
+(hojaldre|masa de hojaldre|lamina de hojaldre).*,hojaldre,alta,no
+(masa quebrada|masa brisa|base de pizza|masa de pizza|masa de empanadillas?|masa de empanada|discos de masa de empanadillas?|obleas? de empanadilla).*,masa_quebrada,media,si
+(tartaletas?|volovanes|vol au vent).*,tartaleta,media,si
+(bizcochos? de soletilla|soletillas?).*,bizcocho_soletilla,alta,no
+(galletas?|galletas maria).*,galleta,media,si
+(levadura fresca|levadura de panadero|levadura seca|levadura).*,levadura,alta,no
+# --- azúcares y cacao
+(azucar glas|azucar glace|azucar lustre).*,azucar_glas,alta,no
+(azucar|azucar moreno|azucar blanco|panela).*,azucar,alta,no
+miel.*,miel,alta,no
+(mermelada|confitura|compota).*,mermelada,alta,no
+(chocolate|cobertura de chocolate|pepitas de chocolate).*,chocolate,alta,no
+(cacao|cacao en polvo|cacao puro).*,cacao_polvo,alta,no
+(hojas? de gelatina|gelatina neutra|laminas? de gelatina|colas de pescado).*,gelatina,alta,no
+# --- legumbres
+garbanzos? (cocidos?|en conserva|de bote).*,garbanzo_cocido,alta,no
+garbanzos?.*,garbanzo_seco,alta,no
+lentejas? (cocidas?|en conserva|de bote).*,lenteja_cocida,alta,no
+lentejas?.*,lenteja_seca,alta,no
+(alubias?|judias?) (blancas?|pintas?|negras?)? ?(cocidas?|en conserva|de bote).*,alubia_cocida,alta,no
+(alubias? rojas?|judias? rojas?).*,alubia_roja,alta,no
+(alubias?|judias? blancas?|judiones|fabes|fabada).*,alubia_seca,alta,no
+(guisantes?|arbeyos|tirabeques).*,guisante,alta,no
+(habas|habitas).*,guisante,media,si
+(soja texturizada|albondigas? de soja texturizada).*,soja_texturizada,media,si
+tofu.*,tofu,alta,no
+# --- verduras y hortalizas
+(patatas?|papas?)( .*)?,patata,alta,no
+(dientes? de ajo|ajos?|ajo tierno|ajetes?)( .*)?,ajo,alta,no
+cabezas? de ajos?.*,cabeza_ajo,alta,no
+(cebolletas?|cebollas? tiernas?|cebollinos? tiernos?).*,cebolleta,alta,no
+(cebollas?|cebollitas?|chalotas?|escalonias?).*,cebolla,alta,no
+(tomate frito|salsa de tomate|tomate concentrado).*,tomate_frito,alta,no
+(tomate natural triturado|tomate triturado|tomates? en conserva|tomate pelado|tomates? pelados?|pure de tomate|passata).*,tomate_triturado,alta,no
+(tomatitos? cherry|tomates? cherry|tomatitos?).*,tomate_cherry,alta,no
+tomates?.*,tomate,alta,no
+(pimientos? del piquillo|pimientos? de piquillo|pimientos? asados|pimiento morron asado).*,pimiento_piquillo,alta,no
+(pimientos? verdes?|pimientos? italianos?|pimientos? de padron).*,pimiento_verde,alta,no
+(pimientos?|pimiento rojo).*,pimiento_rojo,alta,no
+zanahorias?.*,zanahoria,alta,no
+calabacin(es)?.*,calabacin,alta,no
+berenjenas?.*,berenjena,alta,no
+puerros?.*,puerro,alta,no
+(espinacas?|hojas de espinacas?).*,espinaca,alta,no
+acelgas?.*,acelga,alta,no
+(champinon(es)?|champinon).*,champinon,alta,no
+(setas?|rebollones|niscalos|boletus|shiitake|hongos|trompetas|gírgolas?|girgolas?).*,setas,alta,no
+calabaza.*,calabaza,alta,no
+(alcachofas?|corazones de alcachofa).*,alcachofa,alta,no
+(judias? verdes?|vainas).*,judia_verde,alta,no
+coliflor.*,coliflor,alta,no
+(brocoli|brecol|brocolis).*,brocoli,alta,no
+coles? de bruselas.*,col_bruselas,alta,no
+lombarda.*,lombarda,alta,no
+(repollo|col|berza|col rizada|kale).*,repollo,alta,no
+apio.*,apio,alta,no
+pepinos?.*,pepino,alta,no
+(hojas? de lechuga|hojas? de cogollo).*,hoja_lechuga,alta,no
+(lechugas?|cogollos?|escarola|canonigos|rucula|brotes|mezclum|mezcla de lechugas).*,lechuga,alta,no
+endibias?.*,endibia,alta,no
+(esparragos?|esparragos trigueros).*,esparrago,alta,no
+(maiz|maiz dulce|mazorcas?).*,maiz_dulce,alta,no
+(verduras|hortalizas|menestra|macedonia de verduras|pisto).*,verduras_variadas,media,si
+(remolacha|remolachas).*,remolacha,alta,no
+(pepinillos?|pepinillos en vinagre).*,pepino,media,si
+(alcaparras?|alcaparrones).*,nulo,media,no
+berros.*,lechuga,media,si
+(chiles?|chile poblano|jalapenos?).*,pimiento_verde,media,si
+(batatas?|boniatos?).*,boniato,alta,no
+nabos?.*,nabo,alta,no
+cardos?.*,apio,baja,si
+(aceitunas?|olivas?).*,aceituna,alta,no
+(perejil|ramitas? de perejil|hojas de perejil).*,perejil,alta,no
+(albahaca|hojas? de albahaca).*,albahaca,alta,no
+# --- caldos y bebidas
+(pastillas?|cubitos?) de caldo.*|(pastillas?|cubitos?)( .*)?,caldo_pastilla,alta,no
+(caldo de pescado|fumet|caldo de marisco).*,caldo_pescado,alta,no
+(caldo|consome).*,caldo,alta,no
+(vino dulce|vino pedro ximenez|pedro ximenez|oporto|moscatel|jerez dulce|vino de oporto|vino de malaga).*,vino_dulce,alta,no
+vino blanco.*|vino de jerez seco.*|vino fino.*|jerez seco.*|jerez.*|cava.*|sidra.*|champan.*,vino_blanco,alta,no
+vino tinto.*|vino.*,vino_tinto,media,si
+(brandy|conac|cognac|ron|whisky|ginebra|vodka|licor|anis seco|orujo|calvados|grand marnier|cointreau).*,licor,alta,no
+cerveza.*,cerveza,alta,no
+vinagre.*,vinagre,alta,no
+# --- frutas
+zumo de limon.*|zumo de lima.*,zumo_limon,alta,no
+(limon|limones|lima|limas)( .*)?,limon,alta,no
+zumo de naranja.*,zumo_naranja,alta,no
+(naranjas?|mandarinas?).*,naranja,alta,no
+(manzanas?|manzana golden|manzana reineta).*,manzana,alta,no
+peras?.*,pera,alta,no
+aguacates?.*,aguacate,alta,no
+kiwis?.*,kiwi,alta,no
+platanos?.*,platano,alta,no
+fresas?.*|freson(es)?.*,fresa,alta,no
+(frambuesas?|frutos rojos|arandanos|moras|grosellas).*,frambuesa,media,si
+melocoton(es)?.*,melocoton,alta,no
+(pasas|uvas pasas|pasas de corinto).*,pasas,alta,no
+uvas?( .*)?,uva,alta,no
+(pina en (su )?(jugo|almibar)|pina en conserva|pina de lata|pina de bote|pina en lata|jugo de lata de pina).*,pina_almibar,alta,no
+pina.*,pina,alta,no
+melon.*,melon,alta,no
+mangos?.*,mango,alta,no
+(higos? secos?|orejones).*,higo_seco,media,si
+(ciruelas? pasas?|ciruelas? secas?).*,ciruela_pasa,alta,no
+datil(es)?.*,datil,alta,no
+coco.*,coco_rallado,alta,no
+(frutas?|fruta variada|macedonia).*,manzana,baja,si
+# --- frutos secos y semillas
+(almendras?|almendra molida|harina de almendra).*,almendra,alta,no
+nuez moscada,nulo,alta,no
+nuez.*|nueces.*,nuez,alta,no
+pinon(es)?.*,pinon,alta,no
+avellanas?.*,avellana,alta,no
+pistachos?.*,pistacho,alta,no
+cacahuetes?.*|manises?.*,cacahuete,alta,no
+(sesamo|ajonjoli).*,sesamo,alta,no
+# --- pescados y mariscos
+(salmon ahumado).*,salmon_ahumado,alta,no
+(lomos? de salmon|supremas? de salmon|salmon|truchas?).*,salmon,alta,no
+(atun en aceite|atun de lata|latas? de atun|atun en conserva|bonito en aceite|bonito en conserva).*,atun_lata,alta,no
+(bonito|bonito del norte).*,bonito,alta,no
+atun.*,atun,alta,no
+(bacalao|lomos? de bacalao|migas de bacalao|bacalao desalado).*,bacalao,alta,no
+(merluza|pescadilla|lomos? de merluza|filetes? de merluza|supremas? de merluza|corazones de merluza|colas? de merluza).*,merluza,alta,no
+rape.*|mero o rape.*,rape,alta,no
+mero.*,mero,alta,no
+(lenguados?|filetes? de lenguado|gallo|platija|rodaballo).*,lenguado,alta,no
+(dorada|doradas|besugo|pargo).*,dorada,alta,no
+(lubina|lubinas|corvina).*,lubina,alta,no
+(sardinas?|caballas?|jurel|chicharro|arenques?|arenques ahumados).*,sardina,media,si
+boqueron(es)?.*,anchoa,alta,no
+(filetes? de anchoa|anchoas? en aceite|anchoas?).*,anchoa_lata,alta,no
+(langostinos?|colas de langostino|gambas?|gambon(es)?|carabineros?|cigalas?|camaron(es)?).*,gamba,alta,no
+mejillon(es)?.*,mejillon,media,si
+(almejas?|chirlas?|berberechos?|navajas?|almejas o chirlas|chirlas o berberechos).*,almeja,media,si
+(sepia|chocos?).*,sepia,alta,no
+(calamar(es)?|chipiron(es)?|puntillas?|anillas de calamar|calamares en aros|anillas).*,calamar,alta,no
+pulpo.*,pulpo,alta,no
+(cangrejos?|centollo|bueyes de mar|necoras?).*,cangrejo,alta,no
+(palitos? de cangrejo|palitos de mar|surimi|gulas).*,surimi,alta,no
+(caracoles).*,almeja,baja,si
+(huesos de rape|espinas de pescado|cabezas de (langostinos?|gambas|pescado)|cabezas y pieles|caparazones).*,nulo,media,no
+(pescado|filetes? de pescado|pescado blanco|lomos de pescado|cabracho|morralla|pescado de roca|rascacio|gallineta|pez de san pedro|san pedro|mariscos?).*,merluza,media,si
+# --- carnes
+(higaditos? de pollo|higados? de pollo).*,higado_pollo,alta,no
+(higado de pato|foie|foie gras|micuit).*,higado_pato,alta,no
+(pechugas? de pollo|filetes? de pechuga de pollo|filetes? de pollo|solomillos? de pollo|pollo en dados).*|.*pechuga de pollo.*,pechuga_pollo,alta,no
+(muslos?|muslitos?|contramuslos?) de pollo.*,muslo_pollo,alta,no
+(pollo|pollos?|alitas de pollo|pollo y conejo|gallina|pularda)( .*)?,pollo,alta,no
+(pechugas? de pavo|fiambre de pavo|pavo|pieza de pavo|filetes? de pavo|muslo de pavo|contramuslo de pavo).*|.*pechuga de pavo.*,pavo,alta,no
+(codornices|codorniz|perdiz|perdices|pichon).*,codorniz,alta,no
+pechugas?( .*)?,pechuga_pollo,media,si
+(conejo|liebre).*,conejo,alta,no
+(cordero|paletilla de cordero|pierna de cordero|chuletas? de cordero|chuletillas?).*,cordero,alta,no
+(callos|estomago de ternera|morro|manitas).*,callos,media,si
+(carne picada|carne mixta|carne de ternera y cerdo|carne de cerdo y ternera|hamburguesas?|albondigas?).*,carne_picada,media,si
+(jamon serrano|lonchas? de jamon serrano|jamon iberico|taquitos de jamon|tacos de jamon|jamon curado).*|lonchas finas de jamon serrano.*,jamon_serrano,alta,no
+(jamon (de )?york|jamon cocido|lonchas de jamon cocido).*,jamon_york,alta,no
+jamon.*,jamon_serrano,media,si
+(beicon|bacon|panceta|tocino).*,bacon,alta,no
+(manteca de cerdo|manteca).*,manteca,alta,no
+(chorizo|sobrasada|salchichon|morcilla|fuet|lomo embuchado).*,chorizo,media,si
+(salchichas?|frankfurt).*,salchicha,alta,no
+(cinta de lomo|lomo de cerdo|lomo|solomillos? de cerdo|solomillo|cabezada|presa|secreto|carne magra de cerdo|magro de cerdo|chuletas? de cerdo).*,cerdo_magro,alta,no
+(cerdo|carne de cerdo|costillas?|codillo|carrilleras? de cerdo|panceta fresca|lacon|papada|papada de cerdo|rinones|higado de cerdo|higado|pies de cerdo|oreja).*,cerdo,alta,no
+(ternera|redondo|carrilleras?|carne de ternera|carne para guisar|morcillo|aguja|babilla|falda|filetes? de ternera|solomillo de ternera|entrecot|chuleton|rabo de toro|rabo|buey|vaca|carne)( .*)?,ternera,alta,no

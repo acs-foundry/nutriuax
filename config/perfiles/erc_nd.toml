@@ -1,0 +1,23 @@
+# ERC 3-5 sin diálisis. Copia exacta de v0.1 (test de regresión T19).
+nombre = "ERC 3-5 sin diálisis · baja en proteína"
+descripcion = "KDOQI 2020: 0,55-0,6 g/kg/día, 25-35 kcal/kg, sodio < 2,3 g. Potasio y fósforo a ajustar según analítica (valores por defecto orientativos)."
+orden = 3
+ambito = "clinico"
+fuentes = [
+  "Ikizler TA et al. (2020) KDOQI Clinical Practice Guideline for Nutrition in CKD: 2020 Update. Am J Kidney Dis 76(3 Suppl 1):S1-S107",
+  "WHO/FAO/UNU (2007) TRS 935 (aminoácidos indispensables)",
+]
+proteina_gkg = [0.55, 0.6]
+kcal_por_kg = 30
+grasa_pct = [28, 40]
+hc_pct = [45, 62]
+fibra_min = 20
+sodio_max = 2300
+potasio_max = 3000
+fosforo_max = 900
+excluir_etiquetas = ["suplemento"]
+
+[semanal_max]
+procesada = 0
+alto_sodio = 1
+alto_potasio = 2

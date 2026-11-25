@@ -1,0 +1,7 @@
+# Fuentes de recetas (ADR-0006). Rutas relativas a la carpeta del repositorio.
+# Por defecto se usa la biblioteca española/mediterránea abierta incluida en `data/recetas_base.json`.
+# Puede sustituirse con `--recetas` en la CLI, `NUTRIUAX_RECETAS` o `recetas_ruta` en la entrada JSON.
+[recetas]
+biblioteca = "data/recetas_base.json"
+# Recetas con menos de esta fracción de sus gramos mapeados no se ofrecen al generador (se informan).
+cobertura_minima = 0.90

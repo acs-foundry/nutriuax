@@ -1,0 +1,14 @@
+# App Streamlit de NutriUAX en http://127.0.0.1:8501; %i = modo (estudio | consulta | hogar).
+# Ajusta %h/nutriuax a la ruta donde hayas clonado el repositorio.
+# No se habilita directamente: la arranca y para el lanzador (nutriuax-lanzador.service).
+[Unit]
+Description=NutriUAX - app (%i) en localhost:8501
+
+[Service]
+Type=simple
+WorkingDirectory=%h/nutriuax
+Environment=PYTHONUNBUFFERED=1
+Environment=PYTHONPATH=%h/nutriuax/src
+Environment=NUTRIUAX_MODO=%i
+ExecStart=%h/nutriuax/.venv/bin/python -m streamlit run app.py --server.headless true --server.port 8501 --server.address 127.0.0.1
+Restart=no

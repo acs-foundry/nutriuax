@@ -1,0 +1,48 @@
+# Factores de conversión crudo <-> cocinado, retención de nutrientes y aceite absorbido (T16, ADR-0003)
+# Fuentes: USDA Table of Nutrient Retention Factors Release 6 (2007, dominio público) y Bognár A. (2002)
+# Tables on Weight Yield of Food and Retention Factors of Food Constituents (BfE, Alemania).
+grupo_coccion,tecnica,rendimiento_peso,retencion_proteina,retencion_potasio,retencion_fosforo,aceite_absorbido_g_100g,fuente
+arroz,crudo,1.00,1.00,1.00,1.00,0.0,Referencia en crudo
+arroz,hervido,2.85,0.98,0.75,0.90,0.0,USDA RF6 / Bognar 2002
+arroz,vapor,2.75,0.99,0.90,0.95,0.0,Bognar 2002
+arroz,guisado,2.90,0.98,0.95,0.95,3.0,Bognar 2002
+pasta,crudo,1.00,1.00,1.00,1.00,0.0,Referencia en crudo
+pasta,hervido,2.40,0.98,0.70,0.90,0.0,USDA RF6 / Bognar 2002
+legumbre,crudo,1.00,1.00,1.00,1.00,0.0,Referencia en crudo
+legumbre,hervido,2.45,0.97,0.65,0.88,0.0,USDA RF6 / Bognar 2002
+legumbre,guisado,2.50,0.98,0.90,0.95,2.5,USDA RF6 / Bognar 2002
+legumbre,doble_coccion_erc,2.50,0.95,0.45,0.80,0.0,KDOQI / tecnica remojo+doble hervor ERC
+carne,crudo,1.00,1.00,1.00,1.00,0.0,Referencia en crudo
+carne,plancha,0.75,0.98,0.85,0.90,1.5,USDA RF6 / Bognar 2002
+carne,horno,0.74,0.98,0.85,0.90,1.0,USDA RF6 / Bognar 2002
+carne,hervido,0.70,0.95,0.65,0.80,0.0,USDA RF6 / Bognar 2002
+carne,guisado,0.76,0.98,0.90,0.95,2.5,USDA RF6 / Bognar 2002
+carne,frito,0.72,0.97,0.85,0.90,8.0,Bognar 2002
+ave,crudo,1.00,1.00,1.00,1.00,0.0,Referencia en crudo
+ave,plancha,0.76,0.98,0.85,0.92,1.5,USDA RF6 / Bognar 2002
+ave,horno,0.75,0.98,0.85,0.92,1.0,USDA RF6 / Bognar 2002
+ave,hervido,0.72,0.95,0.65,0.82,0.0,USDA RF6 / Bognar 2002
+ave,guisado,0.78,0.98,0.90,0.95,2.0,USDA RF6 / Bognar 2002
+pescado,crudo,1.00,1.00,1.00,1.00,0.0,Referencia en crudo
+pescado,plancha,0.80,0.98,0.88,0.92,2.0,USDA RF6 / Bognar 2002
+pescado,horno,0.79,0.98,0.88,0.92,1.5,USDA RF6 / Bognar 2002
+pescado,vapor,0.84,0.99,0.92,0.95,0.0,USDA RF6 / Bognar 2002
+pescado,hervido,0.78,0.95,0.70,0.85,0.0,USDA RF6 / Bognar 2002
+pescado,frito,0.76,0.97,0.88,0.92,9.0,Bognar 2002
+huevo,crudo,1.00,1.00,1.00,1.00,0.0,Referencia en crudo
+huevo,hervido,0.98,1.00,0.98,1.00,0.0,USDA RF6 / Bognar 2002
+huevo,plancha,0.90,0.99,0.96,0.98,2.5,Bognar 2002
+huevo,frito,0.88,0.99,0.95,0.98,7.0,Bognar 2002
+verdura,crudo,1.00,1.00,1.00,1.00,0.0,Referencia en crudo
+verdura,hervido,0.90,0.95,0.65,0.85,0.0,USDA RF6 / Bognar 2002
+verdura,doble_coccion_erc,0.88,0.92,0.45,0.78,0.0,KDOQI / tecnica remojo+doble hervor ERC
+verdura,vapor,0.95,0.98,0.88,0.94,0.0,USDA RF6 / Bognar 2002
+verdura,plancha,0.82,0.97,0.90,0.95,2.0,Bognar 2002
+verdura,salteado,0.85,0.97,0.90,0.95,4.0,Bognar 2002
+verdura,horno,0.80,0.97,0.92,0.95,2.0,Bognar 2002
+patata,crudo,1.00,1.00,1.00,1.00,0.0,Referencia en crudo
+patata,hervido,0.98,0.96,0.72,0.88,0.0,USDA RF6 / Bognar 2002
+patata,doble_coccion_erc,0.95,0.93,0.45,0.80,0.0,KDOQI / tecnica remojo+doble hervor ERC
+patata,horno,0.78,0.98,0.92,0.95,1.5,USDA RF6 / Bognar 2002
+patata,frito,0.58,0.97,0.90,0.95,11.0,Bognar 2002
+tal_cual,crudo,1.00,1.00,1.00,1.00,0.0,Consumo directo sin coccion

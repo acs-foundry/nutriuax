@@ -1,0 +1,271 @@
+{
+ "bcaa_intervencion": {
+  "aa_max_mgkg": {
+   "ile": 60.0,
+   "leu": 110.0,
+   "val": 75.0
+  },
+  "aa_min_mgkg": {
+   "his": 10.0,
+   "ile": 35.0,
+   "leu": 70.0,
+   "lys": 30.0,
+   "thr": 15.0,
+   "trp": 4.0,
+   "val": 45.0
+  },
+  "aa_por_masa_magra": false,
+  "agsat_pct_max": 10,
+  "aove_min_g": null,
+  "clave": "bcaa_intervencion",
+  "comidas": [
+   "D",
+   "MM",
+   "C",
+   "M",
+   "X"
+  ],
+  "descripcion": "Plantilla para un protocolo con aporte objetivo de Leu/Ile/Val por kg (o por kg de masa magra). Los rangos por defecto son ilustrativos: fijarlos según el protocolo del estudio.",
+  "excluir_etiquetas": [],
+  "fibra_min": 25,
+  "fosforo_max": null,
+  "fruta_min_dia": 2,
+  "grasa_pct": [
+   25,
+   38
+  ],
+  "hc_pct": [
+   38,
+   55
+  ],
+  "kcal_por_kg": null,
+  "nombre": "Intervención BCAA · dosis objetivo",
+  "potasio_max": null,
+  "proteina_gkg": [
+   1.2,
+   1.6
+  ],
+  "proteina_pct_min": null,
+  "semanal_max": {},
+  "semanal_min": {},
+  "sodio_max": 2300,
+  "verdura_min_dia": 2
+ },
+ "erc_hd": {
+  "aa_max_mgkg": {},
+  "aa_min_mgkg": {
+   "his": 10.0,
+   "ile": 20.0,
+   "leu": 39.0,
+   "lys": 30.0,
+   "thr": 15.0,
+   "trp": 4.0,
+   "val": 26.0
+  },
+  "aa_por_masa_magra": false,
+  "agsat_pct_max": 10,
+  "aove_min_g": null,
+  "clave": "erc_hd",
+  "comidas": [
+   "D",
+   "MM",
+   "C",
+   "M",
+   "X"
+  ],
+  "descripcion": "KDOQI 2020: 1,0-1,2 g/kg/día, 25-35 kcal/kg, sodio < 2,3 g. Potasio y fósforo según analítica (valores por defecto orientativos). El aporte de líquidos no se modela.",
+  "excluir_etiquetas": [
+   "suplemento"
+  ],
+  "fibra_min": 20,
+  "fosforo_max": 1000,
+  "fruta_min_dia": 2,
+  "grasa_pct": [
+   28,
+   40
+  ],
+  "hc_pct": [
+   40,
+   60
+  ],
+  "kcal_por_kg": 30,
+  "nombre": "ERC en hemodiálisis",
+  "potasio_max": 2500,
+  "proteina_gkg": [
+   1.0,
+   1.2
+  ],
+  "proteina_pct_min": null,
+  "semanal_max": {
+   "alto_potasio": 1,
+   "alto_sodio": 1,
+   "procesada": 0
+  },
+  "semanal_min": {},
+  "sodio_max": 2300,
+  "verdura_min_dia": 2
+ },
+ "erc_nd": {
+  "aa_max_mgkg": {},
+  "aa_min_mgkg": {
+   "his": 10.0,
+   "ile": 20.0,
+   "leu": 39.0,
+   "lys": 30.0,
+   "thr": 15.0,
+   "trp": 4.0,
+   "val": 26.0
+  },
+  "aa_por_masa_magra": false,
+  "agsat_pct_max": 10,
+  "aove_min_g": null,
+  "clave": "erc_nd",
+  "comidas": [
+   "D",
+   "MM",
+   "C",
+   "M",
+   "X"
+  ],
+  "descripcion": "KDOQI 2020: 0,55-0,6 g/kg/día, 25-35 kcal/kg, sodio < 2,3 g. Potasio y fósforo a ajustar según analítica (valores por defecto orientativos).",
+  "excluir_etiquetas": [
+   "suplemento"
+  ],
+  "fibra_min": 20,
+  "fosforo_max": 900,
+  "fruta_min_dia": 2,
+  "grasa_pct": [
+   28,
+   40
+  ],
+  "hc_pct": [
+   45,
+   62
+  ],
+  "kcal_por_kg": 30,
+  "nombre": "ERC 3-5 sin diálisis · baja en proteína",
+  "potasio_max": 3000,
+  "proteina_gkg": [
+   0.55,
+   0.6
+  ],
+  "proteina_pct_min": null,
+  "semanal_max": {
+   "alto_potasio": 2,
+   "alto_sodio": 1,
+   "procesada": 0
+  },
+  "semanal_min": {},
+  "sodio_max": 2300,
+  "verdura_min_dia": 2
+ },
+ "uax_hiperproteica": {
+  "aa_max_mgkg": {},
+  "aa_min_mgkg": {
+   "his": 10.0,
+   "ile": 20.0,
+   "leu": 39.0,
+   "lys": 30.0,
+   "thr": 15.0,
+   "trp": 4.0,
+   "val": 26.0
+  },
+  "aa_por_masa_magra": false,
+  "agsat_pct_max": 10,
+  "aove_min_g": null,
+  "clave": "uax_hiperproteica",
+  "comidas": [
+   "D",
+   "MM",
+   "C",
+   "M",
+   "X"
+  ],
+  "descripcion": "Brazo hiperproteico del cruzado UAX (≈2,0-2,2 g/kg y > 30 % de la energía).",
+  "excluir_etiquetas": [],
+  "fibra_min": 25,
+  "fosforo_max": null,
+  "fruta_min_dia": 2,
+  "grasa_pct": [
+   22,
+   35
+  ],
+  "hc_pct": [
+   30,
+   48
+  ],
+  "kcal_por_kg": null,
+  "nombre": "UAX · Hiperproteica",
+  "potasio_max": null,
+  "proteina_gkg": [
+   2.0,
+   2.2
+  ],
+  "proteina_pct_min": 30,
+  "semanal_max": {
+   "azucar": 4,
+   "procesada": 2
+  },
+  "semanal_min": {},
+  "sodio_max": 2300,
+  "verdura_min_dia": 2
+ },
+ "uax_mediterranea": {
+  "aa_max_mgkg": {},
+  "aa_min_mgkg": {
+   "his": 10.0,
+   "ile": 20.0,
+   "leu": 39.0,
+   "lys": 30.0,
+   "thr": 15.0,
+   "trp": 4.0,
+   "val": 26.0
+  },
+  "aa_por_masa_magra": false,
+  "agsat_pct_max": 10,
+  "aove_min_g": 40,
+  "clave": "uax_mediterranea",
+  "comidas": [
+   "D",
+   "MM",
+   "C",
+   "M",
+   "X"
+  ],
+  "descripcion": "Brazo mediterráneo del cruzado UAX (≈1,0-1,2 g/kg). Pautas MEDAS-14: AOVE ≥ 40 g, fruta ≥ 3, verdura ≥ 2, pescado y legumbre ≥ 3/semana, frutos secos ≥ 3/semana, carne roja ≤ 3/semana.",
+  "excluir_etiquetas": [
+   "suplemento"
+  ],
+  "fibra_min": 25,
+  "fosforo_max": null,
+  "fruta_min_dia": 3,
+  "grasa_pct": [
+   33,
+   42
+  ],
+  "hc_pct": [
+   38,
+   55
+  ],
+  "kcal_por_kg": null,
+  "nombre": "UAX · Mediterránea normoproteica",
+  "potasio_max": null,
+  "proteina_gkg": [
+   1.0,
+   1.2
+  ],
+  "proteina_pct_min": null,
+  "semanal_max": {
+   "azucar": 4,
+   "carne_roja": 3,
+   "procesada": 1
+  },
+  "semanal_min": {
+   "frutos_secos": 3,
+   "legumbre": 3,
+   "pescado": 3
+  },
+  "sodio_max": 2300,
+  "verdura_min_dia": 2
+ }
+}

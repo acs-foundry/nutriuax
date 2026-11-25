@@ -1,0 +1,22 @@
+# Intervención con dosis objetivo de BCAA. Copia exacta de v0.1 (test de regresión T19). Rangos ILUSTRATIVOS.
+nombre = "Intervención BCAA · dosis objetivo"
+descripcion = "Plantilla para un protocolo con aporte objetivo de Leu/Ile/Val por kg (o por kg de masa magra). Los rangos por defecto son ilustrativos: fijarlos según el protocolo del estudio."
+orden = 5
+ambito = "estudio"
+fuentes = [
+  "Rangos ilustrativos: fijar según el protocolo del estudio (pendiente de SM)",
+  "WHO/FAO/UNU (2007) TRS 935 (mínimos de aminoácidos indispensables)",
+]
+proteina_gkg = [1.2, 1.6]
+grasa_pct = [25, 38]
+hc_pct = [38, 55]
+
+[aa_min_mgkg]
+leu = 70.0
+ile = 35.0
+val = 45.0
+
+[aa_max_mgkg]
+leu = 110.0
+ile = 60.0
+val = 75.0

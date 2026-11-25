@@ -1,0 +1,14 @@
+# Hogar · adulto que entrena fuerza y quiere ganar masa muscular. Superávit pequeño.
+parte_de = "mantenimiento"
+nombre = "Volumen (adulto que entrena)"
+descripcion = "Superávit del 5-15 % sobre el gasto total y proteína 1,6-2,2 g/kg repartida en el día."
+orden = 12
+ajuste_pct = [5, 15]
+proteina_gkg = [1.6, 2.2]
+grasa_pct = [25, 35]
+hc_pct = [40, 55]
+fuentes = [
+  "Jäger R et al. (2017) ISSN position stand: protein and exercise. J Int Soc Sports Nutr 14:20",
+  "Morton RW et al. (2018) Br J Sports Med 52:376-84 (≈ 1,6 g/kg/día)",
+  "Iraki J et al. (2019) Sports 7:154 (superávit moderado en culturismo fuera de temporada)",
+]

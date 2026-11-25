@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="NutriUAX icon">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F6B5E"/>
+      <stop offset="100%" stop-color="#164E63"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="url(#g)"/>
+  <path d="M18 46 C18 27, 32 17, 46 19 C44 34, 34 44, 18 46 Z" fill="#A7F3D0" opacity="0.92"/>
+  <circle cx="27" cy="31" r="4" fill="#FFFFFF"/>
+  <circle cx="40" cy="26" r="3.2" fill="#FFFFFF"/>
+  <circle cx="37" cy="40" r="3.2" fill="#FFFFFF"/>
+  <line x1="27" y1="31" x2="40" y2="26" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="27" y1="31" x2="37" y2="40" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"/>
+</svg>

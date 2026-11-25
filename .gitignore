@@ -1,0 +1,18 @@
+# Datos de participantes: NUNCA en el repositorio
+*.sav
+*.xlsx
+*.xls
+participantes/
+datos_privados/
+# Descarga de FDC (grande; se regenera)
+*.zip
+FoodData_Central*/
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.streamlit/secrets.toml

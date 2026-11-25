@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=NutriUAX
+Comment=Abrir el lanzador de NutriUAX (dietas y menús)
+Exec=xdg-open http://127.0.0.1:8771
+Icon=applications-science
+Terminal=false
+Categories=Science;Education;

@@ -1,0 +1,17 @@
+# Estudio UAX · brazo hiperproteico. Copia exacta de v0.1 (test de regresión T19).
+nombre = "UAX · Hiperproteica"
+descripcion = "Brazo hiperproteico del cruzado UAX (≈2,0-2,2 g/kg y > 30 % de la energía)."
+orden = 2
+ambito = "estudio"
+fuentes = [
+  "Protocolo nutricional de referencia hiperproteico (≈ 2,0-2,2 g/kg y > 30 % kcal; prioridad a g/kg)",
+  "WHO/FAO/UNU (2007) TRS 935 (aminoácidos indispensables)",
+]
+proteina_gkg = [2.0, 2.2]
+proteina_pct_min = 30
+grasa_pct = [22, 35]
+hc_pct = [30, 48]
+
+[semanal_max]
+procesada = 2
+azucar = 4

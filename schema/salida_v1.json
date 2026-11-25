@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/S-Mas/nutriuax/schema/salida_v1.json",
+  "title": "NutriUAX · salida v1",
+  "type": "object",
+  "required": ["version", "modo", "semana", "menu", "nutrientes", "objetivos", "compra", "avisos"],
+  "additionalProperties": false,
+  "definitions": {
+    "complemento": {"type": "object", "required": ["alimento", "nombre", "gramos"], "additionalProperties": false,
+      "properties": {"alimento": {"type": "string"}, "nombre": {"type": "string"}, "gramos": {"type": "number", "minimum": 0}}}
+  },
+  "properties": {
+    "version": {"const": "1"},
+    "modo": {"enum": ["hogar", "consulta", "estudio"]},
+    "semana": {"type": "object", "required": ["dias"], "properties": {"inicio": {"type": ["string", "null"]}, "dias": {"type": "integer"}}},
+    "menu": {
+      "type": "array",
+      "items": {
+        "type": "object", "required": ["dia", "comida", "platos", "complementos"], "additionalProperties": false,
+        "properties": {
+          "dia": {"type": "integer", "minimum": 1}, "fecha": {"type": ["string", "null"]},
+          "comida": {"enum": ["D", "C", "M", "X"]},
+          "platos": {"type": "array", "items": {
+            "type": "object", "required": ["rol", "receta", "nombre", "raciones"], "additionalProperties": false,
+            "properties": {
+              "rol": {"enum": ["principal", "primero"]}, "receta": {"type": "string"}, "nombre": {"type": "string"},
+              "raciones": {"type": "object", "additionalProperties": {
+                "type": "object", "required": ["k", "gramos_crudo"], "additionalProperties": false,
+                "properties": {"k": {"type": "number", "minimum": 0}, "gramos_crudo": {"type": "number", "minimum": 0}}}}
+            }}},
+          "complementos": {"type": "object", "additionalProperties": {"type": "array", "items": {"$ref": "#/definitions/complemento"}}}
+        }
+      }
+    },
+    "nutrientes": {"type": "array", "items": {
+      "type": "object", "required": ["miembro", "dia", "kcal", "kcal_objetivo", "desviacion_kcal", "proteina"],
+      "properties": {"miembro": {"type": "string"}, "dia": {"type": "integer"}, "kcal": {"type": "number"},
+                     "kcal_objetivo": {"type": "number"}, "desviacion_kcal": {"type": "number"},
+                     "proteina": {"type": "number"}}}},
+    "objetivos": {"type": "object", "additionalProperties": {
+      "type": "object", "required": ["perfil", "kcal", "proteina"],
+      "properties": {"perfil": {"type": "string"}, "kcal": {"type": "number"},
+                     "proteina": {"type": "array", "items": {"type": "number"}, "minItems": 2, "maxItems": 2}}}},
+    "compra": {"type": "array", "items": {
+      "type": "object", "required": ["seccion", "ingrediente", "cantidad", "unidad"], "additionalProperties": false,
+      "properties": {"seccion": {"type": "string"}, "ingrediente": {"type": "string"},
+                     "cantidad": {"type": "number", "minimum": 0}, "unidad": {"type": "string"}}}},
+    "avisos": {"type": "array", "items": {"type": "string"}}
+  }
+}

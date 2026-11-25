@@ -1,0 +1,15 @@
+# Hogar · adulto que quiere perder peso con déficit MODERADO. Los suelos de seguridad (seguridad.py) no se pueden
+# desactivar: energía ≥ basal, déficit ≤ 20 %, proteína ≥ 1,2 g/kg. Nunca para menores de 18 años.
+parte_de = "mantenimiento"
+nombre = "Control de peso (adulto)"
+descripcion = "Déficit moderado del 10-20 % sobre el gasto total, con proteína alta para conservar masa magra."
+orden = 11
+ajuste_pct = [-20, -10]
+proteina_gkg = [1.2, 1.6]
+grasa_pct = [25, 35]
+hc_pct = [35, 50]
+fuentes = [
+  "AESAN (2022) Recomendaciones dietéticas saludables y sostenibles… para la población española",
+  "Helms ER et al. (2014) J Int Soc Sports Nutr 11:20 (proteína en déficit energético)",
+  "Mifflin MD et al. (1990) Am J Clin Nutr 51:241-7 (gasto basal, suelo energético)",
+]

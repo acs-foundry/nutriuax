@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" width="240" height="60" role="img" aria-label="NutriUAX">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F6B5E"/>
+      <stop offset="100%" stop-color="#164E63"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="6" width="48" height="48" rx="12" fill="url(#bg)"/>
+  <path d="M16 40 C16 24, 28 16, 38 18 C36 30, 28 38, 16 40 Z" fill="#A7F3D0" opacity="0.9"/>
+  <circle cx="23" cy="28" r="3.2" fill="#FFFFFF"/>
+  <circle cx="33" cy="24" r="2.6" fill="#FFFFFF"/>
+  <circle cx="31" cy="35" r="2.6" fill="#FFFFFF"/>
+  <line x1="23" y1="28" x2="33" y2="24" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="23" y1="28" x2="31" y2="35" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round"/>
+  <text x="62" y="34" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="24" font-weight="800" fill="#0F172A">Nutri<tspan fill="#0F6B5E">UAX</tspan></text>
+  <text x="63" y="49" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="10.5" font-weight="600" fill="#64748B" letter-spacing="0.6">OPEN CLINICAL NUTRITION</text>
+</svg>
